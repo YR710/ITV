@@ -1,5 +1,5 @@
 # src/alias_matcher.py
-# 别名匹配模块：精确匹配优先，正则匹配，无子串匹配
+# 别名匹配模块：精确匹配优先，正则匹配，禁止子串匹配
 
 import re
 from pathlib import Path
@@ -23,7 +23,7 @@ class AliasMatcher:
                 line = line.strip()
                 if not line or line.startswith('#'):
                     continue
-                # 支持逗号分隔，兼容冒号（旧格式）
+                # 优先逗号分隔
                 if ',' in line:
                     parts = [p.strip() for p in line.split(',')]
                 elif ':' in line and not line.startswith('re:'):
@@ -57,10 +57,8 @@ class AliasMatcher:
         if not channel_name:
             return None
         name_lower = channel_name.lower()
-        # 精确匹配（最高优先级）
         if name_lower in self.exact_mappings:
             return self.exact_mappings[name_lower]
-        # 正则匹配
         for pattern, standard in self.regex_mappings.items():
             if pattern.search(channel_name):
                 return standard
