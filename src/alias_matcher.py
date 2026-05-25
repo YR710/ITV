@@ -1,5 +1,5 @@
 # src/alias_matcher.py
-# 别名匹配模块：仅支持精确匹配和正则匹配，避免错误泛化
+# 别名匹配模块，增加自动规范化常见变体
 
 import re
 from pathlib import Path
@@ -56,8 +56,25 @@ class AliasMatcher:
         return None
 
     def normalize(self, channel_name: str) -> str:
+        """标准化频道名：先尝试别名匹配，再进行自动规范化"""
         mapped = self.match(channel_name)
-        return mapped if mapped is not None else channel_name
+        if mapped is not None:
+            return mapped
+        # 自动规范化常见变体
+        name = channel_name
+        # CCTV+1 -> CCTV-1
+        name = re.sub(r'(?i)CCTV\+(\d+)', r'CCTV-\1', name)
+        # CCTV1 -> CCTV-1
+        name = re.sub(r'(?i)^CCTV(\d+)$', r'CCTV-\1', name)
+        # CCTV1综合 -> CCTV-1
+        name = re.sub(r'(?i)^CCTV(\d+)\s*综合', r'CCTV-\1', name)
+        # CETV1 -> CETV-1
+        name = re.sub(r'(?i)^CETV(\d+)$', r'CETV-\1', name)
+        # 去除常见后缀（高清、频道、HD等）
+        name = re.sub(r'\s*(高清|频道|HD|标清|付费|备\d*)$', '', name, flags=re.IGNORECASE)
+        # 去除括号内容
+        name = re.sub(r'[（(][^）)]*[）)]', '', name)
+        return name.strip()
 
 _matcher = None
 
