@@ -13,13 +13,13 @@ android {
         versionCode 1
         versionName "1.0"
 
-        // 从 gradle 属性中读取 URL（构建时注入）
+        // 从 gradle 属性中读取 URL
         buildConfigField "String", "M3U_URL", "\"${project.properties.getOrDefault('M3U_URL', 'https://YOUR_USERNAME.github.io/REPO_NAME/tv.m3u')}\""
     }
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -31,14 +31,12 @@ android {
 
     buildFeatures {
         viewBinding true
-        buildConfig true
     }
 }
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.10.0'
-    implementation 'androidx.leanback:leanback:1.0.0'
     implementation 'com.google.android.exoplayer:exoplayer:2.19.1'
     implementation 'com.google.android.exoplayer:exoplayer-hls:2.19.1'
     implementation 'com.google.code.gson:gson:2.10.1'
