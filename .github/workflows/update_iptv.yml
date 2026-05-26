@@ -12,8 +12,11 @@ jobs:
   iptv-update:
     runs-on: ubuntu-latest
     steps:
-      - name: 检出仓库
+      - name: 检出仓库（main分支）
         uses: actions/checkout@v4
+        with:
+          ref: main          # 明确检出 main 分支
+          persist-credentials: false
 
       - name: 设置 Python 环境
         uses: actions/setup-python@v5
@@ -73,9 +76,11 @@ jobs:
           PREFERRED_LOCATION: ""
           PREFERRED_ISP: ""
 
-      - name: 部署到 GitHub Pages
+      - name: 部署输出文件到 main 分支的 output 目录
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./output
-          publish_branch: gh-pages
+          publish_branch: main       # 目标分支改为 main
+          publish_dir: ./output       # 源目录
+          destination_dir: output     # 目标子目录（在 main 分支下创建 output 目录）
+          keep_files: true            # 保留 main 分支已有的其他文件（不覆盖）
