@@ -21,18 +21,26 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Install Gradle 8.5
+      - name: Install Gradle (for wrapper generation)
         run: |
-          wget https://services.gradle.org/distributions/gradle-8.5-bin.zip
-          unzip gradle-8.5-bin.zip
-          echo "$PWD/gradle-8.5/bin" >> $GITHUB_PATH
+          wget https://services.gradle.org/distributions/gradle-8.7-bin.zip
+          unzip gradle-8.7-bin.zip
+          export PATH=$PWD/gradle-8.7/bin:$PATH
+          echo "GRADLE_HOME=$PWD/gradle-8.7" >> $GITHUB_ENV
+          echo "$PWD/gradle-8.7/bin" >> $GITHUB_PATH
 
-      - name: Build APK
+      - name: Generate Gradle Wrapper
+        run: |
+          cd android
+          gradle wrapper --gradle-version 8.7
+          chmod +x gradlew
+
+      - name: Build APK with Wrapper
         run: |
           cd android
           M3U_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/tv.m3u"
           echo "Using M3U_URL: $M3U_URL"
-          gradle assembleRelease -PM3U_URL="$M3U_URL"
+          ./gradlew assembleRelease -PM3U_URL="$M3U_URL"
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
