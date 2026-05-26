@@ -12,18 +12,18 @@ jobs:
   iptv-update:
     runs-on: ubuntu-latest
     steps:
-      - name: 检出仓库（main分支）
+      - name: 检出代码（main分支）
         uses: actions/checkout@v4
         with:
-          ref: main          # 明确检出 main 分支
+          ref: main
           persist-credentials: false
 
-      - name: 设置 Python 环境
+      - name: 设置 Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
 
-      - name: 缓存 Python 依赖
+      - name: 缓存 pip
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
@@ -32,7 +32,6 @@ jobs:
             ${{ runner.os }}-pip-
 
       - name: 缓存 IPTV 数据库
-        id: cache-db
         uses: actions/cache@v4
         with:
           path: iptv_cache.db
@@ -52,7 +51,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: 缓存 IP 数据库
-        id: cache-ipdb
         uses: actions/cache@v4
         with:
           path: qqwry.dat
@@ -76,11 +74,10 @@ jobs:
           PREFERRED_LOCATION: ""
           PREFERRED_ISP: ""
 
-      - name: 部署输出文件到 main 分支的 output 目录
-        uses: peaceiris/actions-gh-pages@v4
+      - name: 部署 output 目录到 main 分支
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: main       # 目标分支改为 main
-          publish_dir: ./output       # 源目录
-          destination_dir: output     # 目标子目录（在 main 分支下创建 output 目录）
-          keep_files: true            # 保留 main 分支已有的其他文件（不覆盖）
+          branch: main               # 目标分支
+          folder: output             # 要部署的文件夹
+          target-folder: output      # 目标子目录（可选）
+          clean: false               # 不清除目标分支的其他文件
