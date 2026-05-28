@@ -12,7 +12,6 @@
         android:orientation="horizontal"
         android:gravity="center_vertical">
 
-        <!-- 频道图标占位 -->
         <TextView
             android:layout_width="36dp"
             android:layout_height="36dp"
@@ -21,7 +20,6 @@
             android:gravity="center"
             android:background="@drawable/channel_icon_bg" />
 
-        <!-- 频道名称 -->
         <TextView
             android:id="@+id/channel_name"
             android:layout_width="0dp"
@@ -29,10 +27,8 @@
             android:layout_weight="1"
             android:layout_marginStart="12dp"
             android:textColor="#FFFFFF"
-            android:textSize="16sp"
-            android:textStyle="normal" />
+            android:textSize="16sp" />
 
-        <!-- 播放状态指示器 -->
         <View
             android:id="@+id/playing_indicator"
             android:layout_width="8dp"
@@ -42,7 +38,6 @@
 
     </LinearLayout>
 
-    <!-- 分割线 -->
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
