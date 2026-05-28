@@ -42,6 +42,151 @@ class MainActivity : AppCompatActivity() {
 
         channelList.layoutManager = LinearLayoutManager(this)
 
+        // 获取播放列表地址
+        val baseUrl = BuildConfig.BASE_URL
+        val m3uUrl = if (baseUrl.endsWith("/")) baseUrl + "tv.m3u" else baseUrl + "/tv.m3u"
+        val txtUrl = if (baseUrl.endsWith("/")) baseUrl + "tv.txt" else baseUrl + "/tv.txt"
+        
+        // 优先加载 M3U，失败则加载 TXT
+        loadPlaylist(m3uUrl, true) { success ->
+            if (!success) {
+                loadPlaylist(txtUrl, false) { txtSuccess ->
+                    if (!txtSuccess) {
+                        runOnUiThread {
+                            loadingSpinner.visibility = View.GONE
+                            errorText.text = "无法加载播放列表\n请检查网络或源地址\n\n尝试加载的地址:\n$m3uUrl\n$txtUrl"
+                            errorText.visibility = View.VISIBLE
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    private fun loadPlaylist(url: String, isM3u: Boolean, callback: (Boolean) -> Unit) {
+        runOnUiThread {
+            loadingSpinner.visibility = View.VISIBLE
+            errorText.visibility = View.GONE
+        }
+
+        Thread {
+            try {
+                val request = Request.Builder().url(url).build()
+                val response = client.newCall(request).execute()
+                
+                if (!response.isSuccessful) {
+                    callback(false)
+                    return@Thread
+                }
+                
+                val content = response.body?.string() ?: ""
+                val channels = if (isM3u) parseM3u(content) else parseTxt(content)
+                
+                runOnUiThread {
+                    loadingSpinner.visibility = View.GONE
+                    if (channels.isEmpty()) {
+                        errorText.text = "未找到任何频道"
+                        errorText.visibility = View.VISIBLE
+                        callback(false)
+                    } else {
+                        setupChannelList(channels)
+                        playChannel(channels[0].url)
+                        callback(true)
+                    }
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
+                runOnUiThread {
+                    loadingSpinner.visibility = View.GONE
+                    errorText.text = "加载失败: ${e.message}"
+                    errorText.visibility = View.VISIBLE
+                }
+                callback(false)
+            }
+        }.start()
+    }
+
+    private fun parseM3u(content: String): List<Channel> {
+        val channels = mutableListOf<Channel>()
+        var currentName = ""
+        
+        content.lines().forEach { line ->
+            val trimmed = line.trim()
+            when {
+                trimmed.startsWith("#EXTINF") -> {
+                    val idx = trimmed.lastIndexOf(",")
+                    if (idx != -1) currentName = trimmed.substring(idx + 1).trim()
+                }
+                trimmed.startsWith("http") && currentName.isNotEmpty() -> {
+                    channels.add(Channel(currentName, trimmed))
+                    currentName = ""
+                }
+            }
+        }
+        return channels
+    }
+
+    private fun parseTxt(content: String): List<Channel> {
+        val channels = mutableListOf<Channel>()
+        content.lines().forEach { line ->
+            val trimmed = line.trim()
+            if (trimmed.isNotEmpty() && !trimmed.startsWith("#")) {
+                val comma = trimmed.indexOf(',')
+                if (comma > 0) {
+                    val name = trimmed.substring(0, comma)
+                    val url = trimmed.substring(comma + 1)
+                    if (url.startsWith("http")) {
+                        channels.add(Channel(name, url))
+                    }
+                }
+            }
+        }
+        return channels
+    }
+
+    private fun setupChannelList(channels: List<Channel>) {
+        val adapter = object : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+            override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
+                val tv = TextView(parent.context).apply {
+                    layoutParams = ViewGroup.LayoutParams(
+                        ViewGroup.LayoutParams.MATCH_PARENT,
+                        ViewGroup.LayoutParams.WRAP_CONTENT
+                    )
+                    setPadding(50, 30, 50, 30)
+                    textSize = 16f
+                    setTextColor(0xFFFFFFFF.toInt())
+                }
+                return object : RecyclerView.ViewHolder(tv) {}
+            }
+
+            override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
+                val channel = channels[position]
+                (holder.itemView as TextView).text = channel.name
+                holder.itemView.setOnClickListener { playChannel(channel.url) }
+            }
+
+            override fun getItemCount() = channels.size
+        }
+        channelList.adapter = adapter
+    }
+
+    private fun playChannel(url: String) {
+        if (currentChannelUrl == url && exoPlayer?.isPlaying == true) return
+        currentChannelUrl = url
+
+        releasePlayer()
+        val trackSelector = DefaultTrackSelector(this)
+        exoPlayer = SimpleExoPlayer.Builder(this).setTrackSelector(trackSelector).build()
+        playerView.player = exoPlayer
+
+        val mediaSource = HlsMediaSo
+        playerView = findViewById(R.id.player_view)
+        loadingSpinner = findViewById(R.id.loading_spinner)
+        errorText = findViewById(R.id.error_text)
+        channelList = findViewById(R.id.channel_list)
+
+        channelList.layoutManager = LinearLayoutManager(this)
+
         val baseUrl = BuildConfig.BASE_URL
         val baseDir = if (baseUrl.contains("/")) {
             if (baseUrl.endsWith("/")) baseUrl else baseUrl.substringBeforeLast("/") + "/"
