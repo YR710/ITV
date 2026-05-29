@@ -5,12 +5,14 @@ plugins {
 
 android {
     namespace = "com.example.tvplayer"
-    compileSdk = 35
+    // 将 compileSdk 从 35 降到 34 来避免警告
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.tvplayer"
         minSdk = 23
-        targetSdk = 35
+        // targetSdk 也相应调整到 34
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -42,11 +44,11 @@ android {
 
     buildFeatures {
         compose = true
-        buildConfig = true
+        buildConfig = true   // 关键修复：启用 BuildConfig 字段
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.14"   // 与 Kotlin 1.9.24 兼容
+        kotlinCompilerExtensionVersion = "1.5.14"
     }
 }
 
@@ -59,18 +61,24 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
+    // TV 组件
     implementation("androidx.tv:tv-material:1.0.0-alpha04")
     implementation("androidx.tv:tv-foundation:1.0.0-alpha04")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.1")
     implementation("androidx.navigation:navigation-compose:2.7.7")
+    // Media3 ExoPlayer 播放器核心
     implementation("androidx.media3:media3-exoplayer:1.4.0")
     implementation("androidx.media3:media3-exoplayer-hls:1.4.0")
     implementation("androidx.media3:media3-ui:1.4.0")
     implementation("androidx.media3:media3-session:1.4.0")
+    // 网络请求
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+    // 协程
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
+    // 调试工具
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+    // DataStore
     implementation("androidx.datastore:datastore-preferences:1.1.1")
 }
