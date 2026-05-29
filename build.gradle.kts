@@ -1,14 +1,12 @@
 plugins {
     id("com.android.application") version "8.5.0" apply false
-    kotlin("android") version "1.9.22" apply false
-    id("org.jetbrains.compose") version "1.5.11" apply false
+    kotlin("android") version "1.9.24" apply false   // 升级 Kotlin
 }
 
 allprojects {
     repositories {
         google()
         mavenCentral()
-        maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
     }
 }
 
