@@ -1,9 +1,0 @@
-<resources>
-    <!-- 基础主题，继承自 Android 原生无标题栏主题 -->
-    <style name="Theme.TVPlayer" parent="android:Theme.Material.NoActionBar">
-        <item name="android:windowBackground">@color/black</item>
-        <item name="android:windowFullscreen">true</item>
-    </style>
-
-    <style name="Theme.TVPlayer.NoActionBar" parent="Theme.TVPlayer" />
-</resources>
