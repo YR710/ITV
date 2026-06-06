@@ -72,10 +72,10 @@ TVB娱乐新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
 Viu TV,http://php.jdshipin.com/TVOD/iptv.php?id=viutv
 浙江国际,http://ali-m-l.cztv.com/channels/lantian/channel010/720p.m3u8
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
-新闻综合,https://m3u8channel.yunxya.com/nmip-media/channellive/channel100028/playlist.m3u8
-福州少儿,http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
-澳视卫星,https://cdn6.163189.xyz/163189/as
 Bread TV面包台 (720p),https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
+新闻综合,https://m3u8channel.yunxya.com/nmip-media/channellive/channel100028/playlist.m3u8
+澳视卫星,https://cdn6.163189.xyz/163189/as
+福州少儿,http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 
 ☘️北京频道,#genre#
 北京卡酷少儿,http://218.13.170.98:9901/tsfile/live/1021_1.m3u8
@@ -83,8 +83,8 @@ Bread TV面包台 (720p),https://video.bread-tv.com:8091/hls-live24/online/index
 
 ☘️上海频道,#genre#
 新纪实,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
-余姚新闻综合,http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?zzhed
 上虞1新闻综合 (720p) [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8
+余姚新闻综合,http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?zzhed
 延边新闻综合 [Geo-blocked],https://stream2.jlntv.cn/jlyb/sd/live.m3u8
 普陀山,https://gcalic.v.myalicdn.com/gc/pts01_1/index.m3u8
 松原新闻综合 [Geo-blocked],https://stream2.jlntv.cn/sytv/sd/live.m3u8
