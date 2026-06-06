@@ -1,0 +1,10 @@
+{
+  "total_channels": 354,
+  "timestamp": "2026-06-06T06:30:38.942322",
+  "config": {
+    "max_workers": 10,
+    "timeout": 10,
+    "ffmpeg_enable": true,
+    "demo_filter": true
+  }
+}
