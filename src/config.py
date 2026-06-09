@@ -86,3 +86,18 @@ CDN_PROXY_ENABLE = os.getenv("CDN_PROXY_ENABLE", "true").lower() == "true"
 CDN_PROXY_URL = os.getenv("CDN_PROXY_URL", "https://gh-proxy.19860519.xyz/")
 CDN_PROXY_DOMAINS_RAW = os.getenv("CDN_PROXY_DOMAINS", "raw.githubusercontent.com,github.com")
 CDN_PROXY_DOMAINS = [d.strip() for d in CDN_PROXY_DOMAINS_RAW.split(",") if d.strip()]
+
+# src/config.py (在现有配置末尾添加以下内容)
+
+# ==================== 播放卡顿优化配置 ====================
+# 测速延迟阈值（毫秒），超过此值的源将被过滤（0 表示不过滤）
+MIN_LATENCY_THRESHOLD = int(os.getenv("MIN_LATENCY_THRESHOLD", 3000))  # 默认 3 秒
+
+# 每个频道保留的最佳源数量
+KEEP_BEST_SOURCES = int(os.getenv("KEEP_BEST_SOURCES", 3))
+
+# M3U 输出时是否按延迟排序（播放器会按顺序尝试）
+SORT_M3U_BY_LATENCY = os.getenv("SORT_M3U_BY_LATENCY", "true").lower() == "true"
+
+# 是否启用多源备用（在 M3U 中列出所有可用源）
+ENABLE_MULTI_SOURCE = os.getenv("ENABLE_MULTI_SOURCE", "true").lower() == "true"
