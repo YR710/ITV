@@ -25,8 +25,6 @@ IPTV_SOURCES = [
     GH_PROXY + "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
     GH_PROXY + "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
     GH_PROXY + "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-    GH_PROXY + "https://raw.githubusercontent.com/zhanghanyun/backup/main/tv.m3u",
-    GH_PROXY + "https://raw.githubusercontent.com/WeiZuoXu/IPTV/main/ipv6.m3u",
 ]
 
 # 性能配置
