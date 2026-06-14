@@ -1,49 +1,26 @@
-# src/speed_tester.py - 批量进度输出版本
+# src/speed_tester.py - 单一进度条版本
 
 import asyncio
 import aiohttp
 import time
 import re
+import sys
 from src.config import HEADERS, TIMEOUT, MAX_WORKERS
 from src.database import get_db_cache, channel_key
 from src.logger import logger
 
 # 广告/追踪域名黑名单
 AD_PATTERNS = [
-    r'ads?\.',
-    r'adserver',
-    r'doubleclick',
-    r'googlead',
-    r'googlesyndication',
-    r'amazon-adsystem',
-    r'criteo',
-    r'taboola',
-    r'outbrain',
-    r'scorecardresearch',
-    r'moatads',
-    r'openx',
-    r'pubmatic',
-    r'/ad/',
-    r'/ads/',
-    r'/sponsor',
-    r'/promo',
+    r'ads?\.', r'adserver', r'doubleclick', r'googlead', r'googlesyndication',
+    r'amazon-adsystem', r'criteo', r'taboola', r'outbrain', r'scorecardresearch',
+    r'moatads', r'openx', r'pubmatic', r'/ad/', r'/ads/', r'/sponsor', r'/promo',
 ]
 
 # 无效内容关键词
 INVALID_CONTENT_PATTERNS = [
-    r'<html',
-    r'<!DOCTYPE',
-    r'404 not found',
-    r'access denied',
-    r'forbidden',
-    r'请勿滥用',
-    r'该资源暂不可用',
-    r'live\.twitch\.tv/embed',
-    r'youtube\.com',
+    r'<html', r'<!DOCTYPE', r'404 not found', r'access denied',
+    r'forbidden', r'请勿滥用', r'该资源暂不可用', r'live\.twitch\.tv/embed', r'youtube\.com',
 ]
-
-# 进度输出间隔（每处理多少个频道输出一次）
-PROGRESS_INTERVAL = 100
 
 
 def is_suspicious_url(url: str) -> bool:
@@ -116,6 +93,17 @@ async def probe_channel_advanced(session: aiohttp.ClientSession, channel: dict) 
         return channel, 0, False, 0
 
 
+def print_progress_bar(current, total, valid_count, prefix="", length=30):
+    """打印单行动态进度条"""
+    percent = current * 100 // total if total > 0 else 0
+    filled = int(length * current // total) if total > 0 else 0
+    bar = '█' * filled + '░' * (length - filled)
+    
+    # 使用 \r 回到行首，实现单行刷新
+    sys.stdout.write(f'\r{prefix} |{bar}| {percent}% ({current}/{total}) 有效:{valid_count}')
+    sys.stdout.flush()
+
+
 async def test_channels_concurrent(channels_dict: dict) -> list:
     channels = list(channels_dict.values())
     db = await get_db_cache()
@@ -153,11 +141,12 @@ async def test_channels_concurrent(channels_dict: dict) -> list:
             
             total = len(tasks)
             completed = 0
-            last_progress = 0
             start_time = time.time()
             valid_count = len(valid)
             
-            # 批量收集结果
+            # 打印初始进度条
+            print_progress_bar(0, total, valid_count, prefix="🔍 测速", length=30)
+            
             for coro in asyncio.as_completed(tasks):
                 ch, latency, ok, _ = await coro
                 completed += 1
@@ -169,13 +158,11 @@ async def test_channels_concurrent(channels_dict: dict) -> list:
                     key = channel_key(ch["name"], ch["url"])
                     await db.set_speed_result(key, ch)
                 
-                # 每 PROGRESS_INTERVAL 个或全部完成时输出进度
-                if completed - last_progress >= PROGRESS_INTERVAL or completed == total:
-                    percent = completed * 100 // total
-                    elapsed = time.time() - start_time
-                    speed = completed / elapsed if elapsed > 0 else 0
-                    logger.info(f"  📡 测速进度: {completed}/{total} ({percent}%) - 有效: {valid_count} - 速度: {speed:.1f}频道/秒")
-                    last_progress = completed
+                # 每次更新进度条
+                print_progress_bar(completed, total, valid_count, prefix="🔍 测速", length=30)
+            
+            # 换行
+            print()
     
     # 排序
     valid.sort(key=lambda x: x.get("latency", 9999))
