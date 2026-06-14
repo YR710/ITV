@@ -1,10 +1,9 @@
-# src/speed_tester.py - 单一进度条版本
+# src/speed_tester.py - 纯批量日志版本（无进度条刷新）
 
 import asyncio
 import aiohttp
 import time
 import re
-import sys
 from src.config import HEADERS, TIMEOUT, MAX_WORKERS
 from src.database import get_db_cache, channel_key
 from src.logger import logger
@@ -21,6 +20,9 @@ INVALID_CONTENT_PATTERNS = [
     r'<html', r'<!DOCTYPE', r'404 not found', r'access denied',
     r'forbidden', r'请勿滥用', r'该资源暂不可用', r'live\.twitch\.tv/embed', r'youtube\.com',
 ]
+
+# 进度输出间隔（每处理多少个频道输出一次）
+PROGRESS_INTERVAL = 500
 
 
 def is_suspicious_url(url: str) -> bool:
@@ -93,17 +95,6 @@ async def probe_channel_advanced(session: aiohttp.ClientSession, channel: dict) 
         return channel, 0, False, 0
 
 
-def print_progress_bar(current, total, valid_count, prefix="", length=30):
-    """打印单行动态进度条"""
-    percent = current * 100 // total if total > 0 else 0
-    filled = int(length * current // total) if total > 0 else 0
-    bar = '█' * filled + '░' * (length - filled)
-    
-    # 使用 \r 回到行首，实现单行刷新
-    sys.stdout.write(f'\r{prefix} |{bar}| {percent}% ({current}/{total}) 有效:{valid_count}')
-    sys.stdout.flush()
-
-
 async def test_channels_concurrent(channels_dict: dict) -> list:
     channels = list(channels_dict.values())
     db = await get_db_cache()
@@ -126,43 +117,48 @@ async def test_channels_concurrent(channels_dict: dict) -> list:
     
     valid = cached_results.copy()
     
-    if to_probe:
-        semaphore = asyncio.Semaphore(MAX_WORKERS)
+    if not to_probe:
+        logger.info("✅ 所有频道均来自缓存，无需探测")
+        return valid
+    
+    semaphore = asyncio.Semaphore(MAX_WORKERS)
+    
+    async def bounded_probe(session, ch):
+        async with semaphore:
+            return await probe_channel_advanced(session, ch)
+    
+    connector = aiohttp.TCPConnector(limit=MAX_WORKERS, limit_per_host=3)
+    timeout_config = aiohttp.ClientTimeout(total=TIMEOUT + 5)
+    
+    async with aiohttp.ClientSession(connector=connector, timeout=timeout_config) as session:
+        tasks = [bounded_probe(session, ch) for ch in to_probe]
         
-        async def bounded_probe(session, ch):
-            async with semaphore:
-                return await probe_channel_advanced(session, ch)
+        total = len(tasks)
+        completed = 0
+        last_log_count = 0
+        start_time = time.time()
+        valid_count = len(valid)
         
-        connector = aiohttp.TCPConnector(limit=MAX_WORKERS, limit_per_host=3)
-        timeout_config = aiohttp.ClientTimeout(total=TIMEOUT + 5)
+        logger.info(f"  📡 开始测速 {total} 个频道，每 {PROGRESS_INTERVAL} 个输出一次进度...")
         
-        async with aiohttp.ClientSession(connector=connector, timeout=timeout_config) as session:
-            tasks = [bounded_probe(session, ch) for ch in to_probe]
+        for coro in asyncio.as_completed(tasks):
+            ch, latency, ok, _ = await coro
+            completed += 1
             
-            total = len(tasks)
-            completed = 0
-            start_time = time.time()
-            valid_count = len(valid)
+            if ok:
+                ch["latency"] = latency
+                valid.append(ch)
+                valid_count += 1
+                key = channel_key(ch["name"], ch["url"])
+                await db.set_speed_result(key, ch)
             
-            # 打印初始进度条
-            print_progress_bar(0, total, valid_count, prefix="🔍 测速", length=30)
-            
-            for coro in asyncio.as_completed(tasks):
-                ch, latency, ok, _ = await coro
-                completed += 1
-                
-                if ok:
-                    ch["latency"] = latency
-                    valid.append(ch)
-                    valid_count += 1
-                    key = channel_key(ch["name"], ch["url"])
-                    await db.set_speed_result(key, ch)
-                
-                # 每次更新进度条
-                print_progress_bar(completed, total, valid_count, prefix="🔍 测速", length=30)
-            
-            # 换行
-            print()
+            # 每完成 PROGRESS_INTERVAL 个或全部完成时输出一次日志
+            if completed - last_log_count >= PROGRESS_INTERVAL or completed == total:
+                percent = completed * 100 // total
+                elapsed = time.time() - start_time
+                speed = completed / elapsed if elapsed > 0 else 0
+                logger.info(f"  📡 测速进度: {completed}/{total} ({percent}%) - 有效: {valid_count} - 速度: {speed:.1f}频道/秒")
+                last_log_count = completed
     
     # 排序
     valid.sort(key=lambda x: x.get("latency", 9999))
