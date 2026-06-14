@@ -49,7 +49,6 @@ from src.global_channels import get_global_selector
 from src.generator_enhanced import EnhancedOutputGenerator
 from src.overseas_filter import process_overseas_channels
 from src.special_categories import collect_and_append_special_categories
-from tqdm.asyncio import tqdm
 
 
 async def main():
@@ -107,21 +106,15 @@ async def main():
 
     logger.info(f"📊 原始频道数（去重后）: {len(channels_dict)}")
 
-    # ========== 统一进度条 - 测速 ==========
-    total_channels = len(channels_dict)
-    logger.info(f"📊 总共需要处理 {total_channels} 个频道")
-    
-    # 创建统一进度条
-    with tqdm(total=total_channels, desc="🔍 HTTP测速", unit="频道", position=0, leave=True) as pbar:
-        # HTTP 测速（过滤无效/广告源）
-        valid_channels = await test_channels_concurrent(channels_dict, pbar=pbar)
-    
+    # ========== HTTP 测速（使用简单日志，不用进度条） ==========
+    logger.info("🔍 开始 HTTP 测速...")
+    valid_channels = await test_channels_concurrent(channels_dict)
     logger.info(f"📊 通过HTTP测速的频道数: {len(valid_channels)}")
 
-    # ========== 统一进度条 - ffmpeg验证 ==========
+    # ========== ffmpeg 深度验证（使用简单日志） ==========
     if FFMPEG_ENABLE and valid_channels:
-        with tqdm(total=len(valid_channels), desc="🎬 ffmpeg深度验证", unit="频道", position=0, leave=True) as pbar:
-            valid_channels = await validate_batch(valid_channels, pbar=pbar)
+        logger.info("🎬 开始 ffmpeg 深度验证...")
+        valid_channels = await validate_batch(valid_channels)
         logger.info(f"📊 通过ffmpeg验证的频道数: {len(valid_channels)}")
 
     # 保存测速结果到数据库
