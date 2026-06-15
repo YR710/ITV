@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 329,
-  "generated": "2026-06-14T20:12:23.862496",
+  "generated": "2026-06-15T05:42:47.702338",
   "channels": [
     {
       "name": "CCTV-1",
@@ -174,8 +174,7 @@
       "name": "CCTV-13",
       "urls": [
         "http://45.192.97.170:8880/play/14.m3u8",
-        "http://74.91.26.218:82/live/cctv13hd.m3u8",
-        "http://112.27.235.94:8000/hls/14/index.m3u8"
+        "http://74.91.26.218:82/live/cctv13hd.m3u8"
       ],
       "latency": 50,
       "codec": "h264",
@@ -319,17 +318,6 @@
       "category": "📺央视频道,#genre#"
     },
     {
-      "name": "广东卫视",
-      "urls": [
-        "http://112.27.235.94:8000/hls/30/index.m3u8"
-      ],
-      "latency": 438,
-      "codec": "mpeg2video",
-      "tvg_id": "GuangdongTV.cn",
-      "logo": "https://live.fanmingming.cn/tv/广东卫视.png",
-      "category": "📡卫视频道,#genre#"
-    },
-    {
       "name": "浙江卫视",
       "urls": [
         "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8"
@@ -385,17 +373,6 @@
       "category": "📡卫视频道,#genre#"
     },
     {
-      "name": "安徽卫视",
-      "urls": [
-        "http://112.27.235.94:8000/hls/26/index.m3u8"
-      ],
-      "latency": 440,
-      "codec": "h264",
-      "tvg_id": "AnhuiTV.cn",
-      "logo": "https://live.fanmingming.cn/tv/安徽卫视.png",
-      "category": "📡卫视频道,#genre#"
-    },
-    {
       "name": "重庆卫视",
       "urls": [
         "http://183.11.239.36:808/hls/53/index.m3u8"
@@ -404,6 +381,18 @@
       "codec": "h264",
       "tvg_id": "ChongqingTV.cn",
       "logo": "https://live.fanmingming.cn/tv/重庆卫视.png",
+      "category": "📡卫视频道,#genre#"
+    },
+    {
+      "name": "东方卫视",
+      "urls": [
+        "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+        "http://bp-resource-dfl.bestv.cn/155/3/video.m3u8"
+      ],
+      "latency": 1216,
+      "codec": "h264",
+      "tvg_id": "DragonTV.cn",
+      "logo": "https://live.fanmingming.cn/tv/东方卫视4K.png",
       "category": "📡卫视频道,#genre#"
     },
     {
@@ -440,14 +429,13 @@
       "category": "📡卫视频道,#genre#"
     },
     {
-      "name": "河北卫视",
+      "name": "河北",
       "urls": [
-        "http://112.27.235.94:8000/hls/39/index.m3u8"
+        "https://event.pull.hebtv.com:443/live/live101.m3u8"
       ],
-      "latency": 843,
+      "latency": 2211,
       "codec": "h264",
-      "tvg_id": "HebeiTV.cn",
-      "logo": "https://live.fanmingming.cn/tv/河北卫视.png",
+      "logo": "https://live.fanmingming.cn/tv/河北4K.png",
       "category": "📡卫视频道,#genre#"
     },
     {
@@ -614,17 +602,6 @@
       "codec": "h264",
       "tvg_id": "XinjiangTV.cn",
       "logo": "https://live.fanmingming.cn/tv/新疆卫视.png",
-      "category": "📡卫视频道,#genre#"
-    },
-    {
-      "name": "云南卫视",
-      "urls": [
-        "http://112.27.235.94:8000/hls/40/index.m3u8"
-      ],
-      "latency": 438,
-      "codec": "h264",
-      "tvg_id": "YunnanTV.cn",
-      "logo": "https://live.fanmingming.cn/tv/云南卫视.png",
       "category": "📡卫视频道,#genre#"
     },
     {
@@ -809,6 +786,16 @@
       "latency": 488,
       "codec": "h264",
       "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/resources/%E4%B8%8A%E8%99%9E1%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88%20%5BNot%2024/7%5D.png",
+      "category": "☘️上海频道,#genre#"
+    },
+    {
+      "name": "新纪实",
+      "urls": [
+        "http://bp-resource-dfl.bestv.cn/155/3/video.m3u8"
+      ],
+      "latency": 2283,
+      "codec": "h264",
+      "logo": "https://live.fanmingming.cn/tv/新纪实.png",
       "category": "☘️上海频道,#genre#"
     },
     {
@@ -1790,16 +1777,6 @@
       "category": "☘️江苏频道,#genre#"
     },
     {
-      "name": "安徽综艺体育",
-      "urls": [
-        "http://112.27.235.94:8000/hls/25/index.m3u8"
-      ],
-      "latency": 626,
-      "codec": "h264",
-      "logo": "https://live.fanmingming.cn/tv/安徽综艺体育.png",
-      "category": "☘️安徽频道,#genre#"
-    },
-    {
       "name": "安徽导视",
       "urls": [
         "http://dspdhls.appcoo.com:8888/live/dspd/index.m3u8"
@@ -1840,13 +1817,13 @@
       "category": "☘️安徽频道,#genre#"
     },
     {
-      "name": "黄山",
+      "name": "黄山公共生活",
       "urls": [
-        "https://gcalic.v.myalicdn.com/gc/ahhs01_1/index.m3u8"
+        "http://hslive.hsnewsnet.com/lsdream/iY92ady/1000/live.m3u8?zanhd"
       ],
-      "latency": 579,
+      "latency": 1707,
       "codec": "h264",
-      "logo": "https://live.fanmingming.cn/tv/黄山.png",
+      "logo": "https://live.fanmingming.cn/tv/黄山公共生活.png",
       "category": "☘️安徽频道,#genre#"
     },
     {
@@ -1947,6 +1924,26 @@
       "latency": 1634,
       "codec": "h264",
       "logo": "https://live.fanmingming.cn/tv/云霄综合.png",
+      "category": "☘️福建频道,#genre#"
+    },
+    {
+      "name": "福建公共",
+      "urls": [
+        "https://live.264788.xyz/channel/fujianxiangcungonggong?streamid=2987cc24bada6a8c25589409a6452d9e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+      ],
+      "latency": 8703,
+      "codec": "h264",
+      "logo": "https://live.fanmingming.cn/tv/福建公共.png",
+      "category": "☘️福建频道,#genre#"
+    },
+    {
+      "name": "福建旅游",
+      "urls": [
+        "https://live.264788.xyz/channel/fujianlvyou?streamid=8f26765ebf367079cef58c6b7752da1e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+      ],
+      "latency": 4163,
+      "codec": "h264",
+      "logo": "https://live.fanmingming.cn/tv/福建旅游.png",
       "category": "☘️福建频道,#genre#"
     },
     {
@@ -2319,6 +2316,16 @@
       "codec": "h264",
       "logo": "https://live.fanmingming.cn/tv/安顺新闻.png",
       "category": "☘️贵州频道,#genre#"
+    },
+    {
+      "name": "云南丽江玉龙雪山",
+      "urls": [
+        "https://gcalic.v.myalicdn.com/gc/ylxs11_1/index.m3u8"
+      ],
+      "latency": 904,
+      "codec": "h264",
+      "logo": "https://live.fanmingming.cn/tv/云南丽江玉龙雪山.png",
+      "category": "☘️云南频道,#genre#"
     },
     {
       "name": "云南丽江玉龙雪山草甸",
@@ -3078,16 +3085,6 @@
       "latency": 1420,
       "codec": "h264",
       "logo": "https://live.fanmingming.cn/tv/昌黎综合.png",
-      "category": "☘️河北频道,#genre#"
-    },
-    {
-      "name": "河北",
-      "urls": [
-        "https://event.pull.hebtv.com:443/live/live101.m3u8"
-      ],
-      "latency": 2211,
-      "codec": "h264",
-      "logo": "https://live.fanmingming.cn/tv/河北4K.png",
       "category": "☘️河北频道,#genre#"
     },
     {
