@@ -53,7 +53,7 @@ from src.overseas_filter import process_overseas_channels
 from src.special_categories import collect_and_append_special_categories
 
 
-# ========== 传统模式（原有逻辑，保持不变） ==========
+# ========== 传统模式（原有逻辑） ==========
 async def run_legacy_mode():
     """
     原有模式 - 完整的采集、测速、验证、输出流程
@@ -253,15 +253,16 @@ async def run_autonomous_mode():
         stable_count_after = len(after_manager.get_active_sources())
         
         logger.info("=" * 60)
+        logger.info(f"📊 自治模式结果: 之前 {stable_count_before} 个稳定源，之后 {stable_count_after} 个")
         
-        # 如果稳定源没有增加，或者仍然为0，需要回退
-        if stable_count_after == 0:
-            logger.warning("⚠️ 自治模式未产生稳定源，需要回退到传统模式")
-            return False  # 返回 False 表示需要回退
-        else:
-            logger.info(f"✅ 自治模式运行完成，稳定源: {stable_count_after} 个")
+        # 关键判断：只有稳定源数量 > 0 才表示成功
+        if stable_count_after > 0:
+            logger.info(f"✅ 自治模式运行成功，稳定源: {stable_count_after} 个")
             logger.info(f"📊 运行统计: {stats}")
-            return True  # 返回 True 表示成功
+            return True
+        else:
+            logger.warning("⚠️ 自治模式运行完成但没有稳定源，需要回退到传统模式")
+            return False
             
     except ImportError as e:
         logger.warning(f"⚠️ 自治模式模块未找到: {e}")
