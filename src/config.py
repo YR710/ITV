@@ -178,3 +178,23 @@ ENABLE_EPG_OUTPUT = os.getenv("ENABLE_EPG_OUTPUT", "true").lower() == "true"
 if IPTV_ORG_ENABLE and IPTV_ORG_ADD_MAIN_LIST:
     IPTV_SOURCES.append("https://iptv-org.github.io/iptv/index.m3u")
     print("🌍 已添加 iptv-org 主列表作为数据源")
+
+# ========== 自治模式配置（新增） ==========
+# 是否启用自治模式
+AUTONOMOUS_MODE = os.getenv("AUTONOMOUS_MODE", "false").lower() == "true"
+
+# 自治模式子配置
+AUTO_UPDATE_STABLE = os.getenv("AUTO_UPDATE_STABLE", "true").lower() == "true"
+AUTO_REPLACE_FAILED = os.getenv("AUTO_REPLACE_FAILED", "true").lower() == "true"
+QUALITY_CHECK_INTERVAL = int(os.getenv("QUALITY_CHECK_INTERVAL", 24))
+CANDIDATE_OBSERVATION_HOURS = int(os.getenv("CANDIDATE_OBSERVATION_HOURS", 24))
+CANDIDATE_MIN_SUCCESS = int(os.getenv("CANDIDATE_MIN_SUCCESS", 10))
+CANDIDATE_MIN_SUCCESS_RATE = float(os.getenv("CANDIDATE_MIN_SUCCESS_RATE", 0.8))
+CANDIDATE_MAX_LATENCY = int(os.getenv("CANDIDATE_MAX_LATENCY", 2000))
+
+# 打印自治模式状态
+if AUTONOMOUS_MODE:
+    print("🤖 自治模式已启用")
+    print(f"   - 自动更新稳定版: {AUTO_UPDATE_STABLE}")
+    print(f"   - 自动替换失效源: {AUTO_REPLACE_FAILED}")
+    print(f"   - 质量检查间隔: {QUALITY_CHECK_INTERVAL}小时")
