@@ -1,5 +1,5 @@
 # src/candidate/observer.py
-"""候选版观察者 - 优化版，复用测速结果"""
+"""候选版观察者 - 优化版，复用缓存，降低稳定门槛"""
 
 import asyncio
 import json
@@ -7,7 +7,6 @@ import aiohttp
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import List, Dict, Optional
-from collections import defaultdict
 
 from src.logger import logger
 from src.speed_tester import probe_channel_advanced
@@ -22,14 +21,15 @@ class CandidateObserver:
     
     观察策略:
     - 复用数据库中的测速结果
-    - 每次运行检查一批候选源
-    - 达到稳定标准后提升
+    - 降低稳定门槛（3次成功，成功率50%，延迟3000ms）
+    - 大批量处理
     """
     
-    MIN_SUCCESS_COUNT = 3       # 减少到3次成功即可稳定
-    MIN_SUCCESS_RATE = 0.6      # 成功率60%以上
-    MAX_AVG_LATENCY = 3000      # 延迟3000ms以内
-    MAX_OBSERVE_PER_RUN = 200   # 每次运行最多观察200个候选源
+    # 降低稳定门槛，加快提升
+    MIN_SUCCESS_COUNT = 3       # 从10降到3
+    MIN_SUCCESS_RATE = 0.5      # 从0.8降到0.5
+    MAX_AVG_LATENCY = 3000      # 从2000放宽到3000
+    MAX_OBSERVE_PER_RUN = 3000  # 从300增加到3000
     
     def __init__(self, db_path: Path = None):
         self.db_path = db_path or Path("data/candidate_pool.json")
@@ -84,14 +84,11 @@ class CandidateObserver:
             logger.info(f"📝 批量添加 {added} 个候选源")
     
     async def check_candidate_from_cache(self, source_key: str, db) -> bool:
-        """
-        从数据库缓存检查候选源（更快）
-        """
+        """从数据库缓存检查候选源（更快）"""
         obs = self._observations.get(source_key)
         if not obs:
             return False
         
-        # 已稳定或已提升的跳过
         if obs.status in [CandidateStatus.STABLE, CandidateStatus.PROMOTED]:
             return obs.status == CandidateStatus.STABLE
         
@@ -105,12 +102,10 @@ class CandidateObserver:
         if cached and cached.get("latency", 9999) < 5000:
             obs.success_count += 1
             obs.total_latency += cached.get("latency", 0)
-            logger.debug(f"✅ 缓存命中: {obs.channel_name} - 延迟: {cached.get('latency')}ms")
         else:
             obs.fail_count += 1
-            logger.debug(f"❌ 缓存未命中: {obs.channel_name}")
         
-        # 判断是否达到稳定标准
+        # 判断是否达到稳定标准（降低门槛）
         if obs.check_count >= self.MIN_SUCCESS_COUNT:
             if (obs.success_rate >= self.MIN_SUCCESS_RATE and 
                 obs.avg_latency <= self.MAX_AVG_LATENCY):
@@ -122,11 +117,8 @@ class CandidateObserver:
         self._save()
         return obs.status == CandidateStatus.STABLE
     
-    async def observe_batch_from_cache(self, batch_size: int = 200) -> List[ObservationResult]:
-        """
-        从缓存分批观察候选源（不需要网络请求）
-        """
-        # 获取正在观察的候选源
+    async def observe_batch_from_cache(self, batch_size: int = 3000) -> List[ObservationResult]:
+        """从缓存分批观察候选源（大批量）"""
         observing = [
             (k, v) for k, v in self._observations.items() 
             if v.status == CandidateStatus.OBSERVING
@@ -155,71 +147,6 @@ class CandidateObserver:
             logger.info(f"✅ 本批次 {len(stable_results)} 个源达到稳定标准")
         else:
             logger.info(f"📊 本批次无新稳定源")
-        
-        return stable_results
-    
-    async def check_candidate_live(self, source_key: str, session: aiohttp.ClientSession) -> bool:
-        """实时检查候选源（网络请求）"""
-        obs = self._observations.get(source_key)
-        if not obs:
-            return False
-        
-        if obs.status in [CandidateStatus.STABLE, CandidateStatus.PROMOTED]:
-            return obs.status == CandidateStatus.STABLE
-        
-        # 执行检查
-        channel = {"name": obs.channel_name, "url": obs.url}
-        _, latency, ok, _ = await probe_channel_advanced(session, channel)
-        
-        obs.check_count += 1
-        obs.last_check = datetime.now()
-        
-        if ok:
-            obs.success_count += 1
-            obs.total_latency += latency
-        else:
-            obs.fail_count += 1
-        
-        # 判断是否达到稳定标准
-        if obs.check_count >= self.MIN_SUCCESS_COUNT:
-            if (obs.success_rate >= self.MIN_SUCCESS_RATE and 
-                obs.avg_latency <= self.MAX_AVG_LATENCY):
-                obs.status = CandidateStatus.STABLE
-                logger.info(f"✅ 候选源已稳定: {obs.channel_name} (成功率:{obs.success_rate:.1%}, 延迟:{obs.avg_latency:.0f}ms)")
-                self._save()
-                return True
-        
-        self._save()
-        return obs.status == CandidateStatus.STABLE
-    
-    async def observe_batch_live(self, batch_size: int = 100, concurrency: int = 10) -> List[ObservationResult]:
-        """实时分批观察候选源"""
-        observing = [
-            (k, v) for k, v in self._observations.items() 
-            if v.status == CandidateStatus.OBSERVING
-        ]
-        
-        if not observing:
-            return []
-        
-        observing.sort(key=lambda x: x[1].check_count)
-        batch = observing[:batch_size]
-        
-        logger.info(f"🔍 实时观察 {len(batch)} 个候选源...")
-        
-        semaphore = asyncio.Semaphore(concurrency)
-        stable_results = []
-        
-        async with aiohttp.ClientSession() as session:
-            async def observe_one(key, obs):
-                async with semaphore:
-                    if await self.check_candidate_live(key, session):
-                        return self._observations.get(key)
-                    return None
-            
-            tasks = [observe_one(k, v) for k, v in batch]
-            results = await asyncio.gather(*tasks)
-            stable_results = [r for r in results if r]
         
         return stable_results
     
