@@ -26,11 +26,17 @@ from src.generator import generate_outputs_from_demo
 
 class IPTVOrchestrator:
     """
-    IPTV 自治系统协调器 - 自治模式只负责发现和提升新源
+    IPTV 自治系统协调器 - 增强版
+    
+    优化：
+    - 大幅增加处理数量，覆盖全部国内频道
+    - 从缓存快速验证，无需网络请求
+    - 与传统模式互补
     """
     
-    MAX_NEW_SOURCES_PER_RUN = 500
-    MAX_OBSERVE_PER_RUN = 300
+    # 大幅增加限制，确保覆盖全部国内频道
+    MAX_NEW_SOURCES_PER_RUN = 5000      # 从500增加到5000
+    MAX_OBSERVE_PER_RUN = 3000          # 从300增加到3000
     
     def __init__(self, data_dir: Path = None):
         self.data_dir = data_dir or Path("data")
@@ -48,24 +54,26 @@ class IPTVOrchestrator:
             "new_sources_count": 0,
             "observed_count": 0,
             "stable_count_after": 0,
-            "new_stable_count": 0  # 新增：本次新提升的数量
+            "new_stable_count": 0
         }
         
-        CandidateObserver.MIN_SUCCESS_COUNT = CANDIDATE_MIN_SUCCESS
+        # 更新候选观察器配置（降低稳定门槛，加快提升）
+        CandidateObserver.MIN_SUCCESS_COUNT = min(CANDIDATE_MIN_SUCCESS, 3)  # 最多3次
         CandidateObserver.MIN_SUCCESS_RATE = CANDIDATE_MIN_SUCCESS_RATE
         CandidateObserver.MAX_AVG_LATENCY = CANDIDATE_MAX_LATENCY
     
     async def discover_phase(self) -> Dict:
-        """阶段1: 发现新源"""
+        """阶段1: 发现新源（只保留国内频道）"""
         logger.info("=" * 50)
-        logger.info("阶段1: 发现新源")
+        logger.info("阶段1: 发现新源（国内频道）")
         logger.info("=" * 50)
         
         try:
             db = await asyncio.wait_for(get_db_cache(), timeout=10)
+            # 启用国内频道过滤
             new_sources = await asyncio.wait_for(
-                self.discoverer.discover(db), 
-                timeout=45
+                self.discoverer.discover(db, filter_domestic=True), 
+                timeout=60
             )
             
             total_new = sum(len(s) for s in new_sources.values())
@@ -79,6 +87,7 @@ class IPTVOrchestrator:
             if total_new > self.MAX_NEW_SOURCES_PER_RUN:
                 logger.warning(f"⚠️ 新源数量 {total_new} 超过限制 {self.MAX_NEW_SOURCES_PER_RUN}，只取前 {self.MAX_NEW_SOURCES_PER_RUN} 个")
             
+            # 批量添加到候选池
             added_sources = []
             count = 0
             for channel_name, sources in new_sources.items():
@@ -96,14 +105,14 @@ class IPTVOrchestrator:
             return new_sources
             
         except asyncio.TimeoutError:
-            logger.warning("⚠️ 发现新源阶段超时（45秒），跳过")
+            logger.warning("⚠️ 发现新源阶段超时（60秒），跳过")
             return {}
         except Exception as e:
             logger.error(f"❌ 发现新源阶段失败: {e}")
             return {}
     
     async def observe_phase(self) -> List:
-        """阶段2: 从缓存快速观察候选源"""
+        """阶段2: 从缓存快速观察候选源（大批量）"""
         logger.info("=" * 50)
         logger.info("阶段2: 从缓存观察候选源")
         logger.info("=" * 50)
@@ -117,11 +126,12 @@ class IPTVOrchestrator:
             stable_count = len(self.candidate_observer.get_stable_candidates())
             logger.info(f"📊 候选池状态: {observing_count} 个正在观察，{stable_count} 个已稳定")
             
+            # 大批量观察
             stable_candidates = await asyncio.wait_for(
                 self.candidate_observer.observe_batch_from_cache(
                     batch_size=self.MAX_OBSERVE_PER_RUN
                 ),
-                timeout=30
+                timeout=45
             )
             
             self.stats["last_observe"] = datetime.now()
@@ -131,14 +141,14 @@ class IPTVOrchestrator:
             return stable_candidates
             
         except asyncio.TimeoutError:
-            logger.warning("⚠️ 观察候选源阶段超时（30秒），跳过")
+            logger.warning("⚠️ 观察候选源阶段超时（45秒），跳过")
             return []
         except Exception as e:
             logger.error(f"❌ 观察候选源阶段失败: {e}")
             return []
     
     async def promote_phase(self, stable_candidates: List = None) -> int:
-        """阶段3: 提升稳定源"""
+        """阶段3: 提升稳定源（大批量）"""
         logger.info("=" * 50)
         logger.info("阶段3: 提升稳定源")
         logger.info("=" * 50)
@@ -155,7 +165,8 @@ class IPTVOrchestrator:
             before_count = len(self.stable_manager.get_active_sources())
             
             promoted_count = 0
-            for obs in stable_candidates[:50]:
+            # 提升全部稳定候选源（不限制数量）
+            for obs in stable_candidates:
                 existing = self.stable_manager.stable_sources.get(obs.channel_name)
                 
                 if existing and existing.is_fixed:
@@ -174,7 +185,6 @@ class IPTVOrchestrator:
             self.stats["total_promoted"] += promoted_count
             self.stats["new_stable_count"] = promoted_count
             
-            # 记录提升后的稳定源数量
             after_count = len(self.stable_manager.get_active_sources())
             self.stats["stable_count_after"] = after_count
             
@@ -189,11 +199,11 @@ class IPTVOrchestrator:
     async def run_once(self) -> Dict:
         """完整执行一次自治流程"""
         logger.info("🚀 IPTV 自治系统启动")
-        logger.info(f"📊 配置: 每批观察 {self.MAX_OBSERVE_PER_RUN} 个")
-        logger.info("⚠️ 注意: 自治模式不加载固定源，只负责发现和提升新源")
+        logger.info(f"📊 配置: 每批发现 {self.MAX_NEW_SOURCES_PER_RUN} 个，每批观察 {self.MAX_OBSERVE_PER_RUN} 个")
+        logger.info("📌 只处理国内频道，国外频道自动过滤")
         
         try:
-            # 1. 发现新源
+            # 1. 发现新源（国内频道）
             await self.discover_phase()
             
             # 2. 从缓存观察候选源
@@ -202,20 +212,9 @@ class IPTVOrchestrator:
             # 3. 提升稳定源
             await self.promote_phase(stable_candidates)
             
-            # 4. 如果有新提升的稳定源，生成输出
-            if self.stats.get("new_stable_count", 0) > 0:
-                channels = self.stable_manager.get_output_channels()
-                if channels:
-                    demo_order = parse_demo_order_with_categories() if ENABLE_DEMO_FILTER else []
-                    if demo_order:
-                        generate_outputs_from_demo(channels, demo_order)
-                    logger.info(f"✅ 输出生成完成: {len(channels)} 个稳定源")
-            else:
-                logger.info("📭 没有新提升的稳定源，跳过输出生成")
-            
             # 打印统计
             logger.info("=" * 50)
-            logger.info("📊 运行统计")
+            logger.info("📊 自治模式统计")
             logger.info("=" * 50)
             logger.info(f"  源池总数: {self.discoverer.get_statistics()['total']}")
             logger.info(f"  候选池总数: {self.candidate_observer.get_statistics()['total']}")
