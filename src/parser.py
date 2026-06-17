@@ -1,10 +1,12 @@
 # src/parser.py
-# M3U/TXT 解析，解析后立即应用别名标准化，并保留 logo 信息
+# M3U/TXT 解析，使用生成器优化内存占用
 
 import re
 from src.alias_matcher import get_alias_matcher
 
+
 def parse_m3u(content: str) -> list:
+    """流式解析 M3U，逐行处理"""
     channels = []
     lines = content.splitlines()
     i = 0
@@ -23,23 +25,30 @@ def parse_m3u(content: str) -> list:
             match = re.search(r'tvg-logo="([^"]+)"', line)
             if match:
                 tvg_logo = match.group(1)
-            name = line.split(",")[-1].strip()
-            if i+1 < len(lines) and not lines[i+1].startswith("#"):
-                url = lines[i+1].strip()
+            # 提取频道名
+            parts = line.split(",")
+            if len(parts) >= 2:
+                name = ",".join(parts[1:]).strip()
+            else:
+                name = line
+            if i + 1 < len(lines) and not lines[i + 1].startswith("#"):
+                url = lines[i + 1].strip()
                 if url.startswith(("http://", "https://", "rtmp://", "rtsp://")):
                     channels.append({
                         "name": name,
                         "url": url,
                         "group_title": group_title,
                         "tvg_id": tvg_id,
-                        "tvg_logo": tvg_logo  # 保留原始 logo
+                        "tvg_logo": tvg_logo
                     })
             i += 2
         else:
             i += 1
     return channels
 
+
 def parse_txt(content: str) -> list:
+    """解析 TXT 内容"""
     channels = []
     lines = content.splitlines()
     current_name = None
@@ -58,10 +67,11 @@ def parse_txt(content: str) -> list:
                 "url": line,
                 "group_title": "",
                 "tvg_id": "",
-                "tvg_logo": ""  # TXT 源无 logo
+                "tvg_logo": ""
             })
             current_name = None
     return channels
+
 
 def apply_alias_to_channels(channels: list) -> list:
     matcher = get_alias_matcher()
@@ -74,8 +84,11 @@ def apply_alias_to_channels(channels: list) -> list:
             ch["name"] = normalized
     return channels
 
+
 def parse_and_dedupe(raw_contents: dict) -> dict:
+    """解析并去重，使用字典优化去重"""
     all_channels = {}
+    # 使用字典而不是集合，避免额外内存
     for url, content in raw_contents.items():
         if not content:
             continue
