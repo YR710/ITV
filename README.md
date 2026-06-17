@@ -1,10 +1,6 @@
 IPTV 智能整理平台
 全自动 IPTV 源采集、测速、验证、分类与输出系统
 
-https://img.shields.io/github/actions/workflow/status/zzgpy1/ITV/update_iptv.yml?branch=main&label=Auto%2520Update
-https://img.shields.io/badge/Python-3.10+-blue.svg
-https://img.shields.io/badge/License-MIT-green.svg
-
 📖 项目简介
 本项目是一个全自动 IPTV 源采集、测速、验证、分类与输出系统。它从多个公开源聚合 IPTV 播放链接，通过 HTTP 探测 + ffmpeg 深度验证过滤无效链接，并自动将频道归类到「央视、卫视、地方、港澳台」等分类，输出标准 M3U/TXT/JSON 格式播放列表。
 
