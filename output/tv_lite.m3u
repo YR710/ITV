@@ -1,6 +1,6 @@
 #EXTM3U
 # 精简版 - 仅保留最稳定源，适合移动设备
-# 共 312 个频道
+# 共 313 个频道
 #EXTINF:-1 group-title="📺央视频道,#genre#",CCTV-1
 http://45.192.97.170:8880/play/1.m3u8
 #EXTINF:-1 group-title="📺央视频道,#genre#",CCTV-2
@@ -323,6 +323,8 @@ https://live-auth.51kandianshi.com/szgd/csztv2.m3u8
 http://zjtv-wshls.homecdn.com/live/2aa16.m3u8
 #EXTINF:-1 group-title="☘️江苏频道,#genre#",镇江新闻综合
 http://zjtv-wshls.homecdn.com/live/2aa50.m3u8
+#EXTINF:-1 group-title="☘️安徽频道,#genre#",安徽综艺体育
+http://112.27.235.94:8000/hls/25/index.m3u8
 #EXTINF:-1 group-title="☘️安徽频道,#genre#",安徽导视
 http://dspdhls.appcoo.com:8888/live/dspd/index.m3u8
 #EXTINF:-1 group-title="☘️安徽频道,#genre#",合肥新闻
@@ -628,7 +630,9 @@ https://cdn6.163189.xyz/163189/asam
 
 # ========== 特色分类内容 ==========
 
-# ----- 🎤 韩国女团 (114个频道) -----
+# ----- 🎤 韩国女团 (115个频道) -----
+#EXTINF:-1 group-title="🎤 韩国女团",女团社颜老师
+http://45.192.97.170:8880/play/4097.m3u8
 #EXTINF:-1 group-title="🎤 韩国女团",花花与三猫CatLive
 http://45.192.97.170:8880/play/4351.m3u8
 #EXTINF:-1 group-title="🎤 韩国女团",歌团★021

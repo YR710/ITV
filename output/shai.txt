@@ -1,6 +1,6 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 498
-# Demo匹配成功: 323
+# 原始频道总数: 499
+# Demo匹配成功: 324
 # 丢弃数量: 175
 
 Newsmax,http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
@@ -38,6 +38,7 @@ CGTN英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
 凤凰香港台,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
 港台电视 31,http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31
 黄山飞来石,https://gcalic.v.myalicdn.com/gc/hsptgy_1/index.m3u8
+萧山新闻综合 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
 安徽黟县芦村远眺,https://gcalic.v.myalicdn.com/gc/yxlcyt_1/index.m3u8
 衢江新闻综合,http://l.cztvcloud.com/channels/lantian/SXqujiang1/720p.m3u8?zzhed
 象山新闻综合,http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8
@@ -112,6 +113,7 @@ Siping TV,http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
 八里沟风景区天界山玻璃栈道,https://gcalic.v.myalicdn.com/gc/blg03_1/index.m3u8
 丽江古城大水车,https://gcalic.v.myalicdn.com/gc/ljgcdsc_1/index.m3u8
 倩女幽魂妖魔道,http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
+余杭综合频道,http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed
 武进生活 [Not 24/7],https://live.wjyanghu.com/live/CH2.m3u8
 Arirang,https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
 萧山综合,http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
@@ -157,6 +159,7 @@ Guangzhou TV,https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
 Xizang TV Tibetan [Not 24/7],http://php.jdshipin.com:8880/xztv.php?id=zy
 上虞經濟文化 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
 泰山望人松,https://gcalic.v.myalicdn.com/gc/taishan02_1/index.m3u8
+上虞3新商都 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
 河南新闻,http://1.94.31.214/php/hntv.php?id=hnxw
 福州电视台少儿频道,http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 河南电视剧,http://1.94.31.214/php/hntv.php?id=hndsj
@@ -175,6 +178,3 @@ Chifeng Comprehensive News Chanel,http://play1-qk.nmtv.cn/live/1735546697341033.
 兵团五师双河影,https://liveout.btzx.com.cn/62ds9e/6o77s4.m3u8?zxinjd
 雪乡梦幻家园,https://gcalic.v.myalicdn.com/gc/mdjxxmhjyxj_1/index.m3u8
 余杭未来E频道,http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed
-萧山新闻综合 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
-余杭综合频道,http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed
-上虞3新商都 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
