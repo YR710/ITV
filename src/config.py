@@ -39,10 +39,9 @@ def get_cdn_proxy() -> str:
 RAW_SOURCES = [
     "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/cn.m3u",
     "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt",
-    "https://raw.githubusercontent.com/zzgpy1/ipv6-iptv/master/tv/iptv4.txt",
     "https://raw.githubusercontent.com/zzgpy1/iptv-api/master/output/result.txt",
     "https://raw.githubusercontent.com/dogwalkerg/IPTV-collect-tv-txt/main/live.txt",
-    "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u",
+    "https://raw.githubusercontent.com/zzgpy1/Collect-IPTV/main/best_sorted.m3u",
     "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
     "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
     "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
@@ -138,32 +137,21 @@ RUN_MODE = os.getenv("RUN_MODE", "once")
 SCHEDULE_INTERVAL = int(os.getenv("SCHEDULE_INTERVAL", 21600))
 
 # ========== 缓存优化配置 ==========
-# 原始源缓存时长（小时）- 建议延长
 CACHE_RAW_HOURS = int(os.getenv("CACHE_RAW_HOURS", 48))
-# 测速结果缓存时长（小时）
 CACHE_SPEED_HOURS = int(os.getenv("CACHE_SPEED_HOURS", 24))
-# 是否启用增量更新（只拉取变化的源）
 ENABLE_INCREMENTAL_FETCH = os.getenv("ENABLE_INCREMENTAL_FETCH", "true").lower() == "true"
 
 # ========== EPG 配置 ==========
-# 是否启用 EPG 注入
 ENABLE_EPG_INJECTION = os.getenv("ENABLE_EPG_INJECTION", "true").lower() == "true"
-# EPG 缓存天数
 EPG_CACHE_DAYS = int(os.getenv("EPG_CACHE_DAYS", 7))
 
 # ========== 输出格式配置 ==========
-# 是否生成 JSON API 输出
 ENABLE_JSON_OUTPUT = os.getenv("ENABLE_JSON_OUTPUT", "true").lower() == "true"
-# 是否生成精简版
 ENABLE_LITE_VERSION = os.getenv("ENABLE_LITE_VERSION", "true").lower() == "true"
-# 是否生成 EPG 就绪版
 ENABLE_EPG_OUTPUT = os.getenv("ENABLE_EPG_OUTPUT", "true").lower() == "true"
 
 # ========== 自治模式配置 ==========
-# 是否启用自治模式
 AUTONOMOUS_MODE = os.getenv("AUTONOMOUS_MODE", "false").lower() == "true"
-
-# 自治模式子配置
 AUTO_UPDATE_STABLE = os.getenv("AUTO_UPDATE_STABLE", "true").lower() == "true"
 AUTO_REPLACE_FAILED = os.getenv("AUTO_REPLACE_FAILED", "true").lower() == "true"
 QUALITY_CHECK_INTERVAL = int(os.getenv("QUALITY_CHECK_INTERVAL", 24))
