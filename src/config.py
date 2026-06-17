@@ -25,13 +25,8 @@ def is_docker() -> bool:
 
 
 def get_cdn_proxy() -> str:
-    """
-    根据运行环境决定是否使用 CDN 代理
-    - GitHub Actions: 不使用代理（直接访问）
-    - Docker/本地: 使用代理（加速 GitHub 源下载）
-    """
     if is_github_actions():
-        return ""  # GitHub Actions 环境直接访问
+        return ""
     return "https://gh-proxy.19860519.xyz/"
 
 
@@ -47,26 +42,21 @@ RAW_SOURCES = [
     "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
 ]
 
-# 不需要代理的源
 DIRECT_SOURCES = [
     "https://tv.19860519.xyz/abc123",
 ]
 
-# ========== 构建最终 IPTV_SOURCES 列表 ==========
 PROXY = get_cdn_proxy()
 IPTV_SOURCES = []
 
-# 添加 GitHub 源（根据环境决定是否加代理）
 for src in RAW_SOURCES:
     if PROXY:
         IPTV_SOURCES.append(PROXY + src)
     else:
         IPTV_SOURCES.append(src)
 
-# 添加直接访问的源（始终不加代理）
 IPTV_SOURCES.extend(DIRECT_SOURCES)
 
-# 打印环境信息
 if is_github_actions():
     print("🏃 检测到 GitHub Actions 环境，使用直接访问模式")
 elif is_docker():
@@ -84,6 +74,10 @@ TIMEOUT = int(os.getenv("TIMEOUT", 10))
 FFMPEG_ENABLE = os.getenv("FFMPEG_ENABLE", "true").lower() == "true"
 FFMPEG_STRICT = os.getenv("FFMPEG_STRICT", "false").lower() == "true"
 FFMPEG_WORKERS = min(MAX_WORKERS, 5)
+
+# ========== 新增：ffmpeg 模式配置 ==========
+FFMPEG_MODE = os.getenv("FFMPEG_MODE", "deep")  # deep / quick / off
+FFPROBE_CACHE_HOURS = int(os.getenv("FFPROBE_CACHE_HOURS", 168))  # 默认缓存7天
 
 # 重试配置
 ENABLE_RETRY = os.getenv("ENABLE_RETRY", "true").lower() == "true"
@@ -158,6 +152,15 @@ CANDIDATE_OBSERVATION_HOURS = int(os.getenv("CANDIDATE_OBSERVATION_HOURS", 24))
 CANDIDATE_MIN_SUCCESS = int(os.getenv("CANDIDATE_MIN_SUCCESS", 10))
 CANDIDATE_MIN_SUCCESS_RATE = float(os.getenv("CANDIDATE_MIN_SUCCESS_RATE", 0.8))
 CANDIDATE_MAX_LATENCY = int(os.getenv("CANDIDATE_MAX_LATENCY", 2000))
+
+# ========== 动态并发配置 ==========
+DYNAMIC_CONCURRENCY = os.getenv("DYNAMIC_CONCURRENCY", "true").lower() == "true"
+MIN_WORKERS = int(os.getenv("MIN_WORKERS", 5))
+MAX_WORKERS = int(os.getenv("MAX_WORKERS", 20))
+
+# ========== 布隆过滤器配置 ==========
+ENABLE_BLOOM_FILTER = os.getenv("ENABLE_BLOOM_FILTER", "true").lower() == "true"
+BLOOM_FILTER_CAPACITY = int(os.getenv("BLOOM_FILTER_CAPACITY", 100000))
 
 # 打印自治模式状态
 if AUTONOMOUS_MODE:
