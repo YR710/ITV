@@ -289,14 +289,4 @@ async def collect_and_append_special_categories(output_dir: Path, db=None) -> Di
     append_special_categories_to_m3u(special_data, m3u_path)
     append_special_categories_to_txt(special_data, txt_path)
     
-    # 追加到 EPG 版本
-    epg_path = output_dir / "tv_epg.m3u"
-    if epg_path.exists():
-        append_special_categories_to_m3u(special_data, epg_path)
-    
-    # 追加到精简版
-    lite_path = output_dir / "tv_lite.m3u"
-    if lite_path.exists():
-        append_special_categories_to_m3u(special_data, lite_path)
-    
-    return stats
+    return stat
