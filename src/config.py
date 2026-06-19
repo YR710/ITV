@@ -40,6 +40,8 @@ RAW_SOURCES = [
     "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
     "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
     "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+    "https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV-demo.m3u",
+    "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.m3u",
 ]
 
 DIRECT_SOURCES = [
