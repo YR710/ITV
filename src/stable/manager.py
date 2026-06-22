@@ -85,6 +85,23 @@ class StableManager:
         self._save()
         logger.info(f"📌 {channel_name} 已设为固定源: {url[:80]}...")
         return True
+
+    def remove_fixed_source(self, channel_name: str) -> bool:
+        """删除固定源（取消固定标记，但保留源）"""
+        if channel_name not in self.stable_sources:
+            logger.warning(f"⚠️ {channel_name} 不存在，无法取消固定")
+            return False
+        
+        src = self.stable_sources[channel_name]
+        if not src.is_fixed:
+            logger.warning(f"⚠️ {channel_name} 不是固定源")
+            return False
+        
+        # 取消固定标记，但保留源（状态改为 active）
+        src.is_fixed = False
+        self._save()
+        logger.info(f"🗑️ 已取消固定源: {channel_name}")
+        return True
     
     def get_stable_sources(self) -> Dict[str, StableSource]:
         """获取所有稳定源"""
