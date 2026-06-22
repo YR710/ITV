@@ -38,13 +38,11 @@ CUSTOM_PROXY = os.getenv("GITHUB_PROXY_URL", "").strip()
 
 def get_cdn_proxy() -> str:
     """根据运行环境决定是否使用 CDN 代理"""
-    # 1. 显式禁用
+    # 如果显式禁用代理
     if os.getenv("DISABLE_GITHUB_PROXY", "false").lower() == "true":
         return ""
-    # 2. GitHub Actions 直接访问
     if is_github_actions():
-        return ""
-    # 3. 其他环境使用代理
+        return ""  # GitHub Actions 环境直接访问
     return "https://gh-proxy.19860519.xyz/"
 
 def get_proxy_list() -> list:
