@@ -26,13 +26,12 @@ def is_docker() -> bool:
 
 # ========== CDN 代理配置 ==========
 # 默认代理地址
-DEFAULT_PROXY = "https://mirror.ghproxy.com/"
+DEFAULT_PROXY = "https://gh-proxy.19860519.xyz/"
 # 备用代理列表（按优先级）
 PROXY_LIST = [
-    "https://mirror.ghproxy.com/",
     "https://ghproxy.net/",
     "https://gh-proxy.19860519.xyz/",
-    "https://gh.api.99988866.xyz/",
+    "https://ghproxy.19860519.xyz/",
 ]
 # 允许用户通过环境变量自定义代理
 CUSTOM_PROXY = os.getenv("GITHUB_PROXY_URL", "").strip()
