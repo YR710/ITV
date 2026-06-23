@@ -9,7 +9,6 @@ from pathlib import Path
 from datetime import datetime
 from aiohttp import web
 
-# 确保项目根目录在 sys.path 中
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.config import (
@@ -22,7 +21,7 @@ from src.logger import logger
 from src.stable.manager import StableManager
 from src.source_pool.discoverer import SourceDiscoverer
 from src.candidate.observer import CandidateObserver
-from src.web.db import get_quality_history, get_all_channels_with_history, record_quality
+from src.web.db import get_quality_history, get_all_channels_with_history
 
 
 # ============================================================
@@ -40,7 +39,6 @@ async def api_status(request):
     observer = CandidateObserver()
     candidate_stats = observer.get_statistics()
     
-    # 读取最后运行时间
     last_run = None
     stats_file = OUTPUT_DIR / "stats.json"
     if stats_file.exists():
@@ -73,7 +71,6 @@ async def api_channels(request):
     for name, src in sources.items():
         if not src.url:
             continue
-        # 搜索过滤
         if search and search not in name.lower():
             continue
         # 分类推断
@@ -162,9 +159,7 @@ async def api_config_post(request):
         data = await request.json()
     except:
         return web.json_response({'error': '无效数据'}, status=400)
-    
-    # 这里可以写入 .env 或 config.py，但为了演示只返回提示
-    # 实际项目中可以调用更新环境变量的函数
+    # 这里可以持久化，但为演示仅返回成功
     return web.json_response({
         'success': True,
         'message': '配置已接收，请重启服务生效。'
@@ -175,10 +170,8 @@ async def api_quality_channel(request):
     """获取单个频道的质量趋势"""
     channel_name = request.match_info.get('channel_name', '')
     days = request.query.get('days', 7, type=int)
-    
     if not channel_name:
         return web.json_response({'error': '缺少频道名'}, status=400)
-    
     history = get_quality_history(channel_name, days)
     return web.json_response(history)
 
@@ -194,18 +187,18 @@ async def api_quality_all(request):
 #  静态文件与页面服务
 # ============================================================
 
-def get_static_dir() -> Path:
-    """获取静态文件目录"""
-    return Path(__file__).parent / "web" / "static"
-
-
 async def index_handler(request):
-    """默认首页"""
-    static_dir = get_static_dir()
+    """管理界面首页"""
+    # 优先尝试从 src/web/static/index.html 加载
+    static_dir = Path(__file__).parent / "web" / "static"
     index_path = static_dir / "index.html"
     if index_path.exists():
         return web.FileResponse(index_path)
-    return web.Response(text="管理界面未找到，请检查静态文件", status=404)
+    # 如果没有，则返回简单的提示
+    return web.Response(
+        text='<h1>IPTV 管理界面</h1><p>静态文件未找到，请检查 src/web/static/index.html</p>',
+        content_type='text/html'
+    )
 
 
 async def file_handler(request):
@@ -241,13 +234,19 @@ def create_app():
     """创建应用并注册路由"""
     app = web.Application(middlewares=[cors_middleware])
     
-    # 静态文件目录
-    static_dir = get_static_dir()
+    # 静态文件目录（前端资源）
+    static_dir = Path(__file__).parent / "web" / "static"
     if static_dir.exists():
         app.router.add_static('/static', static_dir)
         logger.info(f"📁 静态文件目录: {static_dir}")
     else:
-        logger.warning(f"⚠️ 静态文件目录不存在: {static_dir}")
+        logger.warning(f"⚠️ 静态文件目录不存在: {static_dir}，请创建并放入 index.html, css, js 等文件")
+        # 如果不存在，尝试创建
+        try:
+            static_dir.mkdir(parents=True, exist_ok=True)
+            logger.info(f"✅ 已创建静态文件目录: {static_dir}")
+        except:
+            pass
     
     # API 路由
     app.router.add_get('/api/status', api_status)
@@ -272,13 +271,11 @@ def create_app():
 def start_server():
     """启动 Web 服务器"""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    
     app = create_app()
     
     logger.info(f"🌐 Web 管理界面启动: http://{WEB_SERVER_HOST}:{WEB_SERVER_PORT}/")
     logger.info(f"📄 播放列表: http://{WEB_SERVER_HOST}:{WEB_SERVER_PORT}/tv.m3u")
-    logger.info(f"📄 TXT 列表: http://{WEB_SERVER_HOST}:{WEB_SERVER_PORT}/tv.txt")
-    logger.info(f"📊 API 文档: http://{WEB_SERVER_HOST}:{WEB_SERVER_PORT}/api/status")
+    logger.info(f"📊 API 状态: http://{WEB_SERVER_HOST}:{WEB_SERVER_PORT}/api/status")
     
     web.run_app(app, host=WEB_SERVER_HOST, port=WEB_SERVER_PORT)
 
