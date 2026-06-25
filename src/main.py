@@ -14,11 +14,21 @@ else:
     base_path = Path(__file__).parent.parent
 
 # 将 base_path 添加到 sys.path，确保能导入 src 模块
-sys.path.insert(0, str(base_path))
+if str(base_path) not in sys.path:
+    sys.path.insert(0, str(base_path))
 
 
 def main():
     try:
+        # 调试：打印路径信息（写入文件便于查看）
+        try:
+            with open("path_debug.log", "w", encoding="utf-8") as f:
+                f.write(f"base_path: {base_path}\n")
+                f.write(f"sys.path: {sys.path}\n")
+                f.write(f"frozen: {getattr(sys, 'frozen', False)}\n")
+        except:
+            pass
+
         from PySide6.QtWidgets import QApplication
         from PySide6.QtCore import Qt
         from src.gui.main_window import IPTVMainWindow
