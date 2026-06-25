@@ -3,27 +3,41 @@
 
 import sys
 from pathlib import Path
-
-block_cipher = None
+import os
 
 # 确保 resources 目录存在
 Path('resources').mkdir(exist_ok=True)
 
+block_cipher = None
+
 # 检查图标文件是否存在
 icon_path = Path('resources/icon.ico')
-icon_file = str(icon_path) if icon_path.exists() else None
+if icon_path.exists():
+    icon_file = str(icon_path)
+else:
+    icon_file = None
+
+# 递归收集 src 目录下所有 Python 文件作为数据
+def collect_src():
+    src_files = []
+    src_dir = Path('src')
+    if src_dir.exists():
+        for py_file in src_dir.rglob('*.py'):
+            # 相对路径
+            rel_path = py_file.relative_to('.')
+            src_files.append((str(rel_path), str(rel_path.parent)))
+    return src_files
 
 a = Analysis(
     ['src/main.py'],
     pathex=[],
     binaries=[],
     datas=[
-        ('src', 'src'),              # 将整个 src 目录复制到打包目录
         ('alias.txt', '.'),
         ('blacklist.txt', '.'),
         ('demo.txt', '.'),
         ('resources', 'resources'),
-    ],
+    ] + collect_src(),  # 添加所有 src/*.py 文件
     hiddenimports=[
         # 核心模块
         'src.config',
