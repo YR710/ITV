@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 334,
-  "generated": "2026-06-26T14:15:57.424856",
+  "total": 335,
+  "generated": "2026-06-26T19:44:11.347403",
   "channels": [
     {
       "name": "CCTV-1",
@@ -584,7 +584,8 @@
     {
       "name": "余姚新闻综合",
       "urls": [
-        "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8"
+        "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8",
+        "http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?cWlkPSZzPTg3OWMwYmMyZDMzYTFhZGY3NDQxMjgyYTg1MmUzNTY0JmVzPTE3MDY2Nzc4NzMmdXVpZD0yMjdiY2MzNGNiNGY0MThlYjRiY2IxYzcwNmZjODNkMS02NzQ3NDY2NyZ2PTImYXM9MCZjZG5leF9pZD10eF9waG9uZV9saXZl"
       ],
       "latency": 538,
       "codec": "h264",
@@ -821,6 +822,15 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "浙江遂昌",
+      "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8"
+      ],
+      "latency": 3272,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "嘉兴新闻综合",
       "urls": [
         "http://tvfile.jyrmt.cn:80/nmip-media/channellive/channel104452/playlist.m3u8"
@@ -866,11 +876,11 @@
       "category": "☘️浙江频道"
     },
     {
-      "name": "蕭山生活頻道 [Not 24/7]",
+      "name": "萧山生活",
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8"
       ],
-      "latency": 539,
+      "latency": 3236,
       "codec": "h264",
       "category": "☘️浙江频道"
     },

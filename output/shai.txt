@@ -1,7 +1,7 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 431
-# Demo匹配成功: 334
-# 丢弃数量: 97
+# 原始频道总数: 433
+# Demo匹配成功: 335
+# 丢弃数量: 98
 
 Newsmax,http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 八度空间,https://cdn6.163189.xyz/163189/8tv
@@ -26,6 +26,7 @@ TVB News,http://r.jdshipin.com/CkuBd
 雪乡大石碑,https://gcalic.v.myalicdn.com/gc/mdjxxdsb_1/index.m3u8
 泰山南天门,https://gcalic.v.myalicdn.com/gc/hkts07_1/index.m3u8
 黄果树六角亭瀑布,https://gcalic.v.myalicdn.com/gc/hgsspzxdpb_1/index.m3u8
+蕭山生活頻道 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 萧山新闻综合 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
 Astro AOD,http://php.jdshipin.com/TVOD/iptv.php?id=aod
 雪乡梦幻家园,https://gcalic.v.myalicdn.com/gc/mdjxxmhjyxj_1/index.m3u8
