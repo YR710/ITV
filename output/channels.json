@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 324,
-  "generated": "2026-06-27T13:25:20.714094",
+  "total": 325,
+  "generated": "2026-06-27T19:15:29.712072",
   "channels": [
     {
       "name": "CCTV-1",
@@ -422,7 +422,7 @@
       "urls": [
         "https://video.bread-tv.com:8091/hls-live24/online/index.m3u8"
       ],
-      "latency": 1049,
+      "latency": 861,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -707,7 +707,7 @@
       "urls": [
         "https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8"
       ],
-      "latency": 983,
+      "latency": 384,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1353,6 +1353,15 @@
       "category": "☘️安徽频道"
     },
     {
+      "name": "宿州公共 [Not 24/7]",
+      "urls": [
+        "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8"
+      ],
+      "latency": 905,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
       "name": "七台河新闻综合",
       "urls": [
         "http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8"
@@ -1844,7 +1853,7 @@
       "urls": [
         "http://liveout.btzx.com.cn/62ds9e/4nxdih.m3u8?fbl="
       ],
-      "latency": 4062,
+      "latency": 1628,
       "codec": "h264",
       "category": "☘️新疆频道"
     },
