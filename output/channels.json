@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 319,
-  "generated": "2026-06-28T13:28:20.343700",
+  "total": 325,
+  "generated": "2026-06-28T19:14:24.635977",
   "channels": [
     {
       "name": "CCTV-1",
@@ -105,7 +105,8 @@
     {
       "name": "CCTV-10",
       "urls": [
-        "http://74.91.26.218:82/live/cctv10hd.m3u8"
+        "http://74.91.26.218:82/live/cctv10hd.m3u8",
+        "https://hwapi.yntv.net/ew265l/z1z6s5.m3u8"
       ],
       "latency": 143,
       "codec": "h264",
@@ -893,7 +894,25 @@
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8"
       ],
-      "latency": 5486,
+      "latency": 854,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "文成新闻综合",
+      "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8"
+      ],
+      "latency": 452,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "开化新闻综合",
+      "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXkaihua1/720p.m3u8?zzhed"
+      ],
+      "latency": 415,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -907,11 +926,38 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "庆元新闻综合",
+      "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8?fbl="
+      ],
+      "latency": 1452,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "平湖民生休闲",
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8"
       ],
       "latency": 4305,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "平湖新闻综合",
+      "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed"
+      ],
+      "latency": 1035,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "嵊州新闻综合",
+      "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8"
+      ],
+      "latency": 1693,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -995,6 +1041,15 @@
         "http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed"
       ],
       "latency": 1877,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "上虞3新商都 [Not 24/7]",
+      "urls": [
+        "https://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8"
+      ],
+      "latency": 2305,
       "codec": "h264",
       "category": "☘️浙江频道"
     },

@@ -1,7 +1,7 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 410
-# Demo匹配成功: 319
-# 丢弃数量: 91
+# 原始频道总数: 417
+# Demo匹配成功: 325
+# 丢弃数量: 92
 
 1989年春晚,https://txmov2.a.kwimgs.com/bs3/video-hls/5194620763762726260_hlsb.m3u8
 CNA,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
@@ -79,6 +79,7 @@ Pet Club TV,https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern
 RT Balkan,https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8
 Zhejiang TV International,https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
 八里沟风景区桃花湾瀑布,https://gcalic.v.myalicdn.com/gc/blg05_1/index.m3u8
+上虞經濟文化 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
 Guangzhou TV,https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
 八里沟风景区天界山玻璃栈道,https://gcalic.v.myalicdn.com/gc/blg03_1/index.m3u8
 春晚2024,https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
