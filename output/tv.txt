@@ -42,14 +42,12 @@ CGTN英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
 云南卫视,http://112.27.235.94:8000/hls/40/index.m3u8
 上海卫视,http://112.27.235.94:8000/hls/28/index.m3u8
 兵团卫视,http://218.13.170.98:9901/tsfile/live/0115_1.m3u8
-凤凰卫视台,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 安多卫视,https://liveout.xntv.tv/a65jur/96iln2.m3u8
-澳门卫视,http://php.jdshipin.com:8880/TVOD/iptv.php?id=as
+海峡卫视,http://38.64.72.148:80/hls/modn/list/4009/playlist.m3u8
 延边2,http://stream5.jlntv.cn/wq/playlist.m3u8
 Bread TV面包台,https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 大立电视台,http://www.dalitv.com.tw:4568/live/dali/index.m3u8
-TVB娱乐新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
-明珠台,http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
+TVB星河,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
 桦甸,http://stream10.jlntv.cn/huadian/sd/live.m3u8?zjild
 浙江国际,http://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
@@ -80,11 +78,11 @@ TVB娱乐新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
 龙门飞甲,http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8
 ☘️浙江频道,#genre#
 浙江钱江,https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
-浙江经济生活,http://ali-vl.cztv.com/channels/lantian/channel003/360p.m3u8
+浙江经济生活,http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8
 浙江教育,http://ali-m-l.cztv.com/channels/lantian/channel04/720p.m3u8
-浙江民生,http://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
-浙江新闻,http://ali-m-l.cztv.com/channels/lantian/channel07/720p.m3u8
-浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?
+浙江民生,http://ali-m-l.cztv.com/channels/lantian/channel06/1080p.m3u8
+浙江新闻,https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+浙江少儿,http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 浙江教科,http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
 浙江经视,https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
 浙江国际,http://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
@@ -98,12 +96,10 @@ TVB娱乐新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
 湖州新闻综合,http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b4731ae53729ea6dcf932.m3u8?auth_key=2277598215-9d21c15111244bea8d298c361d31a72e-0-d031198f58d44b0e91ba2e3f3b188865
 湖州文化娱乐,http://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887
 绍兴电视台公共,http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
-萧山生活,https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
+蕭山生活頻道 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 萧山新闻综合,https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
 苍南新闻综合,https://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8
 龙游生活娱乐,https://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8
-龙游新闻综合,https://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8
-象山综合,http://play-sh13.quklive.com/live/1702360350551252.m3u8?auth_key=2037107484-800189c57a5a44d3b823b60cf84f6756-0-a6f6828a62d5c167cff5e68735fa0d39
 缙云综合,http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8?zzhed
 海宁新闻综合,https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
 永嘉新闻综合,http://l.cztvcloud.com/channels/lantian/SXyongjia1/720p.m3u8
@@ -114,15 +110,15 @@ TVB娱乐新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
 开化国家公园,http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8
 庆元新闻综合,http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8?fbl=
 平湖民生休闲,http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8
-平湖新闻综合,http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed
+平湖新闻综合,http://play-sh13.quklive.com/live/1690167908295069.m3u8?auth_key=2027466211-f190eec410c24473825cbe1d8541e545-0-f21db57ae1b534802c1cf7be86cc3aef
 嵊州新闻综合,http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
 兰溪新闻综合,http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8
 余杭综合,http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8
 余杭未来E,http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8
-余姚综合,https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
 余姚新闻综合,https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
 余姚姚江文化,https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
 云和新闻综合,http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8
+义乌新闻综合,https://44911.hlsplay.aodianyun.com/tv_radio_44911/tv_channel_1796.m3u8?auth_key=4830573978-0-0-92824c2c03f95906a3c49a4aa28f1709&extra_key=Yc1XsmxOKy2UBoPM4Wy5vCPsEYqnj06taCR2SRB2Xrg2w28NPilH03KdIbbM5wgSql-VBohSnoO9AOKl94q2t2DWMftz-XB-2qUX-UjXcS80StcSZahBFjrKLivXaRjiY5r2NOMKWMKFbv-S0Bz2G6iEXgCK8yGjtrFHDcPfAQEE0pvXq0Bwy34b7We8zARN&ali_ffmpeg_version=mpengine
 中国蓝新闻,http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
 上虞新闻综合,http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed
 上虞3新商都 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
@@ -137,13 +133,13 @@ TVB娱乐新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
 宜兴新闻,http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8
 新沂新闻,http://live.xysrmt.cn/xwzh/sd/live.m3u8?zjiangsd"
 新沂生活,http://live.xysrmt.cn/shpd/sd/live.m3u8?zjiangsd
-武进新闻 [Not 24/7],https://live.wjyanghu.com/live/CH1.m3u8
+武进新闻,https://live.wjyanghu.com/live/CH1.m3u8
 柳河,http://stream5.jlntv.cn/lh/sd/live.m3u8?zjild
 靖宇,http://stream8.jlntv.cn/jytv/sd/live.m3u8?zjild
 江苏徐州云龙湖风景区云龙山观景台西,https://gcalic.v.myalicdn.com/gc/ylh04_1/index.m3u8
 叙州新闻综合,http://pili-live-hls.ybcxjd.com/jdh-live/2108111201035597.m3u8?zsicd
-武进生活 [Not 24/7],https://live.wjyanghu.com/live/CH2.m3u8
-泗阳综合,http://3739115337.cloudvdn.com/a.m3u8?domain=siyang-tv-hls.cm.jstv.com&player=nwEAAKHdjSKP_58X&secondToken=secondToken%3A5FUijZmDyNMxtCDdne0YzSAwjuw&streamid=siyang-tv%3Asiyang-tv%2Fsiyangzh&v3=1
+武进生活,http://live.wjyanghu.com/live/CH2.m3u8
+睢宁综合,https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8
 苏州,https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8
 苏州文化生活,https://live-auth.51kandianshi.com/szgd/csztv3.m3u8
 苏州新闻综合,https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
@@ -165,43 +161,30 @@ TVB娱乐新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
 亳州农村,http://zbbf2.ahbztv.com/live/418.m3u8
 RT News,https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
 ☘️福建频道,#genre#
+三明新闻综合,https://ls.qingting.fm/live/5022100/64k.m3u8
 云霄综合,https://live.zzyxxw.com:2443/live/xwzh.m3u8
 福州少儿,http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 福建公共,https://live.264788.xyz/channel/fujianxiangcungonggong?streamid=2987cc24bada6a8c25589409a6452d9e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-福建旅游,https://live.264788.xyz/channel/fujianlvyou?streamid=8f26765ebf367079cef58c6b7752da1e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 ☘️江西频道,#genre#
 ☘️山东频道,#genre#
 ☘️河南频道,#genre#
-梨园,https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=41543190cdf375f1c73207222bb96542&wsTime=1769313549
 河南公共,http://1.94.31.214/php/hntv.php?id=hngg
 河南法治,http://1.94.31.214/php/hntv.php?id=hmfz
-河南梨园,http://1.94.31.214/php/hntv.php?id=hnly
-睛彩中原,http://1.94.31.214/php/hntv.php?id=jczy
 河南乡村,http://1.94.31.214/php/hntv.php?id=hnxc
 ☘️湖北频道,#genre#
 武汉一台新闻综合,https://ls.qingting.fm/live/20198/64k.m3u8
 江夏新闻综合,http://59.175.226.142:280/gb28181/xwzh.m3u8?zhubd
 荆门新闻综合,http://stream.jmtv.com.cn/xwzh/sd/live.m3u8
 ☘️湖南频道,#genre#
-CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
 湖南卫视,http://112.27.235.94:8000/hls/31/index.m3u8
-湖南娱乐频道,http://phoneal.qing.mgtv.com/nn_live/nn_x64/dGVybT01Jm5kaT02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJmNkbmV4X2lkPWFsX3Bob25lMyZzPTdiNDZjMTFiMWQwZmEyN2Q0NjUwN2Q4NWJlMGY2NWY0JmFzPTAmX2NhckNvZGU9MCZ1aXA9MTA2LjE0LjM4LjU1Jm1hY2lkPTY4NmU4Y2Y4Yzg4ZTc3ZWM5YTA3OTMyODlmNTM0ODQyYWJlYzRmM2MmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNocz0mdXVpZD1jOWIzNTBkOTU1MGUxMzcwYjI4YzZkNTQzOWM1N2VmOS02YTBlMjYzNyZ2PTImbmR2PWlvcy02LjUuMCZ1aWQ9JmRlZj0xJmVzPTE3ODI3MTQ2NTg,/KLCDMPP360.m3u8
 湖南张家界宝峰湖,https://gcalic.v.myalicdn.com/gc/zjjbfh_1/index.m3u8
 湖南张家界御笔峰,https://gcalic.v.myalicdn.com/gc/zjjybf_1/index.m3u8
 湖南张家界水绕四门,https://gcalic.v.myalicdn.com/gc/zjjsrsm_1/index.m3u8
-湖南都市,http://phoneal.qing.mgtv.com/nn_live/nn_x64/dGVybT01Jm5kaT02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJmNkbmV4X2lkPWFsX3Bob25lMyZzPTdiNDZjMTFiMWQwZmEyN2Q0NjUwN2Q4NWJlMGY2NWY0JmFzPTAmX2NhckNvZGU9MCZ1aXA9MTA2LjE0LjM4LjU1Jm1hY2lkPTY4NmU4Y2Y4Yzg4ZTc3ZWM5YTA3OTMyODlmNTM0ODQyYWJlYzRmM2MmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNocz0mdXVpZD1jOWIzNTBkOTU1MGUxMzcwYjI4YzZkNTQzOWM1N2VmOS02YTBlMjYzNyZ2PTImbmR2PWlvcy02LjUuMCZ1aWQ9JmRlZj0xJmVzPTE3ODI3MTQ2NTg,/KLCDMPP360.m3u8
-长沙新闻频道,http://phoneal.qing.mgtv.com/nn_live/nn_x64/dGVybT01Jm5kaT02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJmNkbmV4X2lkPWFsX3Bob25lMyZzPTdiNDZjMTFiMWQwZmEyN2Q0NjUwN2Q4NWJlMGY2NWY0JmFzPTAmX2NhckNvZGU9MCZ1aXA9MTA2LjE0LjM4LjU1Jm1hY2lkPTY4NmU4Y2Y4Yzg4ZTc3ZWM5YTA3OTMyODlmNTM0ODQyYWJlYzRmM2MmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNocz0mdXVpZD1jOWIzNTBkOTU1MGUxMzcwYjI4YzZkNTQzOWM1N2VmOS02YTBlMjYzNyZ2PTImbmR2PWlvcy02LjUuMCZ1aWQ9JmRlZj0xJmVzPTE3ODI3MTQ2NTg,/KLCDMPP360.m3u8
-湖南电视剧,http://phoneal.qing.mgtv.com/nn_live/nn_x64/dGVybT01Jm5kaT02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJmNkbmV4X2lkPWFsX3Bob25lMyZzPTdiNDZjMTFiMWQwZmEyN2Q0NjUwN2Q4NWJlMGY2NWY0JmFzPTAmX2NhckNvZGU9MCZ1aXA9MTA2LjE0LjM4LjU1Jm1hY2lkPTY4NmU4Y2Y4Yzg4ZTc3ZWM5YTA3OTMyODlmNTM0ODQyYWJlYzRmM2MmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNocz0mdXVpZD1jOWIzNTBkOTU1MGUxMzcwYjI4YzZkNTQzOWM1N2VmOS02YTBlMjYzNyZ2PTImbmR2PWlvcy02LjUuMCZ1aWQ9JmRlZj0xJmVzPTE3ODI3MTQ2NTg,/KLCDMPP360.m3u8
-湖南经视,http://phoneal.qing.mgtv.com/nn_live/nn_x64/dGVybT01Jm5kaT02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJmNkbmV4X2lkPWFsX3Bob25lMyZzPTdiNDZjMTFiMWQwZmEyN2Q0NjUwN2Q4NWJlMGY2NWY0JmFzPTAmX2NhckNvZGU9MCZ1aXA9MTA2LjE0LjM4LjU1Jm1hY2lkPTY4NmU4Y2Y4Yzg4ZTc3ZWM5YTA3OTMyODlmNTM0ODQyYWJlYzRmM2MmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNocz0mdXVpZD1jOWIzNTBkOTU1MGUxMzcwYjI4YzZkNTQzOWM1N2VmOS02YTBlMjYzNyZ2PTImbmR2PWlvcy02LjUuMCZ1aWQ9JmRlZj0xJmVzPTE3ODI3MTQ2NTg,/KLCDMPP360.m3u8
-湖南爱晚,http://phoneal.qing.mgtv.com/nn_live/nn_x64/dGVybT01Jm5kaT02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJmNkbmV4X2lkPWFsX3Bob25lMyZzPTdiNDZjMTFiMWQwZmEyN2Q0NjUwN2Q4NWJlMGY2NWY0JmFzPTAmX2NhckNvZGU9MCZ1aXA9MTA2LjE0LjM4LjU1Jm1hY2lkPTY4NmU4Y2Y4Yzg4ZTc3ZWM5YTA3OTMyODlmNTM0ODQyYWJlYzRmM2MmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNocz0mdXVpZD1jOWIzNTBkOTU1MGUxMzcwYjI4YzZkNTQzOWM1N2VmOS02YTBlMjYzNyZ2PTImbmR2PWlvcy02LjUuMCZ1aWQ9JmRlZj0xJmVzPTE3ODI3MTQ2NTg,/KLCDMPP360.m3u8
-湖南国际频道,http://phoneal.qing.mgtv.com/nn_live/nn_x64/dGVybT01Jm5kaT02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJmNkbmV4X2lkPWFsX3Bob25lMyZzPTdiNDZjMTFiMWQwZmEyN2Q0NjUwN2Q4NWJlMGY2NWY0JmFzPTAmX2NhckNvZGU9MCZ1aXA9MTA2LjE0LjM4LjU1Jm1hY2lkPTY4NmU4Y2Y4Yzg4ZTc3ZWM5YTA3OTMyODlmNTM0ODQyYWJlYzRmM2MmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNocz0mdXVpZD1jOWIzNTBkOTU1MGUxMzcwYjI4YzZkNTQzOWM1N2VmOS02YTBlMjYzNyZ2PTImbmR2PWlvcy02LjUuMCZ1aWQ9JmRlZj0xJmVzPTE3ODI3MTQ2NTg,/KLCDMPP360.m3u8
-金鹰纪实频道,http://phoneal.qing.mgtv.com/nn_live/nn_x64/dGVybT01Jm5kaT02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJmNkbmV4X2lkPWFsX3Bob25lMyZzPTdiNDZjMTFiMWQwZmEyN2Q0NjUwN2Q4NWJlMGY2NWY0JmFzPTAmX2NhckNvZGU9MCZ1aXA9MTA2LjE0LjM4LjU1Jm1hY2lkPTY4NmU4Y2Y4Yzg4ZTc3ZWM5YTA3OTMyODlmNTM0ODQyYWJlYzRmM2MmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNocz0mdXVpZD1jOWIzNTBkOTU1MGUxMzcwYjI4YzZkNTQzOWM1N2VmOS02YTBlMjYzNyZ2PTImbmR2PWlvcy02LjUuMCZ1aWQ9JmRlZj0xJmVzPTE3ODI3MTQ2NTg,/KLCDMPP360.m3u8
 湖南张家界天门山西线玻璃栈道,https://gcalic.v.myalicdn.com/gc/tms05_1/index.m3u8
 ☘️广西频道,#genre#
 广西桂林漓江景区,https://gcalic.v.myalicdn.com/gc/gllj01_1/index.m3u8
 来宾综合,http://zb.gxlbamc.com:1935/live/lbzh.stream/playlist.m3u8
 灌阳新闻综合,https://ls.qingting.fm/live/5043/64k.m3u8
-象山综合,http://play-sh13.quklive.com/live/1702360350551252.m3u8?auth_key=2037107484-800189c57a5a44d3b823b60cf84f6756-0-a6f6828a62d5c167cff5e68735fa0d39
 广西国际,https://hlscdn.liangtv.cn/live/0234c48e0bc24fe1b41b9999a253e581/1075ee38e04f490690f6a36a16e09c79.m3u8
 ☘️海南频道,#genre#
 天涯石,https://gcalic.v.myalicdn.com/gc/tyhjtys_1/index.m3u8
@@ -215,7 +198,7 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 四川四姑娘山隆珠措,https://gcalic.v.myalicdn.com/gc/sgns02_1/index.m3u8
 四川峨眉山云海日出,https://gcalic.v.myalicdn.com/gc/emsarm_1/index.m3u8
 旺苍新闻综合,http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8
-荥经综合,https://file.ysxtv.cn/nmip-media/channellive/channel101492/playlist.m3u8
+荥经综合,https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8
 都江堰鱼嘴,https://gcalic.v.myalicdn.com/gc/djyqyl1_1/index.m3u8
 雅安新闻综合,https://play.yunxya.com/channellive/xinwen.m3u8
 河综合,http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
@@ -223,18 +206,14 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 安顺新闻,https://ls.qingting.fm/live/5022203/64k.m3u8
 贵州省兴义市万峰林,https://gcalic.v.myalicdn.com/gc/xywfl_1/index.m3u8
 ☘️云南频道,#genre#
+丽江古城万古楼遥望玉龙雪山,https://gcalic.v.myalicdn.com/gc/ljgcwglytylxs_1/index.m3u8
 云南丽江玉龙雪山草甸,https://gcalic.v.myalicdn.com/gc/hkylxs06_1/index.m3u8
 云南丽江蓝月谷,https://gcalic.v.myalicdn.com/gc/ylxs12_1/index.m3u8
 云南卫视,http://112.27.235.94:8000/hls/40/index.m3u8
 云南娱乐,https://hwapi.yntv.net/62hdvf/q9vs1b.m3u8
 云南都市,https://hwapi.yntv.net/62hdvf/rjwt14.m3u8
 ☘️陕西频道,#genre#
-无线新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
-西安都市,http://112.46.105.20:8009/hls/29/index.m3u8
-都市青春,http://112.46.105.20:8009/hls/19/index.m3u8
 陕西卫视,http://112.27.235.94:8000/hls/43/index.m3u8
-陕西秦腔,http://112.46.105.20:8009/hls/22/index.m3u8
-陕西银龄,http://112.46.105.20:8009/hls/20/index.m3u8
 黄龙,https://gcalic.v.myalicdn.com/gc/hlzycc_1/index.m3u8
 黄龙,https://gcalic.v.myalicdn.com/gc/hlzycc_1/index.m3u8
 新昌休闲影视 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
@@ -247,7 +226,7 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 大立电视台,http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 ☘️新疆频道,#genre#
 伊犁哈萨克,http://110.153.180.106:55555/out_3/index.m3u8
-伊犁经济法制,http://110.153.180.106:55555/out_4/index.m3u8
+伊犁经济法制,http://110.153.180.106:55555/out_4/index.m3u8?zxinjd
 伊犁维吾尔,http://110.153.180.106:55555/out_2/index.m3u8
 兵团五师双河新闻综合,http://liveout.btzx.com.cn/62ds9e/4nxdih.m3u8?fbl=
 可克达拉综合,http://file.loulannews.cn/nmip-media/channellive/channel103824/playlist.m3u8
@@ -263,10 +242,12 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 内蒙古卫视,http://112.27.235.94:8000/hls/49/index.m3u8
 ☘️山西频道,#genre#
 万荣综合,http://60.222.246.220:19433/hls1.m3u8
+古县综合,https://l2fpdktp.live.sxmty.com/live/hls/e4c3b363cc4549788e2d983f403e07db/d99ce1eb686e41b9afc888110bd95aa7.m3u8?zshanxd
 太谷新闻综合,https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0
 定襄综合,http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8?zshanxd
 陕西卫视,http://112.27.235.94:8000/hls/43/index.m3u8
 长子综合,https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd
+汾西综合,https://qmmqvzoz.live.sxmty.com/live/hls/f24f8a390c084386a564074c9260100c/be3fdf07606145739ab2c4b80fe0136a.m3u8?zshanxd
 ☘️辽宁频道,#genre#
 乌镇西市河,https://gcalic.v.myalicdn.com/gc/zjwzbblh_1/index.m3u8
 泰山太平岭,https://gcalic.v.myalicdn.com/gc/hkts09_1/index.m3u8
@@ -312,6 +293,7 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 黑龙江少儿,https://ls.qingting.fm/live/4972/64k.m3u8
 黑龙江新闻,https://ls.qingting.fm/live/4974/64k.m3u8
 河公共,http://tmpstream.hyrtv.cn/hygg/sd/live.m3u8
+双鸭山综合,http://live.qthnews.org.cn:1935/live/live2/800k/tzwj_video.m3u8
 ☘️河北频道,#genre#
 任丘综合,https://jwcdnqx.hebyun.com.cn/live/rqtv1/1500k/tzwj_video.m3u8
 平泉综合,https://jwcdnqx.hebyun.com.cn/live/pqzh/1500k/tzwj_video.m3u8
@@ -332,367 +314,361 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 邯郸新闻,https://jwcdnqx.hebyun.com.cn/live/hdxwzh/1500k/tzwj_video.m3u8
 邯郸科技教育,https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8
 🌊港·澳·台,#genre#
-华丽翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=huali2
-明珠台,http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
-凤凰资讯台,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
-凤凰香港台,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
+华丽翡翠台,http://r.jdshipin.com/thuYX
 环球电视,http://utv1.hqtvzb.com:9999/hls/world.m3u8
 台视新闻,http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
 美亚C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
-*HOY TV,http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
 TVBS-Asia,http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 三立戏剧,http://61.221.215.25:8800/hls/41/index.m3u8
-华丽翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=huali2
+华丽翡翠台,http://r.jdshipin.com/thuYX
 台视新闻,http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
 纬来精采,http://61.221.215.25:8800/hls/48/index.m3u8
-翡翠台北美版,http://php.jdshipin.com:8880/TVOD/iptv.php?id=j1
-澳门卫视,http://php.jdshipin.com:8880/TVOD/iptv.php?id=as
 
 # ========== 智能补充分类 ==========
 
 🎵 音乐频道,#genre#
-汪明荃30首经典,http://45.192.97.170:8880/play/5505.m3u8
-梅朵40首经典,http://45.192.97.170:8880/play/5506.m3u8
-张茜42首经典,http://45.192.97.170:8880/play/5507.m3u8
-甄妮40首经典,http://45.192.97.170:8880/play/5508.m3u8
-林志炫34首经典,http://45.192.97.170:8880/play/5509.m3u8
-金海心38首经典,http://45.192.97.170:8880/play/5510.m3u8
-毛阿敏40首经典,http://45.192.97.170:8880/play/5511.m3u8
-李翊君20首经典,http://45.192.97.170:8880/play/5512.m3u8
-许蒿30首经典,http://45.192.97.170:8880/play/5513.m3u8
-张杰40首经典,http://45.192.97.170:8880/play/5514.m3u8
-陶喆30首经典,http://45.192.97.170:8880/play/5515.m3u8
-林俊杰31首经典,http://45.192.97.170:8880/play/5516.m3u8
-陈慧娴30首经典,http://45.192.97.170:8880/play/5517.m3u8
-王力宏16首经典,http://45.192.97.170:8880/play/5518.m3u8
-林忆莲30首经典,http://45.192.97.170:8880/play/5519.m3u8
-腾格尔30首经典,http://45.192.97.170:8880/play/5520.m3u8
-汤潮40首经典,http://45.192.97.170:8880/play/5521.m3u8
-陈淑桦32首经典,http://45.192.97.170:8880/play/5522.m3u8
-冷漠40首经典,http://45.192.97.170:8880/play/5523.m3u8
-梦然40首经典,http://45.192.97.170:8880/play/5524.m3u8
-卓依婷40首经典,http://45.192.97.170:8880/play/5525.m3u8
-姜育恒40首经典,http://45.192.97.170:8880/play/5526.m3u8
-童安格40首经典,http://45.192.97.170:8880/play/5527.m3u8
-魏佳艺40首经典,http://45.192.97.170:8880/play/5528.m3u8
-刘若英42首经典,http://45.192.97.170:8880/play/5529.m3u8
-云朵40首经典,http://45.192.97.170:8880/play/5530.m3u8
-乔玲儿42首经典,http://45.192.97.170:8880/play/5531.m3u8
-云菲菲40首经典,http://45.192.97.170:8880/play/5532.m3u8
-陈瑞36首经典,http://45.192.97.170:8880/play/5533.m3u8
-韩宝仪40首经典,http://45.192.97.170:8880/play/5534.m3u8
-任贤齐36首经典,http://45.192.97.170:8880/play/5535.m3u8
+汪明荃30首经典,http://45.192.97.170:8880/play/5407.m3u8
+梅朵40首经典,http://45.192.97.170:8880/play/5408.m3u8
+张茜42首经典,http://45.192.97.170:8880/play/5409.m3u8
+甄妮40首经典,http://45.192.97.170:8880/play/5410.m3u8
+林志炫34首经典,http://45.192.97.170:8880/play/5411.m3u8
+金海心38首经典,http://45.192.97.170:8880/play/5412.m3u8
+毛阿敏40首经典,http://45.192.97.170:8880/play/5413.m3u8
+李翊君20首经典,http://45.192.97.170:8880/play/5414.m3u8
+许蒿30首经典,http://45.192.97.170:8880/play/5415.m3u8
+张杰40首经典,http://45.192.97.170:8880/play/5416.m3u8
+陶喆30首经典,http://45.192.97.170:8880/play/5417.m3u8
+林俊杰31首经典,http://45.192.97.170:8880/play/5418.m3u8
+陈慧娴30首经典,http://45.192.97.170:8880/play/5419.m3u8
+王力宏16首经典,http://45.192.97.170:8880/play/5420.m3u8
+林忆莲30首经典,http://45.192.97.170:8880/play/5421.m3u8
+腾格尔30首经典,http://45.192.97.170:8880/play/5422.m3u8
+汤潮40首经典,http://45.192.97.170:8880/play/5423.m3u8
+陈淑桦32首经典,http://45.192.97.170:8880/play/5424.m3u8
+冷漠40首经典,http://45.192.97.170:8880/play/5425.m3u8
+梦然40首经典,http://45.192.97.170:8880/play/5426.m3u8
+卓依婷40首经典,http://45.192.97.170:8880/play/5427.m3u8
+姜育恒40首经典,http://45.192.97.170:8880/play/5428.m3u8
+童安格40首经典,http://45.192.97.170:8880/play/5429.m3u8
+魏佳艺40首经典,http://45.192.97.170:8880/play/5430.m3u8
+刘若英42首经典,http://45.192.97.170:8880/play/5431.m3u8
+云朵40首经典,http://45.192.97.170:8880/play/5432.m3u8
+乔玲儿42首经典,http://45.192.97.170:8880/play/5433.m3u8
+云菲菲40首经典,http://45.192.97.170:8880/play/5434.m3u8
+陈瑞36首经典,http://45.192.97.170:8880/play/5435.m3u8
+韩宝仪40首经典,http://45.192.97.170:8880/play/5436.m3u8
+任贤齐36首经典,http://45.192.97.170:8880/play/5437.m3u8
 
 🎤 韩国女团,#genre#
-歌团★021,http://45.192.97.170:8880/play/5624.m3u8
-歌团★022,http://45.192.97.170:8880/play/5625.m3u8
-歌团★023,http://45.192.97.170:8880/play/5626.m3u8
-歌团★024,http://45.192.97.170:8880/play/5627.m3u8
-歌团★026,http://45.192.97.170:8880/play/5628.m3u8
-歌团★027,http://45.192.97.170:8880/play/5629.m3u8
-歌团★029,http://45.192.97.170:8880/play/5630.m3u8
-歌团★030,http://45.192.97.170:8880/play/5631.m3u8
-歌团★031,http://45.192.97.170:8880/play/5632.m3u8
-歌团★033,http://45.192.97.170:8880/play/5633.m3u8
-歌团★034,http://45.192.97.170:8880/play/5634.m3u8
-歌团★035,http://45.192.97.170:8880/play/5635.m3u8
-歌团★036,http://45.192.97.170:8880/play/5636.m3u8
-歌团★037,http://45.192.97.170:8880/play/5637.m3u8
-歌团★038,http://45.192.97.170:8880/play/5638.m3u8
-歌团★042,http://45.192.97.170:8880/play/5639.m3u8
-歌团★043,http://45.192.97.170:8880/play/5640.m3u8
-歌团★045,http://45.192.97.170:8880/play/5641.m3u8
-歌团★048,http://45.192.97.170:8880/play/5642.m3u8
-歌团★049,http://45.192.97.170:8880/play/5643.m3u8
-歌团★050,http://45.192.97.170:8880/play/5644.m3u8
-歌团★051,http://45.192.97.170:8880/play/5645.m3u8
-歌团★052,http://45.192.97.170:8880/play/5646.m3u8
-歌团★053,http://45.192.97.170:8880/play/5647.m3u8
-歌团★054,http://45.192.97.170:8880/play/5648.m3u8
-歌团★056,http://45.192.97.170:8880/play/5649.m3u8
-歌团★057,http://45.192.97.170:8880/play/5650.m3u8
-歌团★058,http://45.192.97.170:8880/play/5651.m3u8
-歌团★059,http://45.192.97.170:8880/play/5652.m3u8
-歌团★060,http://45.192.97.170:8880/play/5653.m3u8
-歌团★061,http://45.192.97.170:8880/play/5654.m3u8
-歌团★062,http://45.192.97.170:8880/play/5655.m3u8
-歌团★064,http://45.192.97.170:8880/play/5656.m3u8
-歌团★065,http://45.192.97.170:8880/play/5657.m3u8
-歌团★066,http://45.192.97.170:8880/play/5658.m3u8
-歌团★067,http://45.192.97.170:8880/play/5659.m3u8
-歌团★068,http://45.192.97.170:8880/play/5660.m3u8
-歌团★069,http://45.192.97.170:8880/play/5661.m3u8
-歌团★070,http://45.192.97.170:8880/play/5662.m3u8
-歌团★071,http://45.192.97.170:8880/play/5663.m3u8
-歌团★072,http://45.192.97.170:8880/play/5664.m3u8
-歌团★074,http://45.192.97.170:8880/play/5665.m3u8
-歌团★075,http://45.192.97.170:8880/play/5666.m3u8
-歌团★076,http://45.192.97.170:8880/play/5667.m3u8
-歌团★078,http://45.192.97.170:8880/play/5668.m3u8
-歌团★079,http://45.192.97.170:8880/play/5669.m3u8
-歌团★080,http://45.192.97.170:8880/play/5670.m3u8
-歌团★081,http://45.192.97.170:8880/play/5671.m3u8
-歌团★082,http://45.192.97.170:8880/play/5672.m3u8
-歌团★083,http://45.192.97.170:8880/play/5673.m3u8
-歌团★084,http://45.192.97.170:8880/play/5674.m3u8
-歌团★085,http://45.192.97.170:8880/play/5675.m3u8
-歌团★086,http://45.192.97.170:8880/play/5676.m3u8
-歌团★087,http://45.192.97.170:8880/play/5677.m3u8
-歌团★088,http://45.192.97.170:8880/play/5678.m3u8
-歌团★090,http://45.192.97.170:8880/play/5679.m3u8
-歌团★092,http://45.192.97.170:8880/play/5680.m3u8
-歌团★093,http://45.192.97.170:8880/play/5681.m3u8
-歌团★094,http://45.192.97.170:8880/play/5682.m3u8
-歌团★095,http://45.192.97.170:8880/play/5683.m3u8
-歌团★096,http://45.192.97.170:8880/play/5684.m3u8
-歌团★097,http://45.192.97.170:8880/play/5685.m3u8
-歌团★098,http://45.192.97.170:8880/play/5686.m3u8
-歌团★099,http://45.192.97.170:8880/play/5687.m3u8
-歌团★100,http://45.192.97.170:8880/play/5688.m3u8
-歌团★101,http://45.192.97.170:8880/play/5689.m3u8
-歌团★102,http://45.192.97.170:8880/play/5690.m3u8
-歌团★103,http://45.192.97.170:8880/play/5691.m3u8
-歌团★104,http://45.192.97.170:8880/play/5692.m3u8
-歌团★105,http://45.192.97.170:8880/play/5693.m3u8
-歌团★106,http://45.192.97.170:8880/play/5694.m3u8
-歌团★107,http://45.192.97.170:8880/play/5695.m3u8
-歌团★108,http://45.192.97.170:8880/play/5696.m3u8
-歌团★109,http://45.192.97.170:8880/play/5697.m3u8
-歌团★110,http://45.192.97.170:8880/play/5698.m3u8
-歌团★111,http://45.192.97.170:8880/play/5699.m3u8
-歌团★112,http://45.192.97.170:8880/play/5700.m3u8
-歌团★113,http://45.192.97.170:8880/play/5701.m3u8
-歌团★114,http://45.192.97.170:8880/play/5702.m3u8
-歌团★116,http://45.192.97.170:8880/play/5703.m3u8
-歌团★118,http://45.192.97.170:8880/play/5704.m3u8
-歌团★119,http://45.192.97.170:8880/play/5705.m3u8
-歌团★120,http://45.192.97.170:8880/play/5706.m3u8
-歌团★121,http://45.192.97.170:8880/play/5707.m3u8
-歌团★122,http://45.192.97.170:8880/play/5708.m3u8
-歌团★123,http://45.192.97.170:8880/play/5709.m3u8
-歌团★125,http://45.192.97.170:8880/play/5710.m3u8
-歌团★126,http://45.192.97.170:8880/play/5711.m3u8
-歌团★127,http://45.192.97.170:8880/play/5712.m3u8
-歌团★128,http://45.192.97.170:8880/play/5713.m3u8
-歌团★129,http://45.192.97.170:8880/play/5714.m3u8
-歌团★130,http://45.192.97.170:8880/play/5715.m3u8
-歌团★131,http://45.192.97.170:8880/play/5716.m3u8
-歌团★133,http://45.192.97.170:8880/play/5717.m3u8
-歌团★134,http://45.192.97.170:8880/play/5718.m3u8
-歌团★135,http://45.192.97.170:8880/play/5719.m3u8
-歌团★136,http://45.192.97.170:8880/play/5720.m3u8
-歌团★137,http://45.192.97.170:8880/play/5721.m3u8
-歌团★138,http://45.192.97.170:8880/play/5722.m3u8
-歌团★139,http://45.192.97.170:8880/play/5723.m3u8
-歌团★140,http://45.192.97.170:8880/play/5724.m3u8
-歌团★141,http://45.192.97.170:8880/play/5725.m3u8
-歌团★142,http://45.192.97.170:8880/play/5726.m3u8
-歌团★143,http://45.192.97.170:8880/play/5727.m3u8
-歌团★145,http://45.192.97.170:8880/play/5728.m3u8
-歌团★146,http://45.192.97.170:8880/play/5729.m3u8
-歌团★147,http://45.192.97.170:8880/play/5730.m3u8
-歌团★148,http://45.192.97.170:8880/play/5731.m3u8
-歌团★149,http://45.192.97.170:8880/play/5732.m3u8
-歌团★150,http://45.192.97.170:8880/play/5733.m3u8
-歌团★151,http://45.192.97.170:8880/play/5734.m3u8
-歌团★152,http://45.192.97.170:8880/play/5735.m3u8
-歌团★153,http://45.192.97.170:8880/play/5736.m3u8
+歌团★021,http://45.192.97.170:8880/play/5526.m3u8
+歌团★022,http://45.192.97.170:8880/play/5527.m3u8
+歌团★023,http://45.192.97.170:8880/play/5528.m3u8
+歌团★024,http://45.192.97.170:8880/play/5529.m3u8
+歌团★026,http://45.192.97.170:8880/play/5530.m3u8
+歌团★027,http://45.192.97.170:8880/play/5531.m3u8
+歌团★029,http://45.192.97.170:8880/play/5532.m3u8
+歌团★030,http://45.192.97.170:8880/play/5533.m3u8
+歌团★031,http://45.192.97.170:8880/play/5534.m3u8
+歌团★033,http://45.192.97.170:8880/play/5535.m3u8
+歌团★034,http://45.192.97.170:8880/play/5536.m3u8
+歌团★035,http://45.192.97.170:8880/play/5537.m3u8
+歌团★036,http://45.192.97.170:8880/play/5538.m3u8
+歌团★037,http://45.192.97.170:8880/play/5539.m3u8
+歌团★038,http://45.192.97.170:8880/play/5540.m3u8
+歌团★042,http://45.192.97.170:8880/play/5541.m3u8
+歌团★043,http://45.192.97.170:8880/play/5542.m3u8
+歌团★045,http://45.192.97.170:8880/play/5543.m3u8
+歌团★048,http://45.192.97.170:8880/play/5544.m3u8
+歌团★049,http://45.192.97.170:8880/play/5545.m3u8
+歌团★050,http://45.192.97.170:8880/play/5546.m3u8
+歌团★051,http://45.192.97.170:8880/play/5547.m3u8
+歌团★052,http://45.192.97.170:8880/play/5548.m3u8
+歌团★053,http://45.192.97.170:8880/play/5549.m3u8
+歌团★054,http://45.192.97.170:8880/play/5550.m3u8
+歌团★056,http://45.192.97.170:8880/play/5551.m3u8
+歌团★057,http://45.192.97.170:8880/play/5552.m3u8
+歌团★058,http://45.192.97.170:8880/play/5553.m3u8
+歌团★059,http://45.192.97.170:8880/play/5554.m3u8
+歌团★060,http://45.192.97.170:8880/play/5555.m3u8
+歌团★061,http://45.192.97.170:8880/play/5556.m3u8
+歌团★062,http://45.192.97.170:8880/play/5557.m3u8
+歌团★064,http://45.192.97.170:8880/play/5558.m3u8
+歌团★065,http://45.192.97.170:8880/play/5559.m3u8
+歌团★066,http://45.192.97.170:8880/play/5560.m3u8
+歌团★067,http://45.192.97.170:8880/play/5561.m3u8
+歌团★068,http://45.192.97.170:8880/play/5562.m3u8
+歌团★069,http://45.192.97.170:8880/play/5563.m3u8
+歌团★070,http://45.192.97.170:8880/play/5564.m3u8
+歌团★071,http://45.192.97.170:8880/play/5565.m3u8
+歌团★072,http://45.192.97.170:8880/play/5566.m3u8
+歌团★074,http://45.192.97.170:8880/play/5567.m3u8
+歌团★075,http://45.192.97.170:8880/play/5568.m3u8
+歌团★076,http://45.192.97.170:8880/play/5569.m3u8
+歌团★078,http://45.192.97.170:8880/play/5570.m3u8
+歌团★079,http://45.192.97.170:8880/play/5571.m3u8
+歌团★080,http://45.192.97.170:8880/play/5572.m3u8
+歌团★081,http://45.192.97.170:8880/play/5573.m3u8
+歌团★082,http://45.192.97.170:8880/play/5574.m3u8
+歌团★083,http://45.192.97.170:8880/play/5575.m3u8
+歌团★084,http://45.192.97.170:8880/play/5576.m3u8
+歌团★085,http://45.192.97.170:8880/play/5577.m3u8
+歌团★086,http://45.192.97.170:8880/play/5578.m3u8
+歌团★087,http://45.192.97.170:8880/play/5579.m3u8
+歌团★088,http://45.192.97.170:8880/play/5580.m3u8
+歌团★090,http://45.192.97.170:8880/play/5581.m3u8
+歌团★092,http://45.192.97.170:8880/play/5582.m3u8
+歌团★093,http://45.192.97.170:8880/play/5583.m3u8
+歌团★094,http://45.192.97.170:8880/play/5584.m3u8
+歌团★095,http://45.192.97.170:8880/play/5585.m3u8
+歌团★096,http://45.192.97.170:8880/play/5586.m3u8
+歌团★097,http://45.192.97.170:8880/play/5587.m3u8
+歌团★098,http://45.192.97.170:8880/play/5588.m3u8
+歌团★099,http://45.192.97.170:8880/play/5589.m3u8
+歌团★100,http://45.192.97.170:8880/play/5590.m3u8
+歌团★101,http://45.192.97.170:8880/play/5591.m3u8
+歌团★102,http://45.192.97.170:8880/play/5592.m3u8
+歌团★103,http://45.192.97.170:8880/play/5593.m3u8
+歌团★104,http://45.192.97.170:8880/play/5594.m3u8
+歌团★105,http://45.192.97.170:8880/play/5595.m3u8
+歌团★106,http://45.192.97.170:8880/play/5596.m3u8
+歌团★107,http://45.192.97.170:8880/play/5597.m3u8
+歌团★108,http://45.192.97.170:8880/play/5598.m3u8
+歌团★109,http://45.192.97.170:8880/play/5599.m3u8
+歌团★110,http://45.192.97.170:8880/play/5600.m3u8
+歌团★111,http://45.192.97.170:8880/play/5601.m3u8
+歌团★112,http://45.192.97.170:8880/play/5602.m3u8
+歌团★113,http://45.192.97.170:8880/play/5603.m3u8
+歌团★114,http://45.192.97.170:8880/play/5604.m3u8
+歌团★116,http://45.192.97.170:8880/play/5605.m3u8
+歌团★118,http://45.192.97.170:8880/play/5606.m3u8
+歌团★119,http://45.192.97.170:8880/play/5607.m3u8
+歌团★120,http://45.192.97.170:8880/play/5608.m3u8
+歌团★121,http://45.192.97.170:8880/play/5609.m3u8
+歌团★122,http://45.192.97.170:8880/play/5610.m3u8
+歌团★123,http://45.192.97.170:8880/play/5611.m3u8
+歌团★125,http://45.192.97.170:8880/play/5612.m3u8
+歌团★126,http://45.192.97.170:8880/play/5613.m3u8
+歌团★127,http://45.192.97.170:8880/play/5614.m3u8
+歌团★128,http://45.192.97.170:8880/play/5615.m3u8
+歌团★129,http://45.192.97.170:8880/play/5616.m3u8
+歌团★130,http://45.192.97.170:8880/play/5617.m3u8
+歌团★131,http://45.192.97.170:8880/play/5618.m3u8
+歌团★133,http://45.192.97.170:8880/play/5619.m3u8
+歌团★134,http://45.192.97.170:8880/play/5620.m3u8
+歌团★135,http://45.192.97.170:8880/play/5621.m3u8
+歌团★136,http://45.192.97.170:8880/play/5622.m3u8
+歌团★137,http://45.192.97.170:8880/play/5623.m3u8
+歌团★138,http://45.192.97.170:8880/play/5624.m3u8
+歌团★139,http://45.192.97.170:8880/play/5625.m3u8
+歌团★140,http://45.192.97.170:8880/play/5626.m3u8
+歌团★141,http://45.192.97.170:8880/play/5627.m3u8
+歌团★142,http://45.192.97.170:8880/play/5628.m3u8
+歌团★143,http://45.192.97.170:8880/play/5629.m3u8
+歌团★145,http://45.192.97.170:8880/play/5630.m3u8
+歌团★146,http://45.192.97.170:8880/play/5631.m3u8
+歌团★147,http://45.192.97.170:8880/play/5632.m3u8
+歌团★148,http://45.192.97.170:8880/play/5633.m3u8
+歌团★149,http://45.192.97.170:8880/play/5634.m3u8
+歌团★150,http://45.192.97.170:8880/play/5635.m3u8
+歌团★151,http://45.192.97.170:8880/play/5636.m3u8
+歌团★152,http://45.192.97.170:8880/play/5637.m3u8
+歌团★153,http://45.192.97.170:8880/play/5638.m3u8
 
 🎬 电影频道,#genre#
-短剧陈翔六点半,http://45.192.97.170:8880/play/1559.m3u8
-短剧人生回答机本机,http://45.192.97.170:8880/play/1560.m3u8
-短剧郑云工作室,http://45.192.97.170:8880/play/1561.m3u8
-短剧王Li差点红,http://45.192.97.170:8880/play/1562.m3u8
-短剧不思异剧场,http://45.192.97.170:8880/play/1563.m3u8
-埋堆堆楚汉骄雄,http://45.192.97.170:8880/play/1564.m3u8
-埋堆堆封神榜,http://45.192.97.170:8880/play/1565.m3u8
-埋堆堆天地争霸美猴王,http://45.192.97.170:8880/play/1566.m3u8
-埋堆堆大唐双龙传,http://45.192.97.170:8880/play/1567.m3u8
-埋堆堆陀枪师姐,http://45.192.97.170:8880/play/1568.m3u8
-埋堆堆扫黄先锋,http://45.192.97.170:8880/play/1569.m3u8
-埋堆堆妙手仁心,http://45.192.97.170:8880/play/1570.m3u8
-埋堆堆野蛮亲家,http://45.192.97.170:8880/play/1571.m3u8
-埋堆堆笑看风云,http://45.192.97.170:8880/play/1572.m3u8
-埋堆堆韦小宝,http://45.192.97.170:8880/play/1573.m3u8
-埋堆堆雪山飞狐,http://45.192.97.170:8880/play/1574.m3u8
-周星驰专场,http://45.192.97.170:8880/play/1575.m3u8
-李连杰专场,http://45.192.97.170:8880/play/1576.m3u8
-刘德华专场,http://45.192.97.170:8880/play/1577.m3u8
-林正英专场,http://45.192.97.170:8880/play/1578.m3u8
-甄子丹专场,http://45.192.97.170:8880/play/1579.m3u8
-沈腾专场,http://45.192.97.170:8880/play/1580.m3u8
-黄渤专场,http://45.192.97.170:8880/play/1581.m3u8
-周润发专场,http://45.192.97.170:8880/play/1582.m3u8
-成龙专场,http://45.192.97.170:8880/play/1583.m3u8
-古天乐专场,http://45.192.97.170:8880/play/1584.m3u8
-王晶专场,http://45.192.97.170:8880/play/1585.m3u8
-吴京专场,http://45.192.97.170:8880/play/1586.m3u8
-洪金宝专场,http://45.192.97.170:8880/play/1587.m3u8
-徐克专场,http://45.192.97.170:8880/play/1588.m3u8
-徐峥专场,http://45.192.97.170:8880/play/1589.m3u8
-邓超专场,http://45.192.97.170:8880/play/1590.m3u8
-梁家辉专场,http://45.192.97.170:8880/play/1591.m3u8
-张卫健专场,http://45.192.97.170:8880/play/1592.m3u8
-王宝强专场,http://45.192.97.170:8880/play/1593.m3u8
-陈小春专场,http://45.192.97.170:8880/play/1594.m3u8
-郭富城专场,http://45.192.97.170:8880/play/1595.m3u8
-吴镇宇专场,http://45.192.97.170:8880/play/1596.m3u8
-陆小凤专场,http://45.192.97.170:8880/play/1597.m3u8
-强森专场,http://45.192.97.170:8880/play/1598.m3u8
-斯坦森专场,http://45.192.97.170:8880/play/1599.m3u8
-马东锡专场,http://45.192.97.170:8880/play/1600.m3u8
-灾难片系列,http://45.192.97.170:8880/play/1601.m3u8
-贺岁片系列,http://45.192.97.170:8880/play/1602.m3u8
-科幻片系列,http://45.192.97.170:8880/play/1603.m3u8
-丧尸片系列,http://45.192.97.170:8880/play/1604.m3u8
-怪兽片系列,http://45.192.97.170:8880/play/1605.m3u8
-战争片系列,http://45.192.97.170:8880/play/1606.m3u8
-硬汉片系列,http://45.192.97.170:8880/play/1607.m3u8
-竞速片系列,http://45.192.97.170:8880/play/1608.m3u8
-动作片系列,http://45.192.97.170:8880/play/1609.m3u8
-爱情片系列,http://45.192.97.170:8880/play/1610.m3u8
-犯罪片系列,http://45.192.97.170:8880/play/1611.m3u8
-奇幻片系列,http://45.192.97.170:8880/play/1612.m3u8
-冒险片系列,http://45.192.97.170:8880/play/1613.m3u8
-盗墓片系列,http://45.192.97.170:8880/play/1614.m3u8
-穿越片系列,http://45.192.97.170:8880/play/1615.m3u8
-悬疑片系列,http://45.192.97.170:8880/play/1616.m3u8
-喜剧片系列,http://45.192.97.170:8880/play/1617.m3u8
-英雄片系列,http://45.192.97.170:8880/play/1618.m3u8
-枪战片系列,http://45.192.97.170:8880/play/1619.m3u8
-武侠片系列,http://45.192.97.170:8880/play/1620.m3u8
-复仇片系列,http://45.192.97.170:8880/play/1621.m3u8
-星球片系列,http://45.192.97.170:8880/play/1622.m3u8
-校园片系列,http://45.192.97.170:8880/play/1623.m3u8
-警匪片系列,http://45.192.97.170:8880/play/1624.m3u8
-谍战片系列,http://45.192.97.170:8880/play/1625.m3u8
-动画片系列,http://45.192.97.170:8880/play/1626.m3u8
-恐怖片系列,http://45.192.97.170:8880/play/1627.m3u8
-惊悚片系列,http://45.192.97.170:8880/play/1628.m3u8
-僵尸片系列,http://45.192.97.170:8880/play/1629.m3u8
-音乐片系列,http://45.192.97.170:8880/play/1630.m3u8
-杀手片系列,http://45.192.97.170:8880/play/1631.m3u8
-体育片系列,http://45.192.97.170:8880/play/1632.m3u8
-西部片系列,http://45.192.97.170:8880/play/1633.m3u8
-香港片系列,http://45.192.97.170:8880/play/1634.m3u8
-印度片系列,http://45.192.97.170:8880/play/1635.m3u8
-热门片系列,http://45.192.97.170:8880/play/1636.m3u8
-高分片系列,http://45.192.97.170:8880/play/1637.m3u8
-短片系列,http://45.192.97.170:8880/play/1638.m3u8
-探案剧专区,http://45.192.97.170:8880/play/1639.m3u8
-都市剧专区,http://45.192.97.170:8880/play/1640.m3u8
-刑侦剧专区,http://45.192.97.170:8880/play/1641.m3u8
-家庭剧专区,http://45.192.97.170:8880/play/1642.m3u8
-经典剧专区,http://45.192.97.170:8880/play/1643.m3u8
-怀旧剧专区,http://45.192.97.170:8880/play/1644.m3u8
-僵尸剧专区,http://45.192.97.170:8880/play/1645.m3u8
-抗战剧专区,http://45.192.97.170:8880/play/1646.m3u8
-台湾剧专区,http://45.192.97.170:8880/play/1647.m3u8
-韩国剧专区,http://45.192.97.170:8880/play/1648.m3u8
-美国剧专区,http://45.192.97.170:8880/play/1649.m3u8
-英国剧专区,http://45.192.97.170:8880/play/1650.m3u8
-校园剧专区,http://45.192.97.170:8880/play/1651.m3u8
-谍战剧专区,http://45.192.97.170:8880/play/1652.m3u8
-古装剧专区,http://45.192.97.170:8880/play/1653.m3u8
-乡村剧专区,http://45.192.97.170:8880/play/1654.m3u8
-偶像剧专区,http://45.192.97.170:8880/play/1655.m3u8
-爱情剧专区,http://45.192.97.170:8880/play/1656.m3u8
-搞笑剧专区,http://45.192.97.170:8880/play/1657.m3u8
-武侠剧专区,http://45.192.97.170:8880/play/1658.m3u8
-穿越剧专区,http://45.192.97.170:8880/play/1659.m3u8
-年代剧专区,http://45.192.97.170:8880/play/1660.m3u8
-武替道国,http://45.192.97.170:8880/play/5263.m3u8
-武替道粤,http://45.192.97.170:8880/play/5264.m3u8
-夹缝之间,http://45.192.97.170:8880/play/5265.m3u8
-末日2024,http://45.192.97.170:8880/play/5266.m3u8
-人造正义,http://45.192.97.170:8880/play/5267.m3u8
-海岛巨蟒,http://45.192.97.170:8880/play/5268.m3u8
-一号特工,http://45.192.97.170:8880/play/5269.m3u8
-美国队长4,http://45.192.97.170:8880/play/5270.m3u8
-寂静岛之异兽,http://45.192.97.170:8880/play/5271.m3u8
-鬼妇2：村庄,http://45.192.97.170:8880/play/5272.m3u8
-生死排爆,http://45.192.97.170:8880/play/5273.m3u8
-海底潜伏,http://45.192.97.170:8880/play/5274.m3u8
-抗倭传奇,http://45.192.97.170:8880/play/5275.m3u8
-36总局：势不两立,http://45.192.97.170:8880/play/5276.m3u8
-阿糠,http://45.192.97.170:8880/play/5277.m3u8
-死命必达,http://45.192.97.170:8880/play/5278.m3u8
-苍月,http://45.192.97.170:8880/play/5279.m3u8
-深山狙击,http://45.192.97.170:8880/play/5280.m3u8
-寂静之夜,http://45.192.97.170:8880/play/5281.m3u8
-醉拳,http://45.192.97.170:8880/play/5282.m3u8
-双龙会,http://45.192.97.170:8880/play/5283.m3u8
-黄飞鸿之狮王争霸,http://45.192.97.170:8880/play/5284.m3u8
-黄飞鸿之男儿当自强,http://45.192.97.170:8880/play/5285.m3u8
-警察故事,http://45.192.97.170:8880/play/5286.m3u8
-赌侠2之上海滩赌圣,http://45.192.97.170:8880/play/5287.m3u8
-新天龙八部之天山童姥,http://45.192.97.170:8880/play/5288.m3u8
-镖行天下之牡丹阁,http://45.192.97.170:8880/play/5289.m3u8
-叶问：终极一战,http://45.192.97.170:8880/play/5290.m3u8
-消失的凶手,http://45.192.97.170:8880/play/5291.m3u8
-香江花月夜,http://45.192.97.170:8880/play/5292.m3u8
-绝代双骄,http://45.192.97.170:8880/play/5293.m3u8
-武林外传,http://45.192.97.170:8880/play/5294.m3u8
-新上海滩,http://45.192.97.170:8880/play/5295.m3u8
-生财有道,http://45.192.97.170:8880/play/5296.m3u8
-建党伟业,http://45.192.97.170:8880/play/5297.m3u8
-午夜43路,http://45.192.97.170:8880/play/5298.m3u8
-红高粱,http://45.192.97.170:8880/play/5299.m3u8
-内当家,http://45.192.97.170:8880/play/5300.m3u8
-长安道,http://45.192.97.170:8880/play/5301.m3u8
-芙蓉镇,http://45.192.97.170:8880/play/5302.m3u8
-战狼,http://45.192.97.170:8880/play/5303.m3u8
+短剧陈翔六点半,http://45.192.97.170:8880/play/1461.m3u8
+短剧人生回答机本机,http://45.192.97.170:8880/play/1462.m3u8
+短剧郑云工作室,http://45.192.97.170:8880/play/1463.m3u8
+短剧王Li差点红,http://45.192.97.170:8880/play/1464.m3u8
+短剧不思异剧场,http://45.192.97.170:8880/play/1465.m3u8
+埋堆堆楚汉骄雄,http://45.192.97.170:8880/play/1466.m3u8
+埋堆堆封神榜,http://45.192.97.170:8880/play/1467.m3u8
+埋堆堆天地争霸美猴王,http://45.192.97.170:8880/play/1468.m3u8
+埋堆堆大唐双龙传,http://45.192.97.170:8880/play/1469.m3u8
+埋堆堆陀枪师姐,http://45.192.97.170:8880/play/1470.m3u8
+埋堆堆扫黄先锋,http://45.192.97.170:8880/play/1471.m3u8
+埋堆堆妙手仁心,http://45.192.97.170:8880/play/1472.m3u8
+埋堆堆野蛮亲家,http://45.192.97.170:8880/play/1473.m3u8
+埋堆堆笑看风云,http://45.192.97.170:8880/play/1474.m3u8
+埋堆堆韦小宝,http://45.192.97.170:8880/play/1475.m3u8
+埋堆堆雪山飞狐,http://45.192.97.170:8880/play/1476.m3u8
+周星驰专场,http://45.192.97.170:8880/play/1477.m3u8
+李连杰专场,http://45.192.97.170:8880/play/1478.m3u8
+刘德华专场,http://45.192.97.170:8880/play/1479.m3u8
+林正英专场,http://45.192.97.170:8880/play/1480.m3u8
+甄子丹专场,http://45.192.97.170:8880/play/1481.m3u8
+沈腾专场,http://45.192.97.170:8880/play/1482.m3u8
+黄渤专场,http://45.192.97.170:8880/play/1483.m3u8
+周润发专场,http://45.192.97.170:8880/play/1484.m3u8
+成龙专场,http://45.192.97.170:8880/play/1485.m3u8
+古天乐专场,http://45.192.97.170:8880/play/1486.m3u8
+王晶专场,http://45.192.97.170:8880/play/1487.m3u8
+吴京专场,http://45.192.97.170:8880/play/1488.m3u8
+洪金宝专场,http://45.192.97.170:8880/play/1489.m3u8
+徐克专场,http://45.192.97.170:8880/play/1490.m3u8
+徐峥专场,http://45.192.97.170:8880/play/1491.m3u8
+邓超专场,http://45.192.97.170:8880/play/1492.m3u8
+梁家辉专场,http://45.192.97.170:8880/play/1493.m3u8
+张卫健专场,http://45.192.97.170:8880/play/1494.m3u8
+王宝强专场,http://45.192.97.170:8880/play/1495.m3u8
+陈小春专场,http://45.192.97.170:8880/play/1496.m3u8
+郭富城专场,http://45.192.97.170:8880/play/1497.m3u8
+吴镇宇专场,http://45.192.97.170:8880/play/1498.m3u8
+陆小凤专场,http://45.192.97.170:8880/play/1499.m3u8
+强森专场,http://45.192.97.170:8880/play/1500.m3u8
+斯坦森专场,http://45.192.97.170:8880/play/1501.m3u8
+马东锡专场,http://45.192.97.170:8880/play/1502.m3u8
+灾难片系列,http://45.192.97.170:8880/play/1503.m3u8
+贺岁片系列,http://45.192.97.170:8880/play/1504.m3u8
+科幻片系列,http://45.192.97.170:8880/play/1505.m3u8
+丧尸片系列,http://45.192.97.170:8880/play/1506.m3u8
+怪兽片系列,http://45.192.97.170:8880/play/1507.m3u8
+战争片系列,http://45.192.97.170:8880/play/1508.m3u8
+硬汉片系列,http://45.192.97.170:8880/play/1509.m3u8
+竞速片系列,http://45.192.97.170:8880/play/1510.m3u8
+动作片系列,http://45.192.97.170:8880/play/1511.m3u8
+爱情片系列,http://45.192.97.170:8880/play/1512.m3u8
+犯罪片系列,http://45.192.97.170:8880/play/1513.m3u8
+奇幻片系列,http://45.192.97.170:8880/play/1514.m3u8
+冒险片系列,http://45.192.97.170:8880/play/1515.m3u8
+盗墓片系列,http://45.192.97.170:8880/play/1516.m3u8
+穿越片系列,http://45.192.97.170:8880/play/1517.m3u8
+悬疑片系列,http://45.192.97.170:8880/play/1518.m3u8
+喜剧片系列,http://45.192.97.170:8880/play/1519.m3u8
+英雄片系列,http://45.192.97.170:8880/play/1520.m3u8
+枪战片系列,http://45.192.97.170:8880/play/1521.m3u8
+武侠片系列,http://45.192.97.170:8880/play/1522.m3u8
+复仇片系列,http://45.192.97.170:8880/play/1523.m3u8
+星球片系列,http://45.192.97.170:8880/play/1524.m3u8
+校园片系列,http://45.192.97.170:8880/play/1525.m3u8
+警匪片系列,http://45.192.97.170:8880/play/1526.m3u8
+谍战片系列,http://45.192.97.170:8880/play/1527.m3u8
+动画片系列,http://45.192.97.170:8880/play/1528.m3u8
+恐怖片系列,http://45.192.97.170:8880/play/1529.m3u8
+惊悚片系列,http://45.192.97.170:8880/play/1530.m3u8
+僵尸片系列,http://45.192.97.170:8880/play/1531.m3u8
+音乐片系列,http://45.192.97.170:8880/play/1532.m3u8
+杀手片系列,http://45.192.97.170:8880/play/1533.m3u8
+体育片系列,http://45.192.97.170:8880/play/1534.m3u8
+西部片系列,http://45.192.97.170:8880/play/1535.m3u8
+香港片系列,http://45.192.97.170:8880/play/1536.m3u8
+印度片系列,http://45.192.97.170:8880/play/1537.m3u8
+热门片系列,http://45.192.97.170:8880/play/1538.m3u8
+高分片系列,http://45.192.97.170:8880/play/1539.m3u8
+短片系列,http://45.192.97.170:8880/play/1540.m3u8
+探案剧专区,http://45.192.97.170:8880/play/1541.m3u8
+都市剧专区,http://45.192.97.170:8880/play/1542.m3u8
+刑侦剧专区,http://45.192.97.170:8880/play/1543.m3u8
+家庭剧专区,http://45.192.97.170:8880/play/1544.m3u8
+经典剧专区,http://45.192.97.170:8880/play/1545.m3u8
+怀旧剧专区,http://45.192.97.170:8880/play/1546.m3u8
+僵尸剧专区,http://45.192.97.170:8880/play/1547.m3u8
+抗战剧专区,http://45.192.97.170:8880/play/1548.m3u8
+台湾剧专区,http://45.192.97.170:8880/play/1549.m3u8
+韩国剧专区,http://45.192.97.170:8880/play/1550.m3u8
+美国剧专区,http://45.192.97.170:8880/play/1551.m3u8
+英国剧专区,http://45.192.97.170:8880/play/1552.m3u8
+校园剧专区,http://45.192.97.170:8880/play/1553.m3u8
+谍战剧专区,http://45.192.97.170:8880/play/1554.m3u8
+古装剧专区,http://45.192.97.170:8880/play/1555.m3u8
+乡村剧专区,http://45.192.97.170:8880/play/1556.m3u8
+偶像剧专区,http://45.192.97.170:8880/play/1557.m3u8
+爱情剧专区,http://45.192.97.170:8880/play/1558.m3u8
+搞笑剧专区,http://45.192.97.170:8880/play/1559.m3u8
+武侠剧专区,http://45.192.97.170:8880/play/1560.m3u8
+穿越剧专区,http://45.192.97.170:8880/play/1561.m3u8
+年代剧专区,http://45.192.97.170:8880/play/1562.m3u8
+武替道国,http://45.192.97.170:8880/play/5165.m3u8
+武替道粤,http://45.192.97.170:8880/play/5166.m3u8
+夹缝之间,http://45.192.97.170:8880/play/5167.m3u8
+末日2024,http://45.192.97.170:8880/play/5168.m3u8
+人造正义,http://45.192.97.170:8880/play/5169.m3u8
+海岛巨蟒,http://45.192.97.170:8880/play/5170.m3u8
+一号特工,http://45.192.97.170:8880/play/5171.m3u8
+美国队长4,http://45.192.97.170:8880/play/5172.m3u8
+寂静岛之异兽,http://45.192.97.170:8880/play/5173.m3u8
+鬼妇2：村庄,http://45.192.97.170:8880/play/5174.m3u8
+生死排爆,http://45.192.97.170:8880/play/5175.m3u8
+海底潜伏,http://45.192.97.170:8880/play/5176.m3u8
+抗倭传奇,http://45.192.97.170:8880/play/5177.m3u8
+36总局：势不两立,http://45.192.97.170:8880/play/5178.m3u8
+阿糠,http://45.192.97.170:8880/play/5179.m3u8
+死命必达,http://45.192.97.170:8880/play/5180.m3u8
+苍月,http://45.192.97.170:8880/play/5181.m3u8
+深山狙击,http://45.192.97.170:8880/play/5182.m3u8
+寂静之夜,http://45.192.97.170:8880/play/5183.m3u8
+醉拳,http://45.192.97.170:8880/play/5184.m3u8
+双龙会,http://45.192.97.170:8880/play/5185.m3u8
+黄飞鸿之狮王争霸,http://45.192.97.170:8880/play/5186.m3u8
+黄飞鸿之男儿当自强,http://45.192.97.170:8880/play/5187.m3u8
+警察故事,http://45.192.97.170:8880/play/5188.m3u8
+赌侠2之上海滩赌圣,http://45.192.97.170:8880/play/5189.m3u8
+新天龙八部之天山童姥,http://45.192.97.170:8880/play/5190.m3u8
+镖行天下之牡丹阁,http://45.192.97.170:8880/play/5191.m3u8
+叶问：终极一战,http://45.192.97.170:8880/play/5192.m3u8
+消失的凶手,http://45.192.97.170:8880/play/5193.m3u8
+香江花月夜,http://45.192.97.170:8880/play/5194.m3u8
+绝代双骄,http://45.192.97.170:8880/play/5195.m3u8
+武林外传,http://45.192.97.170:8880/play/5196.m3u8
+新上海滩,http://45.192.97.170:8880/play/5197.m3u8
+生财有道,http://45.192.97.170:8880/play/5198.m3u8
+建党伟业,http://45.192.97.170:8880/play/5199.m3u8
+午夜43路,http://45.192.97.170:8880/play/5200.m3u8
+红高粱,http://45.192.97.170:8880/play/5201.m3u8
+内当家,http://45.192.97.170:8880/play/5202.m3u8
+长安道,http://45.192.97.170:8880/play/5203.m3u8
+芙蓉镇,http://45.192.97.170:8880/play/5204.m3u8
+战狼,http://45.192.97.170:8880/play/5205.m3u8
 
 🎬 动漫频道,#genre#
-名侦探柯南,http://45.192.97.170:8880/play/1661.m3u8
-火影忍者,http://45.192.97.170:8880/play/1662.m3u8
-海贼王,http://45.192.97.170:8880/play/1663.m3u8
-精灵宝可梦,http://45.192.97.170:8880/play/1664.m3u8
-神奇宝贝,http://45.192.97.170:8880/play/1665.m3u8
-数码宝贝,http://45.192.97.170:8880/play/1666.m3u8
-宫崎骏,http://45.192.97.170:8880/play/1667.m3u8
-钢之炼金术师,http://45.192.97.170:8880/play/1668.m3u8
-黑子的篮球,http://45.192.97.170:8880/play/1669.m3u8
-瑞克与莫蒂,http://45.192.97.170:8880/play/1670.m3u8
-星辰变,http://45.192.97.170:8880/play/1671.m3u8
-成龙历险记,http://45.192.97.170:8880/play/1672.m3u8
-飞天小女警,http://45.192.97.170:8880/play/1673.m3u8
-蜡笔小新,http://45.192.97.170:8880/play/1674.m3u8
-樱桃小丸子,http://45.192.97.170:8880/play/1675.m3u8
-猫和老鼠,http://45.192.97.170:8880/play/1676.m3u8
-七龙珠,http://45.192.97.170:8880/play/1677.m3u8
-全职高手,http://45.192.97.170:8880/play/1678.m3u8
-哆啦A梦,http://45.192.97.170:8880/play/1679.m3u8
-海绵宝宝,http://45.192.97.170:8880/play/1680.m3u8
-魔法少女,http://45.192.97.170:8880/play/1681.m3u8
-全职猎人,http://45.192.97.170:8880/play/1682.m3u8
-四驱兄弟,http://45.192.97.170:8880/play/1683.m3u8
-一人之上,http://45.192.97.170:8880/play/1684.m3u8
-头文字D,http://45.192.97.170:8880/play/1685.m3u8
-网球王子,http://45.192.97.170:8880/play/1686.m3u8
-玩具总动员,http://45.192.97.170:8880/play/1687.m3u8
-通灵王,http://45.192.97.170:8880/play/1688.m3u8
-游戏王,http://45.192.97.170:8880/play/1689.m3u8
-男子高中生的日常,http://45.192.97.170:8880/play/1690.m3u8
-元气少女缘结神,http://45.192.97.170:8880/play/1691.m3u8
-全职法师,http://45.192.97.170:8880/play/1692.m3u8
-尸兄,http://45.192.97.170:8880/play/1693.m3u8
-大头儿子小头爸爸,http://45.192.97.170:8880/play/1694.m3u8
-哪吒传奇,http://45.192.97.170:8880/play/1695.m3u8
-龙族,http://45.192.97.170:8880/play/1696.m3u8
-间谍过家家,http://45.192.97.170:8880/play/1697.m3u8
-罗小黑战记,http://45.192.97.170:8880/play/1698.m3u8
-圣斗士星矢,http://45.192.97.170:8880/play/1699.m3u8
-葫芦兄弟,http://45.192.97.170:8880/play/1700.m3u8
-咒术回战,http://45.192.97.170:8880/play/1701.m3u8
-反叛的鲁路修,http://45.192.97.170:8880/play/1702.m3u8
-超自然武装当哒当,http://45.192.97.170:8880/play/1703.m3u8
-新世纪福音战士,http://45.192.97.170:8880/play/1704.m3u8
-足球小将,http://45.192.97.170:8880/play/1705.m3u8
-轻羽飞扬,http://45.192.97.170:8880/play/1706.m3u8
-虫师,http://45.192.97.170:8880/play/1707.m3u8
-魔神英雄传,http://45.192.97.170:8880/play/1708.m3u8
-埋堆堆直播1,http://45.192.97.170:8880/play/1709.m3u8
-埋堆堆直播2,http://45.192.97.170:8880/play/1710.m3u8
-国产动漫系列,http://45.192.97.170:8880/play/1711.m3u8
+名侦探柯南,http://45.192.97.170:8880/play/1563.m3u8
+火影忍者,http://45.192.97.170:8880/play/1564.m3u8
+海贼王,http://45.192.97.170:8880/play/1565.m3u8
+精灵宝可梦,http://45.192.97.170:8880/play/1566.m3u8
+神奇宝贝,http://45.192.97.170:8880/play/1567.m3u8
+数码宝贝,http://45.192.97.170:8880/play/1568.m3u8
+宫崎骏,http://45.192.97.170:8880/play/1569.m3u8
+钢之炼金术师,http://45.192.97.170:8880/play/1570.m3u8
+黑子的篮球,http://45.192.97.170:8880/play/1571.m3u8
+瑞克与莫蒂,http://45.192.97.170:8880/play/1572.m3u8
+星辰变,http://45.192.97.170:8880/play/1573.m3u8
+成龙历险记,http://45.192.97.170:8880/play/1574.m3u8
+飞天小女警,http://45.192.97.170:8880/play/1575.m3u8
+蜡笔小新,http://45.192.97.170:8880/play/1576.m3u8
+樱桃小丸子,http://45.192.97.170:8880/play/1577.m3u8
+猫和老鼠,http://45.192.97.170:8880/play/1578.m3u8
+七龙珠,http://45.192.97.170:8880/play/1579.m3u8
+全职高手,http://45.192.97.170:8880/play/1580.m3u8
+哆啦A梦,http://45.192.97.170:8880/play/1581.m3u8
+海绵宝宝,http://45.192.97.170:8880/play/1582.m3u8
+魔法少女,http://45.192.97.170:8880/play/1583.m3u8
+全职猎人,http://45.192.97.170:8880/play/1584.m3u8
+四驱兄弟,http://45.192.97.170:8880/play/1585.m3u8
+一人之上,http://45.192.97.170:8880/play/1586.m3u8
+头文字D,http://45.192.97.170:8880/play/1587.m3u8
+网球王子,http://45.192.97.170:8880/play/1588.m3u8
+玩具总动员,http://45.192.97.170:8880/play/1589.m3u8
+通灵王,http://45.192.97.170:8880/play/1590.m3u8
+游戏王,http://45.192.97.170:8880/play/1591.m3u8
+男子高中生的日常,http://45.192.97.170:8880/play/1592.m3u8
+元气少女缘结神,http://45.192.97.170:8880/play/1593.m3u8
+全职法师,http://45.192.97.170:8880/play/1594.m3u8
+尸兄,http://45.192.97.170:8880/play/1595.m3u8
+大头儿子小头爸爸,http://45.192.97.170:8880/play/1596.m3u8
+哪吒传奇,http://45.192.97.170:8880/play/1597.m3u8
+龙族,http://45.192.97.170:8880/play/1598.m3u8
+间谍过家家,http://45.192.97.170:8880/play/1599.m3u8
+罗小黑战记,http://45.192.97.170:8880/play/1600.m3u8
+圣斗士星矢,http://45.192.97.170:8880/play/1601.m3u8
+葫芦兄弟,http://45.192.97.170:8880/play/1602.m3u8
+咒术回战,http://45.192.97.170:8880/play/1603.m3u8
+反叛的鲁路修,http://45.192.97.170:8880/play/1604.m3u8
+超自然武装当哒当,http://45.192.97.170:8880/play/1605.m3u8
+新世纪福音战士,http://45.192.97.170:8880/play/1606.m3u8
+足球小将,http://45.192.97.170:8880/play/1607.m3u8
+轻羽飞扬,http://45.192.97.170:8880/play/1608.m3u8
+虫师,http://45.192.97.170:8880/play/1609.m3u8
+魔神英雄传,http://45.192.97.170:8880/play/1610.m3u8
+埋堆堆直播1,http://45.192.97.170:8880/play/1611.m3u8
+埋堆堆直播2,http://45.192.97.170:8880/play/1612.m3u8
+国产动漫系列,http://45.192.97.170:8880/play/1613.m3u8
