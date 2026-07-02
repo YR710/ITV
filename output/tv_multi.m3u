@@ -119,8 +119,8 @@ http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 http://218.13.170.98:9901/tsfile/live/1021_1.m3u8
 #EXTINF:-1 group-title="☘️北京频道",耀才财经
 https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
-#EXTINF:-1 group-title="☘️上海频道",平湖新闻综合
-http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed
+#EXTINF:-1 group-title="☘️上海频道",余姚新闻综合
+https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
 #EXTINF:-1 group-title="☘️上海频道",新纪实
 http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
 #EXTINF:-1 group-title="☘️上海频道",普陀山
@@ -154,7 +154,7 @@ http://8.138.7.223/tv/gzjs.m3u8
 #EXTINF:-1 group-title="☘️广东频道",龙门飞甲
 http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",浙江钱江
-https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8 # http://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
+http://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8 # https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",浙江经济生活
 http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",浙江教育
@@ -191,8 +191,14 @@ http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b473
 http://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887
 #EXTINF:-1 group-title="☘️浙江频道",绍兴电视台公共
 http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
+#EXTINF:-1 group-title="☘️浙江频道",萧山生活
+https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
+#EXTINF:-1 group-title="☘️浙江频道",苍南新闻综合
+https://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",龙游生活娱乐
 https://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8
+#EXTINF:-1 group-title="☘️浙江频道",龙游新闻综合
+https://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",龙泉新闻综合
 http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",象山综合
@@ -223,6 +229,8 @@ http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed
 #EXTINF:-1 group-title="☘️浙江频道",余杭未来E频道
 http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed
+#EXTINF:-1 group-title="☘️浙江频道",余姚综合
+https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",余姚新闻综合
 https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",余姚姚江文化
@@ -287,10 +295,6 @@ https://ls.qingting.fm/live/21303/64k.m3u8
 http://zbbf2.ahbztv.com/live/416.m3u8?zanhd
 #EXTINF:-1 group-title="☘️安徽频道",广德生活
 https://live.gdtv.ah.cn/live/newsTV.m3u8
-#EXTINF:-1 group-title="☘️安徽频道",宿州新闻综合 [Not 24/7]
-http://live.ahsz.tv/video/s10001-szzh/index.m3u8
-#EXTINF:-1 group-title="☘️安徽频道",宿州公共 [Not 24/7]
-http://live.ahsz.tv/video/s10001-ggpd/index.m3u8
 #EXTINF:-1 group-title="☘️安徽频道",七台河新闻综合
 http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8
 #EXTINF:-1 group-title="☘️安徽频道",亳州农村
