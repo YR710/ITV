@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 314,
-  "generated": "2026-07-02T19:20:09.611395",
+  "total": 318,
+  "generated": "2026-07-03T02:28:52.982750",
   "channels": [
     {
       "name": "CCTV-1",
@@ -333,6 +333,15 @@
         "https://event.pull.hebtv.com:443/live/live101.m3u8"
       ],
       "latency": 3266,
+      "codec": "h264",
+      "category": "📡卫视频道"
+    },
+    {
+      "name": "江苏卫视",
+      "urls": [
+        "http://8.138.7.223/tv/jsws4k.php"
+      ],
+      "latency": 2779,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -1095,7 +1104,7 @@
       "urls": [
         "http://jrlive.jrntv.com/live/_definst_/dangjians/playlist.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]"
       ],
-      "latency": 1258,
+      "latency": 1700,
       "codec": "h264",
       "category": "☘️江苏频道"
     },
@@ -1293,7 +1302,7 @@
       "urls": [
         "https://live.gdtv.ah.cn/live/newsTV.m3u8"
       ],
-      "latency": 1741,
+      "latency": 3731,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
@@ -1379,6 +1388,15 @@
       "category": "☘️福建频道"
     },
     {
+      "name": "梨园",
+      "urls": [
+        "https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=41543190cdf375f1c73207222bb96542&wsTime=1769313549"
+      ],
+      "latency": 480,
+      "codec": "h264",
+      "category": "☘️河南频道"
+    },
+    {
       "name": "河南公共",
       "urls": [
         "http://1.94.31.214/php/hntv.php?id=hngg"
@@ -1393,6 +1411,24 @@
         "http://1.94.31.214/php/hntv.php?id=hmfz"
       ],
       "latency": 870,
+      "codec": "h264",
+      "category": "☘️河南频道"
+    },
+    {
+      "name": "河南梨园",
+      "urls": [
+        "http://1.94.31.214/php/hntv.php?id=hnly"
+      ],
+      "latency": 1306,
+      "codec": "h264",
+      "category": "☘️河南频道"
+    },
+    {
+      "name": "睛彩中原",
+      "urls": [
+        "http://1.94.31.214/php/hntv.php?id=jczy"
+      ],
+      "latency": 1363,
       "codec": "h264",
       "category": "☘️河南频道"
     },
@@ -2514,15 +2550,6 @@
       "category": "☘️云南频道"
     },
     {
-      "name": "安徽黟县西递牌坊",
-      "urls": [
-        "https://gcalic.v.myalicdn.com/gc/yxxdpf_1/index.m3u8"
-      ],
-      "latency": 497,
-      "codec": "h264",
-      "category": "☘️安徽频道"
-    },
-    {
       "name": "四川峨眉山远眺万佛顶",
       "urls": [
         "https://gcalic.v.myalicdn.com/gc/emswfs_1/index.m3u8"
@@ -2532,11 +2559,11 @@
       "category": "☘️四川频道"
     },
     {
-      "name": "安徽黟县芦村远眺",
+      "name": "安徽黟县西递牌坊",
       "urls": [
-        "https://gcalic.v.myalicdn.com/gc/yxlcyt_1/index.m3u8"
+        "https://gcalic.v.myalicdn.com/gc/yxxdpf_1/index.m3u8"
       ],
-      "latency": 500,
+      "latency": 497,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
@@ -2548,6 +2575,15 @@
       "latency": 500,
       "codec": "h264",
       "category": "☘️四川频道"
+    },
+    {
+      "name": "安徽黟县芦村远眺",
+      "urls": [
+        "https://gcalic.v.myalicdn.com/gc/yxlcyt_1/index.m3u8"
+      ],
+      "latency": 500,
+      "codec": "h264",
+      "category": "☘️安徽频道"
     },
     {
       "name": "云南丽江玉龙雪山",
