@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 318,
-  "generated": "2026-07-03T13:55:19.353139",
+  "total": 319,
+  "generated": "2026-07-03T19:14:28.725366",
   "channels": [
     {
       "name": "CCTV-1",
@@ -418,6 +418,15 @@
       "category": "📡卫视频道"
     },
     {
+      "name": "兵团卫视",
+      "urls": [
+        "http://218.13.170.98:9901/tsfile/live/0115_1.m3u8"
+      ],
+      "latency": 1115,
+      "codec": "h264",
+      "category": "📡卫视频道"
+    },
+    {
       "name": "安多卫视",
       "urls": [
         "https://liveout.xntv.tv/a65jur/96iln2.m3u8"
@@ -513,7 +522,7 @@
       "urls": [
         "http://live.zohi.tv/video/s10001-fztv-4/index.m3u8"
       ],
-      "latency": 5409,
+      "latency": 2155,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -2569,15 +2578,6 @@
       "category": "☘️福建频道"
     },
     {
-      "name": "四川峨眉山远眺万佛顶",
-      "urls": [
-        "https://gcalic.v.myalicdn.com/gc/emswfs_1/index.m3u8"
-      ],
-      "latency": 497,
-      "codec": "h264",
-      "category": "☘️四川频道"
-    },
-    {
       "name": "云南丽江印象实景",
       "urls": [
         "https://gcalic.v.myalicdn.com/gc/hkylxs01_1/index.m3u8"
@@ -2585,6 +2585,15 @@
       "latency": 497,
       "codec": "h264",
       "category": "☘️云南频道"
+    },
+    {
+      "name": "四川峨眉山远眺万佛顶",
+      "urls": [
+        "https://gcalic.v.myalicdn.com/gc/emswfs_1/index.m3u8"
+      ],
+      "latency": 497,
+      "codec": "h264",
+      "category": "☘️四川频道"
     },
     {
       "name": "黄山飞来石",
@@ -2812,6 +2821,15 @@
       "category": "🌊港·澳·台"
     },
     {
+      "name": "浙江钱江都市",
+      "urls": [
+        "http://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
+      ],
+      "latency": 1053,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "赣州公共",
       "urls": [
         "https://pili-live-hls-sjxgz2024.sobeylive.com/jxgz2024/396_q_live172526334096251.m3u8"
@@ -2882,15 +2900,6 @@
       "latency": 3188,
       "codec": "h264",
       "category": "☘️河南频道"
-    },
-    {
-      "name": "浙江钱江都市",
-      "urls": [
-        "http://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
-      ],
-      "latency": 1053,
-      "codec": "h264",
-      "category": "☘️浙江频道"
     }
   ]
 }

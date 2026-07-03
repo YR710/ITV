@@ -1,6 +1,6 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 400
-# Demo匹配成功: 318
+# 原始频道总数: 401
+# Demo匹配成功: 319
 # 丢弃数量: 82
 
 1989年春晚,https://txmov2.a.kwimgs.com/bs3/video-hls/5194620763762726260_hlsb.m3u8
@@ -64,6 +64,7 @@ NewTV武搏世界,http://1.94.31.214/php/hntv.php?id=wspd
 Pet Club TV,https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8
 Guangzhou TV,https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
 泰山南天门,https://gcalic.v.myalicdn.com/gc/hkts07_1/index.m3u8
+春晚2026,https://v.lzcdn28.com/20260217/8616_1de9f6e5/index.m3u8
 Hunan TV,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 武进新闻 [Not 24/7],https://live.wjyanghu.com/live/CH1.m3u8
 Harbin Comprehensive News Channel,https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
@@ -84,4 +85,3 @@ Xizang TV Tibetan [Not 24/7],http://php.jdshipin.com:8880/xztv.php?id=zy
 2024年春晚,https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
 兵团五师双河影,https://liveout.btzx.com.cn/62ds9e/6o77s4.m3u8?zxinjd
 蕭山生活頻道 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
-春晚2026,https://v.lzcdn28.com/20260217/8616_1de9f6e5/index.m3u8

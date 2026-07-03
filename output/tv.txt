@@ -45,6 +45,7 @@ CHC家庭影院,http://61.162.52.6:8088/newlive/live/hls/60/live.m3u8
 天津卫视,http://112.27.235.94:8000/hls/42/index.m3u8
 新疆卫视,http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd
 上海卫视,http://112.27.235.94:8000/hls/28/index.m3u8
+兵团卫视,http://218.13.170.98:9901/tsfile/live/0115_1.m3u8
 安多卫视,https://liveout.xntv.tv/a65jur/96iln2.m3u8
 海峡卫视,http://38.64.72.148:80/hls/modn/list/4009/chunklist0.m3u8
 延边2,http://stream5.jlntv.cn/wq/playlist.m3u8
