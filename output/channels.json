@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 320,
-  "generated": "2026-07-04T02:27:52.841121",
+  "total": 319,
+  "generated": "2026-07-04T08:33:12.656261",
   "channels": [
     {
       "name": "CCTV-1",
@@ -173,8 +173,7 @@
     {
       "name": "CCTV-17",
       "urls": [
-        "http://74.91.26.218:82/live/cctv17hd.m3u8",
-        "http://222.169.85.8:9901/tsfile/live/0007_1.m3u8"
+        "http://74.91.26.218:82/live/cctv17hd.m3u8"
       ],
       "latency": 229,
       "codec": "h264",
@@ -320,15 +319,6 @@
       "category": "📡卫视频道"
     },
     {
-      "name": "广西卫视",
-      "urls": [
-        "http://222.169.85.8:9901/tsfile/live/0113_1.m3u8"
-      ],
-      "latency": 6695,
-      "codec": "h264",
-      "category": "📡卫视频道"
-    },
-    {
       "name": "贵州卫视",
       "urls": [
         "http://112.27.235.94:8000/hls/46/index.m3u8"
@@ -351,7 +341,7 @@
       "urls": [
         "http://8.138.7.223/tv/jsws4k.php"
       ],
-      "latency": 2779,
+      "latency": 2301,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -1141,7 +1131,7 @@
       "urls": [
         "http://jrlive.jrntv.com/live/_definst_/dangjians/playlist.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]"
       ],
-      "latency": 1700,
+      "latency": 1130,
       "codec": "h264",
       "category": "☘️江苏频道"
     },
@@ -1335,15 +1325,6 @@
       "category": "☘️安徽频道"
     },
     {
-      "name": "广德生活",
-      "urls": [
-        "https://live.gdtv.ah.cn/live/newsTV.m3u8"
-      ],
-      "latency": 3731,
-      "codec": "h264",
-      "category": "☘️安徽频道"
-    },
-    {
       "name": "宿州新闻综合 [Not 24/7]",
       "urls": [
         "http://live.ahsz.tv/video/s10001-szzh/index.m3u8"
@@ -1411,7 +1392,7 @@
       "urls": [
         "https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=41543190cdf375f1c73207222bb96542&wsTime=1769313549"
       ],
-      "latency": 480,
+      "latency": 1030,
       "codec": "h264",
       "category": "☘️河南频道"
     },
@@ -1438,7 +1419,7 @@
       "urls": [
         "http://1.94.31.214/php/hntv.php?id=hnly"
       ],
-      "latency": 1306,
+      "latency": 1898,
       "codec": "h264",
       "category": "☘️河南频道"
     },
@@ -2297,6 +2278,15 @@
       "latency": 1077,
       "codec": "h264",
       "category": "☘️黑龙江频道"
+    },
+    {
+      "name": "任丘综合",
+      "urls": [
+        "https://jwcdnqx.hebyun.com.cn/live/rqtv1/1500k/tzwj_video.m3u8"
+      ],
+      "latency": 1867,
+      "codec": "h264",
+      "category": "☘️河北频道"
     },
     {
       "name": "平泉综合",
