@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 322,
-  "generated": "2026-07-06T02:41:28.863232",
+  "generated": "2026-07-06T10:09:57.831770",
   "channels": [
     {
       "name": "CCTV-1",
@@ -349,7 +349,7 @@
       "urls": [
         "http://8.138.7.223/tv/jsws4k.php"
       ],
-      "latency": 2179,
+      "latency": 2643,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -1426,7 +1426,7 @@
       "urls": [
         "https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=41543190cdf375f1c73207222bb96542&wsTime=1769313549"
       ],
-      "latency": 1315,
+      "latency": 1772,
       "codec": "h264",
       "category": "☘️河南频道"
     },
@@ -1453,7 +1453,7 @@
       "urls": [
         "http://1.94.31.214/php/hntv.php?id=hnly"
       ],
-      "latency": 1680,
+      "latency": 2209,
       "codec": "h264",
       "category": "☘️河南频道"
     },
@@ -2326,7 +2326,7 @@
       "urls": [
         "https://jwcdnqx.hebyun.com.cn/live/rqtv1/1500k/tzwj_video.m3u8"
       ],
-      "latency": 1395,
+      "latency": 1771,
       "codec": "h264",
       "category": "☘️河北频道"
     },
