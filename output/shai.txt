@@ -1,7 +1,7 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 398
-# Demo匹配成功: 316
-# 丢弃数量: 82
+# 原始频道总数: 406
+# Demo匹配成功: 323
+# 丢弃数量: 83
 
 1988年春晚,https://txmov2.a.kwimgs.com/bs3/video-hls/5216575810935394655_hlsb.m3u8
 1987年春晚,https://txmov2.a.kwimgs.com/bs3/video-hls/5195746663405928031_hlsb.m3u8
@@ -85,3 +85,4 @@ NewTV武搏世界,http://1.94.31.214/php/hntv.php?id=wspd
 春晚2024,https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
 RT Balkan,https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8
 兵团五师双河影,https://liveout.btzx.com.cn/62ds9e/6o77s4.m3u8?zxinjd
+CND Film Middle School Channel,http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8
