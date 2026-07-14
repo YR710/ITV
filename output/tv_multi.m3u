@@ -233,12 +233,16 @@ http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8?zzhed
 http://play-sh13.quklive.com/live/1702360350551252.m3u8?auth_key=2037107484-800189c57a5a44d3b823b60cf84f6756-0-a6f6828a62d5c167cff5e68735fa0d39
 #EXTINF:-1 group-title="☘️浙江频道",缙云新闻综合
 http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8
+#EXTINF:-1 group-title="☘️浙江频道",海宁新闻综合
+https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",永嘉新闻综合
 http://l.cztvcloud.com/channels/lantian/SXyongjia1/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",武义新闻综合
 http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",松阳综合
 http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8
+#EXTINF:-1 group-title="☘️浙江频道",普陀电视台
+https://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",新昌生活
 http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",新昌新闻综合
@@ -363,6 +367,8 @@ http://devlivepull.migucloud.com/live/Q081CD54_C0.flv
 http://1.94.31.214/php/hntv.php?id=hmfz
 #EXTINF:-1 group-title="☘️河南频道",河南梨园
 http://1.94.31.214/php/hntv.php?id=hnly
+#EXTINF:-1 group-title="☘️河南频道",睛彩中原
+http://1.94.31.214/php/hntv.php?id=jczy
 #EXTINF:-1 group-title="☘️河南频道",河南乡村
 http://1.94.31.214/php/hntv.php?id=hnxc
 #EXTINF:-1 group-title="☘️湖北频道",武汉一台新闻综合
@@ -465,6 +471,8 @@ https://gcalic.v.myalicdn.com/gc/zyqcdx01_1/index.m3u8
 http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 #EXTINF:-1 group-title="☘️青海频道",西宁新闻综合
 https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd
+#EXTINF:-1 group-title="☘️宁夏频道",普陀电视台
+https://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
 #EXTINF:-1 group-title="☘️宁夏频道",绍兴公共
 http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8
 #EXTINF:-1 group-title="☘️宁夏频道",大立电视台
@@ -507,8 +515,6 @@ https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;am
 http://112.27.235.94:8000/hls/43/index.m3u8
 #EXTINF:-1 group-title="☘️山西频道",怀仁综合
 https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc-1.m3u8
-#EXTINF:-1 group-title="☘️山西频道",武乡新闻综合
-http://uzoiczhh.live.sxmty.com/live/hls/0d41f1480c4042d49927858f01fde707/53130407737b417b9a6259b57246bae3.m3u8?zshanxd
 #EXTINF:-1 group-title="☘️山西频道",长子综合
 https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd
 #EXTINF:-1 group-title="☘️山西频道",平遥新闻综合

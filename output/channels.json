@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 332,
-  "generated": "2026-07-13T19:21:13.344997",
+  "total": 334,
+  "generated": "2026-07-14T01:59:41.496643",
   "channels": [
     {
       "name": "CCTV-1",
@@ -1007,6 +1007,15 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "海宁新闻综合",
+      "urls": [
+        "https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8"
+      ],
+      "latency": 3032,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "永嘉新闻综合",
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXyongjia1/720p.m3u8"
@@ -1030,6 +1039,15 @@
         "http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8"
       ],
       "latency": 559,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "普陀电视台",
+      "urls": [
+        "https://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8"
+      ],
+      "latency": 3257,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1574,6 +1592,15 @@
       "category": "☘️河南频道"
     },
     {
+      "name": "睛彩中原",
+      "urls": [
+        "http://1.94.31.214/php/hntv.php?id=jczy"
+      ],
+      "latency": 2871,
+      "codec": "h264",
+      "category": "☘️河南频道"
+    },
+    {
       "name": "河南乡村",
       "urls": [
         "http://1.94.31.214/php/hntv.php?id=hnxc"
@@ -2048,15 +2075,6 @@
         "https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc-1.m3u8"
       ],
       "latency": 1622,
-      "codec": "h264",
-      "category": "☘️山西频道"
-    },
-    {
-      "name": "武乡新闻综合",
-      "urls": [
-        "http://uzoiczhh.live.sxmty.com/live/hls/0d41f1480c4042d49927858f01fde707/53130407737b417b9a6259b57246bae3.m3u8?zshanxd"
-      ],
-      "latency": 3031,
       "codec": "h264",
       "category": "☘️山西频道"
     },
