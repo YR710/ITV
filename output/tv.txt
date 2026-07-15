@@ -11,8 +11,8 @@ CCTV-8,http://74.91.26.218:82/live/cctv8hd.m3u8
 CCTV-9,http://112.27.235.94:8000/hls/10/index.m3u8
 CCTV-10,http://74.91.26.218:82/live/cctv10hd.m3u8
 CCTV-11,http://74.91.26.218:82/live/cctv11hd.m3u8
-CCTV-12,http://74.91.26.218:82/live/cctv12hd.m3u8
-CCTV-13,http://74.91.26.218:82/live/cctv13hd.m3u8
+CCTV-12,http://112.27.235.94:8000/hls/13/index.m3u8
+CCTV-13,http://112.27.235.94:8000/hls/14/index.m3u8
 CCTV-14,http://74.91.26.218:82/live/cctv14hd.m3u8
 CCTV-15,http://74.91.26.218:82/live/cctv15hd.m3u8
 CCTV-17,http://74.91.26.218:82/live/cctv17hd.m3u8
@@ -116,6 +116,7 @@ Bread TV面包台,https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 绍兴电视台公共,http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
 萧山生活,https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 萧山新闻综合,https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
+诸暨新闻综合,https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
 龙游生活娱乐,https://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8
 龙游新闻综合,https://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8
 龙泉新闻综合,http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
