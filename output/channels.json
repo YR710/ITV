@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 342,
-  "generated": "2026-07-17T02:11:08.136870",
+  "total": 344,
+  "generated": "2026-07-17T08:03:42.115676",
   "channels": [
     {
       "name": "CCTV-1",
@@ -176,7 +176,7 @@
       "urls": [
         "https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001620/index.m3u8?streamid=8a034b40397504e25b3775c772237996&streamkey=01vY5fRxC8VyKg4oq30vfikHXTCAKySLP29l6OG91kQlzDttHgzNLkUw5kivm3PfNsVHJv5FgdsPBYFYI2IWpt7tfRCuFHqLT2pvX67ubMds8jl2DHtvOh0&token=1775754349-4f33f4f84a4abeba-0-91687dc8c9325092efa1d00f330d2710"
       ],
-      "latency": 5064,
+      "latency": 1029,
       "codec": "h264",
       "category": "📺央视频道"
     },
@@ -924,7 +924,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed"
       ],
-      "latency": 5442,
+      "latency": 1346,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -960,7 +960,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8"
       ],
-      "latency": 5144,
+      "latency": 2198,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -969,7 +969,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8"
       ],
-      "latency": 5683,
+      "latency": 1221,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1176,7 +1176,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8"
       ],
-      "latency": 5438,
+      "latency": 1370,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1480,6 +1480,15 @@
       "category": "☘️安徽频道"
     },
     {
+      "name": "黄山公共生活",
+      "urls": [
+        "http://hslive.hsnewsnet.com/lsdream/iY92ady/1000/live.m3u8?zanhd"
+      ],
+      "latency": 3222,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
       "name": "铜陵新闻综合",
       "urls": [
         "https://ls.qingting.fm/live/21303/64k.m3u8"
@@ -1548,6 +1557,15 @@
         "https://live.zzyxxw.com:2443/live/xwzh.m3u8"
       ],
       "latency": 1014,
+      "codec": "h264",
+      "category": "☘️福建频道"
+    },
+    {
+      "name": "福建公共",
+      "urls": [
+        "https://live.264788.xyz/channel/fujianxiangcungonggong?streamid=1cf7fc3a8f6d160c33b43c2f9507a0cc&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+      ],
+      "latency": 3154,
       "codec": "h264",
       "category": "☘️福建频道"
     },
@@ -2465,7 +2483,7 @@
       "urls": [
         "https://ls.qingting.fm/live/4974/64k.m3u8"
       ],
-      "latency": 6202,
+      "latency": 1599,
       "codec": "h264",
       "category": "☘️黑龙江频道"
     },

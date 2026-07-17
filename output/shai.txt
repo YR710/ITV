@@ -1,6 +1,6 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 437
-# Demo匹配成功: 342
+# 原始频道总数: 439
+# Demo匹配成功: 344
 # 丢弃数量: 95
 
 1988年春晚,https://txmov2.a.kwimgs.com/bs3/video-hls/5216575810935394655_hlsb.m3u8
@@ -87,7 +87,6 @@ Harbin Comprehensive News Channel,https://stream.hrbtv.net/xwzh/playlist.m3u8?_u
 RT DE,https://rt-ger.rttv.com/dvr/rtdeutsch/playlist_4500Kb.m3u8
 辽新闻综合 [Geo-blocked],https://stream2.jlntv.cn/liaoyuan1/sd/live.m3u8
 Xinjiang TV 1,https://p8.vzan.com/218800995/242196610130883766/live.m3u8?zbid=218800995&tpid=208366456
-餘姚姚江文化 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
 RT Arabic,https://rt-arb.rttv.com/dvr/rtarab/playlist_4500Kb.m3u8
 RT Français,https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8
 象视界,http://1.94.31.214/php/hntv.php?id=xsj
@@ -98,3 +97,4 @@ Nei Monggol TV 2 Mongolian Culture Channel [Not 24/7],http://play1-qk.nmtv.cn/li
 直中国,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
 衢江新闻综合,http://l.cztvcloud.com/channels/lantian/SXqujiang1/720p.m3u8?zzhed
 象山新闻综合,http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8
+餘姚姚江文化 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
