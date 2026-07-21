@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 331,
-  "generated": "2026-07-21T13:30:09.841029",
+  "total": 332,
+  "generated": "2026-07-21T19:15:18.877829",
   "channels": [
     {
       "name": "CCTV-1",
@@ -169,15 +169,6 @@
         "http://74.91.26.218:82/live/cctv17hd.m3u8"
       ],
       "latency": 168,
-      "codec": "h264",
-      "category": "📺央视频道"
-    },
-    {
-      "name": "世界地理",
-      "urls": [
-        "https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001620/index.m3u8?streamid=8a034b40397504e25b3775c772237996&streamkey=01vY5fRxC8VyKg4oq30vfikHXTCAKySLP29l6OG91kQlzDttHgzNLkUw5kivm3PfNsVHJv5FgdsPBYFYI2IWpt7tfRCuFHqLT2pvX67ubMds8jl2DHtvOh0&token=1775754349-4f33f4f84a4abeba-0-91687dc8c9325092efa1d00f330d2710"
-      ],
-      "latency": 1064,
       "codec": "h264",
       "category": "📺央视频道"
     },
@@ -974,6 +965,15 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "缙云综合",
+      "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8?zzhed?"
+      ],
+      "latency": 1358,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "缙云新闻综合",
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8"
@@ -1104,7 +1104,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed"
       ],
-      "latency": 3136,
+      "latency": 631,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1113,7 +1113,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXshengsi1/720p.m3u8"
       ],
-      "latency": 3224,
+      "latency": 705,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1122,7 +1122,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8"
       ],
-      "latency": 4097,
+      "latency": 603,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1131,7 +1131,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8"
       ],
-      "latency": 2755,
+      "latency": 732,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1150,7 +1150,7 @@
         "http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8",
         "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8"
       ],
-      "latency": 1192,
+      "latency": 2045,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1177,7 +1177,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8"
       ],
-      "latency": 543,
+      "latency": 2014,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1186,7 +1186,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed"
       ],
-      "latency": 497,
+      "latency": 1847,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1227,11 +1227,29 @@
       "category": "☘️江苏频道"
     },
     {
+      "name": "句容党建",
+      "urls": [
+        "http://jrlive.jrntv.com/live/_definst_/dangjians/playlist.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]"
+      ],
+      "latency": 1476,
+      "codec": "h264",
+      "category": "☘️江苏频道"
+    },
+    {
       "name": "句容影院",
       "urls": [
         "http://jrlive.jrntv.com/live/_definst_/yingshis/chunklist_w1994429382.m3u8?zjiangsd"
       ],
-      "latency": 5426,
+      "latency": 848,
+      "codec": "h264",
+      "category": "☘️江苏频道"
+    },
+    {
+      "name": "句容生活",
+      "urls": [
+        "http://jrlive.jrntv.com/live/_definst_/shenghuos/playlist.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]"
+      ],
+      "latency": 965,
       "codec": "h264",
       "category": "☘️江苏频道"
     },
@@ -1488,20 +1506,11 @@
       "category": "☘️福建频道"
     },
     {
-      "name": "福建公共",
-      "urls": [
-        "https://live.264788.xyz/channel/fujianxiangcungonggong?streamid=1cf7fc3a8f6d160c33b43c2f9507a0cc&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
-      ],
-      "latency": 3663,
-      "codec": "h264",
-      "category": "☘️福建频道"
-    },
-    {
       "name": "福建旅游",
       "urls": [
         "https://live.264788.xyz/channel/fujianlvyou?streamid=221239fcf3c7edb274f2f0760fe47f96&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
       ],
-      "latency": 3589,
+      "latency": 4177,
       "codec": "h264",
       "category": "☘️福建频道"
     },
