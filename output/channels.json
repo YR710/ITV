@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 342,
-  "generated": "2026-07-20T19:41:16.465435",
+  "total": 343,
+  "generated": "2026-07-21T02:09:43.976533",
   "channels": [
     {
       "name": "CCTV-1",
@@ -1165,7 +1165,8 @@
     {
       "name": "余姚新闻综合",
       "urls": [
-        "http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8"
+        "http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8",
+        "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8"
       ],
       "latency": 1192,
       "codec": "h264",
@@ -1174,6 +1175,7 @@
     {
       "name": "余姚姚江文化",
       "urls": [
+        "https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8",
         "https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8"
       ],
       "latency": 1055,
@@ -2113,6 +2115,15 @@
         "https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc-1.m3u8"
       ],
       "latency": 1855,
+      "codec": "h264",
+      "category": "☘️山西频道"
+    },
+    {
+      "name": "武乡新闻综合",
+      "urls": [
+        "http://uzoiczhh.live.sxmty.com/live/hls/0d41f1480c4042d49927858f01fde707/53130407737b417b9a6259b57246bae3.m3u8?zshanxd"
+      ],
+      "latency": 3116,
       "codec": "h264",
       "category": "☘️山西频道"
     },
