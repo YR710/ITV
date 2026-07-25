@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 320,
-  "generated": "2026-07-24T19:21:19.984152",
+  "total": 326,
+  "generated": "2026-07-25T02:10:21.574719",
   "channels": [
     {
       "name": "CCTV-1",
@@ -1387,6 +1387,15 @@
       "category": "☘️江苏频道"
     },
     {
+      "name": "镇江二套社会民生",
+      "urls": [
+        "http://zjtv-wshls.homecdn.com/live/2aa16.m3u8"
+      ],
+      "latency": 1007,
+      "codec": "h264",
+      "category": "☘️江苏频道"
+    },
+    {
       "name": "镇江新闻综合",
       "urls": [
         "http://cm-wshls.homecdn.com/live/2aa50.m3u8"
@@ -1473,6 +1482,33 @@
         "https://live.gdtv.ah.cn/live/newsTV.m3u8"
       ],
       "latency": 2702,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
+      "name": "宿州科教 [Not 24/7]",
+      "urls": [
+        "http://live.ahsz.tv/video/s10001-kxjy/index.m3u8"
+      ],
+      "latency": 672,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
+      "name": "宿州新闻综合 [Not 24/7]",
+      "urls": [
+        "http://live.ahsz.tv/video/s10001-szzh/index.m3u8"
+      ],
+      "latency": 895,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
+      "name": "宿州公共 [Not 24/7]",
+      "urls": [
+        "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8"
+      ],
+      "latency": 1260,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
@@ -1761,6 +1797,15 @@
         "http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8"
       ],
       "latency": 913,
+      "codec": "h264",
+      "category": "☘️四川频道"
+    },
+    {
+      "name": "河综合",
+      "urls": [
+        "http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8"
+      ],
+      "latency": 690,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -2296,6 +2341,15 @@
       "category": "☘️黑龙江频道"
     },
     {
+      "name": "河公共",
+      "urls": [
+        "http://tmpstream.hyrtv.cn/hygg/sd/live.m3u8"
+      ],
+      "latency": 1059,
+      "codec": "h264",
+      "category": "☘️黑龙江频道"
+    },
+    {
       "name": "平泉综合",
       "urls": [
         "https://jwcdnqx.hebyun.com.cn/live/pqzh/1500k/tzwj_video.m3u8"
@@ -2548,15 +2602,6 @@
       "category": "☘️云南频道"
     },
     {
-      "name": "望乡台",
-      "urls": [
-        "https://gcalic.v.myalicdn.com/gc/hlwxt_1/index.m3u8"
-      ],
-      "latency": 399,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
       "name": "安徽池州九华山风景区九华山",
       "urls": [
         "https://gcalic.v.myalicdn.com/gc/jhs05_1/index.m3u8"
@@ -2573,6 +2618,15 @@
       "latency": 399,
       "codec": "h264",
       "category": "☘️福建频道"
+    },
+    {
+      "name": "望乡台",
+      "urls": [
+        "https://gcalic.v.myalicdn.com/gc/hlwxt_1/index.m3u8"
+      ],
+      "latency": 399,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
     },
     {
       "name": "厦门鼓浪屿",

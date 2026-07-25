@@ -1,7 +1,7 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 409
-# Demo匹配成功: 320
-# 丢弃数量: 89
+# 原始频道总数: 418
+# Demo匹配成功: 326
+# 丢弃数量: 92
 
 Supreme Master TV,https://lbs-us1.suprememastertv.com/720p.m3u8
 1988年春晚,https://txmov2.a.kwimgs.com/bs3/video-hls/5216575810935394655_hlsb.m3u8
@@ -38,6 +38,7 @@ Xinjiang TV 3,http://110.153.180.106:55555/out_2/index.m3u8
 辉南新闻,http://stream5.jlntv.cn/hn/sd/live.m3u8?zjild
 舒兰新闻,http://stream8.jlntv.cn/shulan/sd/live.m3u8?zjild
 CGTN French,http://145.239.5.177/214/index.m3u8
+新昌新聞綜合 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8
 汪清,http://stream5.jlntv.cn/wq/sd/live.m3u8?zjild
 衢江新闻综合,http://l.cztvcloud.com/channels/lantian/SXqujiang1/720p.m3u8?zzhed
 Wild Earth,https://wildearth-plex.amagi.tv/masterR1080p.m3u8
@@ -74,10 +75,12 @@ Xinjiang TV 1,https://p8.vzan.com/218800995/242196610130883766/live.m3u8?zbid=21
 NewTV武搏世界,http://1.94.31.214/php/hntv.php?id=wspd
 Nei Monggol TV 2 Mongolian Culture Channel [Not 24/7],http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
 WionNews,https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
+Lanzhou Comprehensive News Channel,https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
 RT Balkan,https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8
 象视界,http://1.94.31.214/php/hntv.php?id=xsj
 兴隆综合,https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8
 黄花城水长城02,http://gctxyc.liveplay.myqcloud.com/gc/wgw02_1/index.m3u8
+上虞3新商都 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
 Hebei TV,https://event.pull.hebtv.com/live/live101.m3u8
 直中国,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
 Guangzhou TV,https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
@@ -91,4 +94,4 @@ Chifeng Comprehensive News Chanel,http://play1-qk.nmtv.cn/live/1735546697341033.
 RT Español,https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8
 2024年春晚,https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
 Xizang TV Tibetan [Not 24/7],http://php.jdshipin.com:8880/xztv.php?id=zy
-Lanzhou Comprehensive News Channel,https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
+蕭山生活頻道 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
