@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 322,
-  "generated": "2026-07-27T09:42:58.538466",
+  "total": 325,
+  "generated": "2026-07-27T14:22:25.762694",
   "channels": [
     {
       "name": "CCTV-1",
@@ -1467,6 +1467,15 @@
       "category": "☘️安徽频道"
     },
     {
+      "name": "广德生活",
+      "urls": [
+        "https://live.gdtv.ah.cn/live/newsTV.m3u8"
+      ],
+      "latency": 3518,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
       "name": "宿州科教 [Not 24/7]",
       "urls": [
         "http://live.ahsz.tv/video/s10001-kxjy/index.m3u8"
@@ -2376,11 +2385,29 @@
       "category": "☘️河北频道"
     },
     {
+      "name": "河北少儿",
+      "urls": [
+        "http://1.94.31.214/php/hebei.php?id=sekj"
+      ],
+      "latency": 2706,
+      "codec": "h264",
+      "category": "☘️河北频道"
+    },
+    {
       "name": "河北影视",
       "urls": [
         "http://1.94.31.214/php/hebei.php?id=hbys"
       ],
       "latency": 2528,
+      "codec": "h264",
+      "category": "☘️河北频道"
+    },
+    {
+      "name": "河北经济",
+      "urls": [
+        "http://1.94.31.214/php/hebei.php?id=jjsh"
+      ],
+      "latency": 2668,
       "codec": "h264",
       "category": "☘️河北频道"
     },
