@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 237,
-  "generated": "2026-07-29T08:33:47.222119",
+  "total": 238,
+  "generated": "2026-07-29T13:59:12.712388",
   "channels": [
     {
       "name": "CCTV-1",
@@ -430,6 +430,15 @@
         "http://112.27.235.94:8000/hls/42/index.m3u8"
       ],
       "latency": 467,
+      "codec": "h264",
+      "category": "📡卫视频道"
+    },
+    {
+      "name": "新疆卫视",
+      "urls": [
+        "http://222.169.85.8:9901/tsfile/live/0110_1.m3u8"
+      ],
+      "latency": 6847,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -956,7 +965,7 @@
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8"
       ],
-      "latency": 6198,
+      "latency": 1366,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1263,7 +1272,7 @@
       "urls": [
         "http://cm-wshls.homecdn.com/live/2aa50.m3u8"
       ],
-      "latency": 5799,
+      "latency": 1438,
       "codec": "h264",
       "category": "☘️江苏频道"
     },
