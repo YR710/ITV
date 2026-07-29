@@ -47,7 +47,6 @@ CGTN英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
 陕西卫视,http://112.27.235.94:8000/hls/43/index.m3u8
 四川卫视,http://112.27.235.94:8000/hls/35/index.m3u8
 天津卫视,http://112.27.235.94:8000/hls/42/index.m3u8
-新疆卫视,http://222.169.85.8:9901/tsfile/live/0110_1.m3u8
 上海卫视,http://112.27.235.94:8000/hls/28/index.m3u8
 兵团卫视,http://218.13.170.98:9901/tsfile/live/0115_1.m3u8
 大湾区卫视,http://222.128.55.152:9080/live/dwq.m3u8
@@ -219,7 +218,6 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 伊犁维吾尔,http://110.153.180.106:55555/out_2/index.m3u8
 可克达拉综合,http://file.loulannews.cn/nmip-media/channellive/channel103824/playlist.m3u8
 奎屯汉语,http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd
-新疆卫视,http://222.169.85.8:9901/tsfile/live/0110_1.m3u8
 玛纳斯综合,http://218.84.127.245:1026/hls/main1/playlist.m3u8?zxinjd,
 伊犁维吾尔,http://110.153.180.106:55555/out_2/index.m3u8
 ☘️内蒙古频道,#genre#
