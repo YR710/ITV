@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 284,
-  "generated": "2026-07-31T13:55:29.670425",
+  "total": 286,
+  "generated": "2026-07-31T19:20:23.630773",
   "channels": [
     {
       "name": "CCTV-1",
@@ -959,7 +959,7 @@
       "urls": [
         "https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8"
       ],
-      "latency": 7222,
+      "latency": 2852,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1400,7 +1400,7 @@
       "urls": [
         "https://ls.qingting.fm/live/21303/64k.m3u8"
       ],
-      "latency": 8704,
+      "latency": 2096,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
@@ -1666,6 +1666,15 @@
       "category": "☘️四川频道"
     },
     {
+      "name": "雅安新闻综合",
+      "urls": [
+        "https://play.yunxya.com/channellive/xinwen.m3u8"
+      ],
+      "latency": 2238,
+      "codec": "h264",
+      "category": "☘️四川频道"
+    },
+    {
       "name": "青川综合",
       "urls": [
         "http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8"
@@ -1888,6 +1897,15 @@
         "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0"
       ],
       "latency": 771,
+      "codec": "h264",
+      "category": "☘️山西频道"
+    },
+    {
+      "name": "定襄综合",
+      "urls": [
+        "http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8?zshanxd"
+      ],
+      "latency": 3037,
       "codec": "h264",
       "category": "☘️山西频道"
     },
