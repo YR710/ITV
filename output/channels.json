@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 287,
-  "generated": "2026-07-30T19:22:19.056612",
+  "generated": "2026-07-31T02:15:21.692914",
   "channels": [
     {
       "name": "CCTV-1",
@@ -860,7 +860,7 @@
       "urls": [
         "http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b4731ae53729ea6dcf932.m3u8?auth_key=2277598215-9d21c15111244bea8d298c361d31a72e-0-d031198f58d44b0e91ba2e3f3b188865"
       ],
-      "latency": 639,
+      "latency": 1464,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -869,7 +869,7 @@
       "urls": [
         "http://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887"
       ],
-      "latency": 948,
+      "latency": 1267,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -973,11 +973,20 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "海宁新闻综合",
+      "urls": [
+        "https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8"
+      ],
+      "latency": 4278,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "永嘉新闻综合",
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXyongjia1/720p.m3u8"
       ],
-      "latency": 1135,
+      "latency": 5927,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -986,7 +995,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8"
       ],
-      "latency": 1686,
+      "latency": 5779,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1361,15 +1370,6 @@
       "category": "☘️江苏频道"
     },
     {
-      "name": "镇江二套社会民生",
-      "urls": [
-        "http://zjtv-wshls.homecdn.com/live/2aa16.m3u8"
-      ],
-      "latency": 1632,
-      "codec": "h264",
-      "category": "☘️江苏频道"
-    },
-    {
       "name": "镇江新闻综合",
       "urls": [
         "http://cm-wshls.homecdn.com/live/2aa50.m3u8"
@@ -1460,24 +1460,6 @@
       "category": "☘️安徽频道"
     },
     {
-      "name": "宿州新闻综合 [Not 24/7]",
-      "urls": [
-        "http://live.ahsz.tv/video/s10001-szzh/index.m3u8"
-      ],
-      "latency": 1301,
-      "codec": "h264",
-      "category": "☘️安徽频道"
-    },
-    {
-      "name": "宿州公共 [Not 24/7]",
-      "urls": [
-        "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8"
-      ],
-      "latency": 1290,
-      "codec": "h264",
-      "category": "☘️安徽频道"
-    },
-    {
       "name": "七台河新闻综合",
       "urls": [
         "http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8"
@@ -1514,11 +1496,11 @@
       "category": "☘️福建频道"
     },
     {
-      "name": "河南梨园",
+      "name": "梨园",
       "urls": [
-        "http://1.94.31.214/php/hntv.php?id=hnly"
+        "https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=41543190cdf375f1c73207222bb96542&wsTime=1769313549"
       ],
-      "latency": 1689,
+      "latency": 1219,
       "codec": "h264",
       "category": "☘️河南频道"
     },
@@ -1537,6 +1519,24 @@
         "http://1.94.31.214/php/hntv.php?id=hmfz"
       ],
       "latency": 1457,
+      "codec": "h264",
+      "category": "☘️河南频道"
+    },
+    {
+      "name": "河南梨园",
+      "urls": [
+        "http://1.94.31.214/php/hntv.php?id=hnly"
+      ],
+      "latency": 1689,
+      "codec": "h264",
+      "category": "☘️河南频道"
+    },
+    {
+      "name": "睛彩中原",
+      "urls": [
+        "http://1.94.31.214/php/hntv.php?id=jczy"
+      ],
+      "latency": 1214,
       "codec": "h264",
       "category": "☘️河南频道"
     },
@@ -1713,11 +1713,11 @@
       "category": "☘️云南频道"
     },
     {
-      "name": "陕西新闻咨询",
+      "name": "新闻咨询",
       "urls": [
         "http://112.46.105.20:8009/hls/18/index.m3u8"
       ],
-      "latency": 1991,
+      "latency": 514,
       "codec": "h264",
       "category": "☘️陕西频道"
     },
@@ -1754,15 +1754,6 @@
         "http://112.46.105.20:8009/hls/22/index.m3u8"
       ],
       "latency": 340,
-      "codec": "h264",
-      "category": "☘️陕西频道"
-    },
-    {
-      "name": "新闻咨询",
-      "urls": [
-        "http://112.46.105.20:8009/hls/18/index.m3u8"
-      ],
-      "latency": 514,
       "codec": "h264",
       "category": "☘️陕西频道"
     },
@@ -2257,7 +2248,7 @@
       "urls": [
         "http://1.94.31.214/php/hebei.php?id=sekj"
       ],
-      "latency": 3519,
+      "latency": 4081,
       "codec": "h264",
       "category": "☘️河北频道"
     },
@@ -2275,7 +2266,7 @@
       "urls": [
         "http://1.94.31.214/php/hebei.php?id=jjsh"
       ],
-      "latency": 2808,
+      "latency": 4058,
       "codec": "h264",
       "category": "☘️河北频道"
     },
@@ -2488,6 +2479,15 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "陕西都市青春",
+      "urls": [
+        "http://112.46.105.20:8009/hls/19/index.m3u8"
+      ],
+      "latency": 509,
+      "codec": "h264",
+      "category": "☘️陕西频道"
+    },
+    {
       "name": "浙江 Ⅰ 绍兴综合",
       "urls": [
         "http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8"
@@ -2578,6 +2578,24 @@
       "category": "🌊港·澳·台"
     },
     {
+      "name": "河南新闻",
+      "urls": [
+        "http://1.94.31.214/php/hntv.php?id=hnxw"
+      ],
+      "latency": 1964,
+      "codec": "h264",
+      "category": "☘️河南频道"
+    },
+    {
+      "name": "陕西新闻咨询",
+      "urls": [
+        "http://112.46.105.20:8009/hls/18/index.m3u8"
+      ],
+      "latency": 1991,
+      "codec": "h264",
+      "category": "☘️陕西频道"
+    },
+    {
       "name": "松原新闻综合 [Geo-blocked]",
       "urls": [
         "https://stream2.jlntv.cn/sytv/sd/live.m3u8"
@@ -2594,24 +2612,6 @@
       "latency": 2917,
       "codec": "h264",
       "category": "🌊港·澳·台"
-    },
-    {
-      "name": "河南新闻",
-      "urls": [
-        "http://1.94.31.214/php/hntv.php?id=hnxw"
-      ],
-      "latency": 1964,
-      "codec": "h264",
-      "category": "☘️河南频道"
-    },
-    {
-      "name": "陕西都市青春",
-      "urls": [
-        "http://112.46.105.20:8009/hls/19/index.m3u8"
-      ],
-      "latency": 509,
-      "codec": "h264",
-      "category": "☘️陕西频道"
     }
   ]
 }
