@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 279,
-  "generated": "2026-08-01T02:16:56.609323",
+  "total": 281,
+  "generated": "2026-08-01T08:14:42.530228",
   "channels": [
     {
       "name": "CCTV-1",
@@ -431,7 +431,7 @@
       "urls": [
         "http://218.13.170.98:9901/tsfile/live/0115_1.m3u8"
       ],
-      "latency": 6304,
+      "latency": 2445,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -825,6 +825,24 @@
         "http://tvfile.jyrmt.cn:80/nmip-media/channellive/channel104452/playlist.m3u8"
       ],
       "latency": 2889,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "湖州新闻综合",
+      "urls": [
+        "http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b4731ae53729ea6dcf932.m3u8?auth_key=2277598215-9d21c15111244bea8d298c361d31a72e-0-d031198f58d44b0e91ba2e3f3b188865"
+      ],
+      "latency": 1234,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "湖州文化娱乐",
+      "urls": [
+        "http://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887"
+      ],
+      "latency": 1252,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1306,6 +1324,15 @@
       "category": "☘️江苏频道"
     },
     {
+      "name": "镇江新闻综合",
+      "urls": [
+        "http://cm-wshls.homecdn.com/live/2aa50.m3u8"
+      ],
+      "latency": 1691,
+      "codec": "h264",
+      "category": "☘️江苏频道"
+    },
+    {
       "name": "靖江新闻綜合 [Not 24/7]",
       "urls": [
         "http://visit.jjbctv.com:1935/live/xwzhmb/playlist.m3u8"
@@ -1374,15 +1401,6 @@
         "http://zbbf2.ahbztv.com/live/416.m3u8?zanhd"
       ],
       "latency": 1043,
-      "codec": "h264",
-      "category": "☘️安徽频道"
-    },
-    {
-      "name": "广德生活",
-      "urls": [
-        "https://live.gdtv.ah.cn/live/newsTV.m3u8"
-      ],
-      "latency": 5886,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
