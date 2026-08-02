@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 280,
-  "generated": "2026-08-01T19:04:16.962534",
+  "total": 282,
+  "generated": "2026-08-02T02:13:51.835170",
   "channels": [
     {
       "name": "CCTV-1",
@@ -979,7 +979,7 @@
       "urls": [
         "https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8"
       ],
-      "latency": 2852,
+      "latency": 2180,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1411,7 +1411,7 @@
       "urls": [
         "https://ls.qingting.fm/live/21303/64k.m3u8"
       ],
-      "latency": 2096,
+      "latency": 1575,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
@@ -1661,9 +1661,10 @@
     {
       "name": "河综合",
       "urls": [
+        "https://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8",
         "http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8"
       ],
-      "latency": 1992,
+      "latency": 1380,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -1745,6 +1746,15 @@
         "http://112.46.105.20:8009/hls/18/index.m3u8"
       ],
       "latency": 975,
+      "codec": "h264",
+      "category": "☘️陕西频道"
+    },
+    {
+      "name": "新昌休闲影视 [Not 24/7]",
+      "urls": [
+        "https://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8"
+      ],
+      "latency": 4536,
       "codec": "h264",
       "category": "☘️陕西频道"
     },
@@ -2240,6 +2250,15 @@
         "http://1.94.31.214/php/hebei.php?id=hbds"
       ],
       "latency": 2156,
+      "codec": "h264",
+      "category": "☘️河北频道"
+    },
+    {
+      "name": "清河经济综艺",
+      "urls": [
+        "https://jwcdnqx.hebyun.com.cn/live/qinghe1/1500k/tzwj_video.m3u8"
+      ],
+      "latency": 1376,
       "codec": "h264",
       "category": "☘️河北频道"
     },
