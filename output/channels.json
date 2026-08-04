@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 296,
-  "generated": "2026-08-03T19:28:03.708986",
+  "total": 298,
+  "generated": "2026-08-04T02:01:08.209159",
   "channels": [
     {
       "name": "CCTV-1",
@@ -2246,6 +2246,15 @@
       "category": "☘️河北频道"
     },
     {
+      "name": "昌黎综合",
+      "urls": [
+        "https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8"
+      ],
+      "latency": 2806,
+      "codec": "h264",
+      "category": "☘️河北频道"
+    },
+    {
       "name": "河北",
       "urls": [
         "https://event.pull.hebtv.com:443/live/live101.m3u8"
@@ -2668,6 +2677,15 @@
       "latency": 1902,
       "codec": "h264",
       "category": "☘️河南频道"
+    },
+    {
+      "name": "九台",
+      "urls": [
+        "http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild"
+      ],
+      "latency": 2155,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
     },
     {
       "name": "福州广电视台新闻综合频道",
