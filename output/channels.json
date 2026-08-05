@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 296,
-  "generated": "2026-08-05T02:00:27.921204",
+  "total": 298,
+  "generated": "2026-08-05T08:31:18.749528",
   "channels": [
     {
       "name": "CCTV-1",
@@ -1056,6 +1056,15 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "普陀电视台",
+      "urls": [
+        "https://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8"
+      ],
+      "latency": 2425,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "普陀新闻综合",
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8"
@@ -1065,11 +1074,11 @@
       "category": "☘️浙江频道"
     },
     {
-      "name": "新昌新聞綜合 [Not 24/7]",
+      "name": "新昌新闻综合",
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8"
       ],
-      "latency": 1918,
+      "latency": 448,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1222,7 +1231,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed"
       ],
-      "latency": 5615,
+      "latency": 2197,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1231,7 +1240,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8"
       ],
-      "latency": 5825,
+      "latency": 1160,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1939,6 +1948,15 @@
       "category": "☘️山西频道"
     },
     {
+      "name": "定襄综合",
+      "urls": [
+        "http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8?zshanxd"
+      ],
+      "latency": 2460,
+      "codec": "h264",
+      "category": "☘️山西频道"
+    },
+    {
       "name": "长子综合",
       "urls": [
         "https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd"
@@ -2231,7 +2249,7 @@
       "urls": [
         "https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8"
       ],
-      "latency": 2806,
+      "latency": 1410,
       "codec": "h264",
       "category": "☘️河北频道"
     },
@@ -2651,6 +2669,15 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "九台",
+      "urls": [
+        "http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild"
+      ],
+      "latency": 1704,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
       "name": "福州广电视台新闻综合频道",
       "urls": [
         "http://live.zohi.tv/video/s10001-fztv-1/index.m3u8"
@@ -2676,15 +2703,6 @@
       "latency": 2139,
       "codec": "h264",
       "category": "☘️河南频道"
-    },
-    {
-      "name": "九台",
-      "urls": [
-        "http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild"
-      ],
-      "latency": 2155,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
     },
     {
       "name": "河南电视剧",
