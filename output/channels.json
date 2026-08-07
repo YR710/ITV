@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 351,
-  "generated": "2026-08-07T07:10:20.706913",
+  "total": 350,
+  "generated": "2026-08-07T12:53:45.994660",
   "channels": [
     {
       "name": "CCTV-1",
@@ -351,7 +351,7 @@
       "urls": [
         "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8"
       ],
-      "latency": 1387,
+      "latency": 1098,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -663,11 +663,11 @@
       "category": "☘️北京频道"
     },
     {
-      "name": "象山新闻综合",
+      "name": "新昌新聞綜合 [Not 24/7]",
       "urls": [
-        "http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8"
+        "https://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8"
       ],
-      "latency": 483,
+      "latency": 500,
       "codec": "h264",
       "category": "☘️上海频道"
     },
@@ -1064,6 +1064,15 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "海宁新闻综合",
+      "urls": [
+        "https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8"
+      ],
+      "latency": 2535,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "洞头综合",
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8"
@@ -1177,15 +1186,6 @@
         "http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed"
       ],
       "latency": 718,
-      "codec": "h264",
-      "category": "☘️浙江频道"
-    },
-    {
-      "name": "嵊州新闻综合",
-      "urls": [
-        "http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8"
-      ],
-      "latency": 547,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1954,15 +1954,6 @@
         "http://112.46.105.20:8009/hls/22/index.m3u8"
       ],
       "latency": 645,
-      "codec": "h264",
-      "category": "☘️陕西频道"
-    },
-    {
-      "name": "陕西银龄",
-      "urls": [
-        "http://112.46.105.20:8009/hls/20/index.m3u8"
-      ],
-      "latency": 1002,
       "codec": "h264",
       "category": "☘️陕西频道"
     },
