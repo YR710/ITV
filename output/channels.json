@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 350,
-  "generated": "2026-08-07T12:53:45.994660",
+  "total": 348,
+  "generated": "2026-08-07T18:49:45.008431",
   "channels": [
     {
       "name": "CCTV-1",
@@ -974,15 +974,6 @@
       "category": "☘️浙江频道"
     },
     {
-      "name": "萧山生活频道",
-      "urls": [
-        "http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed"
-      ],
-      "latency": 779,
-      "codec": "h264",
-      "category": "☘️浙江频道"
-    },
-    {
       "name": "萧山新闻综合",
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8"
@@ -1109,6 +1100,15 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "普陀新闻综合",
+      "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8"
+      ],
+      "latency": 665,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "新昌生活",
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8"
@@ -1122,7 +1122,7 @@
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8"
       ],
-      "latency": 516,
+      "latency": 6374,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1228,7 +1228,6 @@
     {
       "name": "余姚姚江文化",
       "urls": [
-        "https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8",
         "https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8"
       ],
       "latency": 1313,
@@ -1258,7 +1257,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed"
       ],
-      "latency": 1518,
+      "latency": 1013,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1931,15 +1930,6 @@
       "category": "☘️陕西频道"
     },
     {
-      "name": "西安都市",
-      "urls": [
-        "http://112.46.105.20:8009/hls/29/index.m3u8"
-      ],
-      "latency": 606,
-      "codec": "h264",
-      "category": "☘️陕西频道"
-    },
-    {
       "name": "都市青春",
       "urls": [
         "http://112.46.105.20:8009/hls/19/index.m3u8"
@@ -2098,15 +2088,6 @@
         "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0"
       ],
       "latency": 2565,
-      "codec": "h264",
-      "category": "☘️山西频道"
-    },
-    {
-      "name": "定襄综合",
-      "urls": [
-        "http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8?zshanxd"
-      ],
-      "latency": 3705,
       "codec": "h264",
       "category": "☘️山西频道"
     },
@@ -2466,7 +2447,7 @@
       "urls": [
         "https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8"
       ],
-      "latency": 1707,
+      "latency": 2176,
       "codec": "h264",
       "category": "☘️河北频道"
     },
@@ -3003,6 +2984,15 @@
       "category": "☘️云南频道"
     },
     {
+      "name": "九台",
+      "urls": [
+        "http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild"
+      ],
+      "latency": 1533,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
       "name": "云南丽江印象实景",
       "urls": [
         "https://gcalic.v.myalicdn.com/gc/hkylxs01_1/index.m3u8"
@@ -3172,15 +3162,6 @@
       "latency": 4051,
       "codec": "h264",
       "category": "☘️吉林频道"
-    },
-    {
-      "name": "九台",
-      "urls": [
-        "http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild"
-      ],
-      "latency": 4807,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
     }
   ]
 }
