@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 294,
-  "generated": "2026-08-08T06:44:55.472780",
+  "total": 297,
+  "generated": "2026-08-08T12:38:41.162534",
   "channels": [
     {
       "name": "CCTV-1",
@@ -180,7 +180,7 @@
       "urls": [
         "https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001620/index.m3u8?streamid=8a034b40397504e25b3775c772237996&streamkey=01vY5fRxC8VyKg4oq30vfikHXTCAKySLP29l6OG91kQlzDttHgzNLkUw5kivm3PfNsVHJv5FgdsPBYFYI2IWpt7tfRCuFHqLT2pvX67ubMds8jl2DHtvOh0&token=1775754349-4f33f4f84a4abeba-0-91687dc8c9325092efa1d00f330d2710"
       ],
-      "latency": 5440,
+      "latency": 9008,
       "codec": "h264",
       "category": "📺央视频道"
     },
@@ -462,7 +462,7 @@
       "urls": [
         "http://218.13.170.98:9901/tsfile/live/0115_1.m3u8"
       ],
-      "latency": 1663,
+      "latency": 683,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -688,7 +688,7 @@
       "urls": [
         "https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8"
       ],
-      "latency": 3123,
+      "latency": 1959,
       "codec": "h264",
       "category": "☘️广东频道"
     },
@@ -1461,6 +1461,24 @@
       "category": "☘️安徽频道"
     },
     {
+      "name": "宿州新闻综合 [Not 24/7]",
+      "urls": [
+        "http://live.ahsz.tv/video/s10001-szzh/index.m3u8"
+      ],
+      "latency": 1751,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
+      "name": "宿州公共 [Not 24/7]",
+      "urls": [
+        "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8"
+      ],
+      "latency": 1310,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
       "name": "七台河新闻综合",
       "urls": [
         "http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8"
@@ -1668,11 +1686,20 @@
       "category": "☘️四川频道"
     },
     {
+      "name": "荥经综合",
+      "urls": [
+        "https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8"
+      ],
+      "latency": 2336,
+      "codec": "h264",
+      "category": "☘️四川频道"
+    },
+    {
       "name": "雅安新闻综合",
       "urls": [
         "https://play.yunxya.com/channellive/xinwen.m3u8"
       ],
-      "latency": 2113,
+      "latency": 3441,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -2232,7 +2259,7 @@
       "urls": [
         "http://1.94.31.214/php/hebei.php?id=hbgg"
       ],
-      "latency": 2518,
+      "latency": 2546,
       "codec": "h264",
       "category": "☘️河北频道"
     },
@@ -2259,7 +2286,7 @@
       "urls": [
         "http://1.94.31.214/php/hebei.php?id=hbys"
       ],
-      "latency": 2359,
+      "latency": 2576,
       "codec": "h264",
       "category": "☘️河北频道"
     },
