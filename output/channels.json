@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 297,
-  "generated": "2026-08-08T12:38:41.162534",
+  "total": 299,
+  "generated": "2026-08-08T18:31:23.503530",
   "channels": [
     {
       "name": "CCTV-1",
@@ -180,7 +180,7 @@
       "urls": [
         "https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001620/index.m3u8?streamid=8a034b40397504e25b3775c772237996&streamkey=01vY5fRxC8VyKg4oq30vfikHXTCAKySLP29l6OG91kQlzDttHgzNLkUw5kivm3PfNsVHJv5FgdsPBYFYI2IWpt7tfRCuFHqLT2pvX67ubMds8jl2DHtvOh0&token=1775754349-4f33f4f84a4abeba-0-91687dc8c9325092efa1d00f330d2710"
       ],
-      "latency": 9008,
+      "latency": 4985,
       "codec": "h264",
       "category": "📺央视频道"
     },
@@ -508,6 +508,15 @@
         "http://php.jdshipin.com:8880/TVOD/iptv.php?id=as"
       ],
       "latency": 918,
+      "codec": "h264",
+      "category": "📡卫视频道"
+    },
+    {
+      "name": "金鹰卡通",
+      "urls": [
+        "http://183.11.239.36:808/hls/69/index.m3u8"
+      ],
+      "latency": 410,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -1461,6 +1470,15 @@
       "category": "☘️安徽频道"
     },
     {
+      "name": "宿州科教 [Not 24/7]",
+      "urls": [
+        "http://live.ahsz.tv/video/s10001-kxjy/index.m3u8"
+      ],
+      "latency": 933,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
       "name": "宿州新闻综合 [Not 24/7]",
       "urls": [
         "http://live.ahsz.tv/video/s10001-szzh/index.m3u8"
@@ -1474,7 +1492,7 @@
       "urls": [
         "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8"
       ],
-      "latency": 1310,
+      "latency": 1079,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
