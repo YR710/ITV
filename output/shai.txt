@@ -1,6 +1,6 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 362
-# Demo匹配成功: 289
+# 原始频道总数: 361
+# Demo匹配成功: 288
 # 丢弃数量: 73
 
 Newsmax,http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
