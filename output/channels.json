@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 289,
-  "generated": "2026-08-09T06:48:51.772631",
+  "generated": "2026-08-09T12:41:40.667651",
   "channels": [
     {
       "name": "CCTV-1",
@@ -439,7 +439,7 @@
       "urls": [
         "http://218.13.170.98:9901/tsfile/live/0115_1.m3u8"
       ],
-      "latency": 683,
+      "latency": 4312,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -665,7 +665,7 @@
       "urls": [
         "https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8"
       ],
-      "latency": 1959,
+      "latency": 4790,
       "codec": "h264",
       "category": "☘️广东频道"
     },
@@ -1180,7 +1180,8 @@
     {
       "name": "余姚姚江文化",
       "urls": [
-        "https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8"
+        "https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8",
+        "http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8?zzhed"
       ],
       "latency": 522,
       "codec": "h264",
@@ -1340,15 +1341,6 @@
       "category": "☘️江苏频道"
     },
     {
-      "name": "宿州新闻综合 [Not 24/7]",
-      "urls": [
-        "http://live.ahsz.tv/video/s10001-szzh/index.m3u8"
-      ],
-      "latency": 1751,
-      "codec": "h264",
-      "category": "☘️江苏频道"
-    },
-    {
       "name": "苏州生活资讯",
       "urls": [
         "https://live-auth.51kandianshi.com/szgd/csztv5.m3u8"
@@ -1430,11 +1422,20 @@
       "category": "☘️安徽频道"
     },
     {
+      "name": "广德生活",
+      "urls": [
+        "https://live.gdtv.ah.cn/live/newsTV.m3u8"
+      ],
+      "latency": 1835,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
       "name": "宿州科教 [Not 24/7]",
       "urls": [
         "http://live.ahsz.tv/video/s10001-kxjy/index.m3u8"
       ],
-      "latency": 933,
+      "latency": 1096,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
@@ -1515,7 +1516,7 @@
       "urls": [
         "https://ls.qingting.fm/live/20198/64k.m3u8"
       ],
-      "latency": 7871,
+      "latency": 3844,
       "codec": "h264",
       "category": "☘️湖北频道"
     },
@@ -1592,6 +1593,15 @@
       "category": "☘️四川频道"
     },
     {
+      "name": "名山综合",
+      "urls": [
+        "https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8"
+      ],
+      "latency": 1750,
+      "codec": "h264",
+      "category": "☘️四川频道"
+    },
+    {
       "name": "广元综合",
       "urls": [
         "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8"
@@ -1614,16 +1624,7 @@
       "urls": [
         "https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8"
       ],
-      "latency": 2336,
-      "codec": "h264",
-      "category": "☘️四川频道"
-    },
-    {
-      "name": "雅安新闻综合",
-      "urls": [
-        "https://play.yunxya.com/channellive/xinwen.m3u8"
-      ],
-      "latency": 3441,
+      "latency": 2810,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -2183,7 +2184,7 @@
       "urls": [
         "http://1.94.31.214/php/hebei.php?id=hbgg"
       ],
-      "latency": 2546,
+      "latency": 2654,
       "codec": "h264",
       "category": "☘️河北频道"
     },
@@ -2210,7 +2211,7 @@
       "urls": [
         "http://1.94.31.214/php/hebei.php?id=hbys"
       ],
-      "latency": 2576,
+      "latency": 2769,
       "codec": "h264",
       "category": "☘️河北频道"
     },
