@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 296,
-  "generated": "2026-08-10T12:58:35.308734",
+  "total": 295,
+  "generated": "2026-08-10T18:51:59.844740",
   "channels": [
     {
       "name": "CCTV-1",
@@ -593,11 +593,11 @@
       "category": "📡卫视频道"
     },
     {
-      "name": "TVB翡翠台",
+      "name": "翡翠台",
       "urls": [
-        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3"
+        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4"
       ],
-      "latency": 134,
+      "latency": 140,
       "codec": "hevc",
       "category": "📡卫视频道"
     },
@@ -1202,15 +1202,6 @@
       "category": "☘️浙江频道"
     },
     {
-      "name": "平湖新闻综合",
-      "urls": [
-        "http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed"
-      ],
-      "latency": 441,
-      "codec": "h264",
-      "category": "☘️浙江频道"
-    },
-    {
       "name": "余杭综合",
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8"
@@ -1702,7 +1693,7 @@
       "urls": [
         "https://play.yunxya.com/channellive/xinwen.m3u8"
       ],
-      "latency": 2997,
+      "latency": 2225,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -2348,12 +2339,12 @@
       "category": "☘️河北频道"
     },
     {
-      "name": "翡翠台",
+      "name": "华丽翡翠台",
       "urls": [
-        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4"
+        "http://r.jdshipin.com/thuYX"
       ],
-      "latency": 140,
-      "codec": "hevc",
+      "latency": 60,
+      "codec": "h264",
       "category": "🌊港·澳·台"
     },
     {
@@ -2447,20 +2438,20 @@
       "category": "🌊港·澳·台"
     },
     {
+      "name": "TVB翡翠台",
+      "urls": [
+        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3"
+      ],
+      "latency": 134,
+      "codec": "hevc",
+      "category": "🌊港·澳·台"
+    },
+    {
       "name": "三立戏剧",
       "urls": [
         "http://61.221.215.25:8800/hls/41/index.m3u8"
       ],
       "latency": 396,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
-      "name": "华丽翡翠台",
-      "urls": [
-        "http://r.jdshipin.com/thuYX"
-      ],
-      "latency": 60,
       "codec": "h264",
       "category": "🌊港·澳·台"
     },
