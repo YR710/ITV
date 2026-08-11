@@ -1,7 +1,7 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 372
+# 原始频道总数: 373
 # Demo匹配成功: 295
-# 丢弃数量: 77
+# 丢弃数量: 78
 
 TVB Plus,http://r.jdshipin.com/Nr5jq
 亚洲武侠,http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
@@ -49,6 +49,7 @@ Anhui TV,https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.
 Jiangsu Public & News Channel,https://jiangning-tv-playing-t.cm.jstv.com/jiangning-tv/jnxwzh.m3u8
 春晚2024,https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
 RT Documentary,https://rt-rtd.rttv.com/dvr/rtdoc/playlist_4500Kb.m3u8
+CND Film Middle School Channel,http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8
 Arirang,https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
 Dali TV,http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 韩国EBS少儿,http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
