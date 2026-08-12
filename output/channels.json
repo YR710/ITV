@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 290,
-  "generated": "2026-08-12T12:59:33.546754",
+  "total": 293,
+  "generated": "2026-08-12T18:58:34.774241",
   "channels": [
     {
       "name": "CCTV-1",
@@ -637,7 +637,7 @@
       "urls": [
         "https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8"
       ],
-      "latency": 2205,
+      "latency": 3220,
       "codec": "h264",
       "category": "☘️广东频道"
     },
@@ -1182,7 +1182,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed"
       ],
-      "latency": 568,
+      "latency": 602,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1425,7 +1425,16 @@
       "urls": [
         "https://live.gdtv.ah.cn/live/newsTV.m3u8"
       ],
-      "latency": 2233,
+      "latency": 3310,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
+      "name": "宿州科教 [Not 24/7]",
+      "urls": [
+        "http://live.ahsz.tv/video/s10001-kxjy/index.m3u8"
+      ],
+      "latency": 1101,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
@@ -1623,7 +1632,7 @@
       "urls": [
         "https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8"
       ],
-      "latency": 2494,
+      "latency": 1756,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -1646,11 +1655,20 @@
       "category": "☘️四川频道"
     },
     {
+      "name": "荥经综合",
+      "urls": [
+        "https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8"
+      ],
+      "latency": 1752,
+      "codec": "h264",
+      "category": "☘️四川频道"
+    },
+    {
       "name": "雅安新闻综合",
       "urls": [
         "https://play.yunxya.com/channellive/xinwen.m3u8"
       ],
-      "latency": 2504,
+      "latency": 1814,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -1850,7 +1868,7 @@
       "urls": [
         "http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8?zshanxd"
       ],
-      "latency": 3613,
+      "latency": 1679,
       "codec": "h264",
       "category": "☘️山西频道"
     },
@@ -2201,7 +2219,7 @@
       "urls": [
         "http://1.94.31.214/php/hebei.php?id=hbgg"
       ],
-      "latency": 3030,
+      "latency": 2904,
       "codec": "h264",
       "category": "☘️河北频道"
     },
@@ -2228,7 +2246,7 @@
       "urls": [
         "http://1.94.31.214/php/hebei.php?id=hbys"
       ],
-      "latency": 2442,
+      "latency": 2715,
       "codec": "h264",
       "category": "☘️河北频道"
     },
@@ -2257,6 +2275,15 @@
       ],
       "latency": 1148,
       "codec": "hevc",
+      "category": "☘️河北频道"
+    },
+    {
+      "name": "邢台生活",
+      "urls": [
+        "https://jwcdnqx.hebyun.com.cn/live/xtcsshpd/1500k/tzwj_video.m3u8"
+      ],
+      "latency": 1031,
+      "codec": "h264",
       "category": "☘️河北频道"
     },
     {
