@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 280,
-  "generated": "2026-08-15T06:30:48.379307",
+  "total": 283,
+  "generated": "2026-08-15T12:29:17.827656",
   "channels": [
     {
       "name": "CCTV-1",
@@ -137,7 +137,8 @@
       "name": "CCTV-13",
       "urls": [
         "http://74.91.26.218:82/live/cctv13hd.m3u8",
-        "http://112.27.235.94:8000/hls/14/index.m3u8"
+        "http://112.27.235.94:8000/hls/14/index.m3u8",
+        "http://go.bkpcp.top/mg/cctv13"
       ],
       "latency": 318,
       "codec": "h264",
@@ -251,6 +252,15 @@
         "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8"
       ],
       "latency": 322,
+      "codec": "h264",
+      "category": "📡卫视频道"
+    },
+    {
+      "name": "BRTV 北京卫视",
+      "urls": [
+        "http://go.bkpcp.top/mg/bjws"
+      ],
+      "latency": 2590,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -917,6 +927,15 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "萧山生活",
+      "urls": [
+        "https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8"
+      ],
+      "latency": 401,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "龙游生活娱乐",
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8"
@@ -971,11 +990,20 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "庆元综合",
+      "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8"
+      ],
+      "latency": 452,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "余杭综合",
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8"
       ],
-      "latency": 2141,
+      "latency": 1630,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
