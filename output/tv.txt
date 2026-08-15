@@ -31,6 +31,7 @@ CGTN英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
 重庆卫视,http://112.27.235.94:8000/hls/36/index.m3u8
 东方卫视,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
 东南卫视,http://112.27.235.94:8000/hls/38/index.m3u8
+甘肃卫视,http://218.13.170.98:9901/tsfile/live/0141_1.m3u8
 广西卫视,http://1.190.240.47:9003/hls/3057/index.m3u8
 贵州卫视,http://112.27.235.94:8000/hls/46/index.m3u8
 河北卫视,http://112.27.235.94:8000/hls/39/index.m3u8
@@ -110,7 +111,6 @@ TVB星河,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 湖州文化娱乐,http://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887
 经济科教,http://120.237.39.10:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&down=1
 绍兴电视台公共,http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
-萧山生活,https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 龙游生活娱乐,https://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8
 青田电视台,http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
 象山综合,http://play-sh13.quklive.com/live/1702360350551252.m3u8?auth_key=2037107484-800189c57a5a44d3b823b60cf84f6756-0-a6f6828a62d5c167cff5e68735fa0d39
@@ -118,8 +118,6 @@ TVB星河,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 海宁新闻综合,https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
 新昌生活,http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 文成综合,http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8?zzhed?
-庆元综合,http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8
-嵊泗综合,http://l.cztvcloud.com/channels/lantian/SXshengsi1/720p.m3u8
 余杭综合,http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8
 余杭未来E,http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed
 余姚新闻综合,http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
@@ -127,6 +125,7 @@ TVB星河,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 中国蓝新闻,http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
 东阳影视生活,http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8
 上虞新闻综合,http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed
+嵊州综合 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
 ☘️江苏频道,#genre#
 南京教科,http://nklive.nbs.cn/hls/75b3c462-b831-4de7-a34b-5d3221db2069/index.m3u8
 南京新闻综合,http://nklive.nbs.cn/hls/d511bc9d-a694-4453-b3a2-4fc842cc97a1/index.m3u8
@@ -187,10 +186,12 @@ RT News,https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
 ☘️四川频道,#genre#
 乐至综合,http://175.155.106.72:89/live1/live1.m3u8?zsicd
 井研综合,http://tvfile.jyrmt.cn/nmip-media/channellive/channel104452/playlist.m3u8
+剑阁综合,https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8
 名山综合,https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8
 四川卫视,http://112.27.235.94:8000/hls/35/index.m3u8
+广元公共,https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8
+朝天综合,https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8
 荥经综合,https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8
-雅安新闻综合,https://play.yunxya.com/channellive/xinwen.m3u8
 青川综合,http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8
 河综合,http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
 康巴卫视,http://1.190.240.47:9003/hls/2076/index.m3u8
@@ -204,12 +205,14 @@ RT News,https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
 ☘️陕西频道,#genre#
 陕西新闻咨询,http://112.46.105.20:8009/hls/18/index.m3u8
 无线新闻台,http://r.jdshipin.com/CkuBd
+西安都市,http://112.46.105.20:8009/hls/29/index.m3u8
 都市青春,http://112.46.105.20:8009/hls/19/index.m3u8
 陕西卫视,http://112.27.235.94:8000/hls/43/index.m3u8
 陕西秦腔,http://112.46.105.20:8009/hls/22/index.m3u8
 陕西银龄,http://112.46.105.20:8009/hls/20/index.m3u8
 新闻咨询,http://112.46.105.20:8009/hls/18/index.m3u8
 ☘️甘肃频道,#genre#
+甘肃卫视,http://218.13.170.98:9901/tsfile/live/0141_1.m3u8
 ☘️青海频道,#genre#
 西宁新闻综合,https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd
 ☘️宁夏频道,#genre#
@@ -232,7 +235,6 @@ RT News,https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
 ☘️山西频道,#genre#
 万荣综合,http://60.222.246.220:19433/hls1.m3u8
 太谷新闻综合,https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0
-定襄综合,http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8?zshanxd
 山西卫视,http://112.27.235.94:8000/hls/45/index.m3u8
 怀仁综合,https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc-1.m3u8
 长子综合,https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd

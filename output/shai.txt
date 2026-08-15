@@ -1,7 +1,7 @@
 # Demo筛选丢弃的频道
 # 原始频道总数: 358
-# Demo匹配成功: 279
-# 丢弃数量: 79
+# Demo匹配成功: 280
+# 丢弃数量: 78
 
 1989年春晚,https://txmov2.a.kwimgs.com/bs3/video-hls/5194620763762726260_hlsb.m3u8
 1988年春晚,https://txmov2.a.kwimgs.com/bs3/video-hls/5216575810935394655_hlsb.m3u8
@@ -20,7 +20,6 @@ CGTN Global Biz,https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2
 音乐欣赏,http://61.221.215.25:8800/hls/49/index.m3u8
 倩女幽魂妖魔道,http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
 兴隆综合,https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8
-蕭山生活頻道 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 CGTN French,http://145.239.5.177/214/index.m3u8
 CNA,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 1987年春晚,https://txmov2.a.kwimgs.com/bs3/video-hls/5195746663405928031_hlsb.m3u8
@@ -44,7 +43,6 @@ China Travel,https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287
 Anhui TV,https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
 玛纳斯,http://218.84.127.245:1026/hls/main1/playlist.m3u8?zxinjd
 CGNT 记录频道,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
-餘姚姚江文化 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
 VOA美国之音,https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
 Arirang,https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
 FZTV3,http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
@@ -82,3 +80,4 @@ RT Français,https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8
 RT DE,https://rt-ger.rttv.com/dvr/rtdeutsch/playlist_4500Kb.m3u8
 文物宝库,http://1.94.31.214/php/hntv.php?id=wwbk
 RT Documentary,https://rt-rtd.rttv.com/dvr/rtdoc/playlist_4500Kb.m3u8
+餘姚姚江文化 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8

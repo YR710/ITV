@@ -61,6 +61,8 @@ http://112.27.235.94:8000/hls/36/index.m3u8
 http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
 #EXTINF:-1 group-title="📡卫视频道",东南卫视
 http://112.27.235.94:8000/hls/38/index.m3u8
+#EXTINF:-1 group-title="📡卫视频道",甘肃卫视
+http://218.13.170.98:9901/tsfile/live/0141_1.m3u8
 #EXTINF:-1 group-title="📡卫视频道",广西卫视
 http://1.190.240.47:9003/hls/3057/index.m3u8
 #EXTINF:-1 group-title="📡卫视频道",贵州卫视
@@ -207,8 +209,6 @@ http://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a
 http://120.237.39.10:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="☘️浙江频道",绍兴电视台公共
 http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
-#EXTINF:-1 group-title="☘️浙江频道",萧山生活
-https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",龙游生活娱乐
 https://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",青田电视台
@@ -223,10 +223,6 @@ https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
 http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",文成综合
 http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8?zzhed?
-#EXTINF:-1 group-title="☘️浙江频道",庆元综合
-http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8
-#EXTINF:-1 group-title="☘️浙江频道",嵊泗综合
-http://l.cztvcloud.com/channels/lantian/SXshengsi1/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",余杭综合
 http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",余杭未来E
@@ -241,6 +237,8 @@ http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",上虞新闻综合
 http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed
+#EXTINF:-1 group-title="☘️浙江频道",嵊州综合 [Not 24/7]
+https://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
 #EXTINF:-1 group-title="☘️江苏频道",南京教科
 http://nklive.nbs.cn/hls/75b3c462-b831-4de7-a34b-5d3221db2069/index.m3u8
 #EXTINF:-1 group-title="☘️江苏频道",南京新闻综合
@@ -339,14 +337,18 @@ https://hlscdn.liangtv.cn/live/0234c48e0bc24fe1b41b9999a253e581/1075ee38e04f4906
 http://175.155.106.72:89/live1/live1.m3u8?zsicd
 #EXTINF:-1 group-title="☘️四川频道",井研综合
 http://tvfile.jyrmt.cn/nmip-media/channellive/channel104452/playlist.m3u8
+#EXTINF:-1 group-title="☘️四川频道",剑阁综合
+https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8
 #EXTINF:-1 group-title="☘️四川频道",名山综合
 https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8
 #EXTINF:-1 group-title="☘️四川频道",四川卫视
 http://112.27.235.94:8000/hls/35/index.m3u8
+#EXTINF:-1 group-title="☘️四川频道",广元公共
+https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8
+#EXTINF:-1 group-title="☘️四川频道",朝天综合
+https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8
 #EXTINF:-1 group-title="☘️四川频道",荥经综合
 https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8
-#EXTINF:-1 group-title="☘️四川频道",雅安新闻综合
-https://play.yunxya.com/channellive/xinwen.m3u8
 #EXTINF:-1 group-title="☘️四川频道",青川综合
 http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8
 #EXTINF:-1 group-title="☘️四川频道",河综合
@@ -367,6 +369,8 @@ https://zb-live.ynurl.com/yimen/3b75a2f9-7941-46b7-992d-a9796fbca5fe.m3u8
 http://112.46.105.20:8009/hls/18/index.m3u8
 #EXTINF:-1 group-title="☘️陕西频道",无线新闻台
 http://r.jdshipin.com/CkuBd
+#EXTINF:-1 group-title="☘️陕西频道",西安都市
+http://112.46.105.20:8009/hls/29/index.m3u8
 #EXTINF:-1 group-title="☘️陕西频道",都市青春
 http://112.46.105.20:8009/hls/19/index.m3u8
 #EXTINF:-1 group-title="☘️陕西频道",陕西卫视
@@ -377,6 +381,8 @@ http://112.46.105.20:8009/hls/22/index.m3u8
 http://112.46.105.20:8009/hls/20/index.m3u8
 #EXTINF:-1 group-title="☘️陕西频道",新闻咨询
 http://112.46.105.20:8009/hls/18/index.m3u8
+#EXTINF:-1 group-title="☘️甘肃频道",甘肃卫视
+http://218.13.170.98:9901/tsfile/live/0141_1.m3u8
 #EXTINF:-1 group-title="☘️青海频道",西宁新闻综合
 https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd
 #EXTINF:-1 group-title="☘️宁夏频道",绍兴公共
@@ -411,8 +417,6 @@ http://218.84.12.186:8002/hls/main/playlist.m3u8?zxinjd
 http://60.222.246.220:19433/hls1.m3u8
 #EXTINF:-1 group-title="☘️山西频道",太谷新闻综合
 https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0
-#EXTINF:-1 group-title="☘️山西频道",定襄综合
-http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8?zshanxd
 #EXTINF:-1 group-title="☘️山西频道",山西卫视
 http://112.27.235.94:8000/hls/45/index.m3u8
 #EXTINF:-1 group-title="☘️山西频道",怀仁综合
