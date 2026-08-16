@@ -1,7 +1,7 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 326
-# Demo匹配成功: 257
-# 丢弃数量: 69
+# 原始频道总数: 332
+# Demo匹配成功: 262
+# 丢弃数量: 70
 
 Supreme Master TV,https://lbs-us1.suprememastertv.com/720p.m3u8
 TVB Plus,http://r.jdshipin.com/Nr5jq
@@ -26,6 +26,7 @@ CGTN French,http://145.239.5.177/214/index.m3u8
 春晚2025,https://res.cctvnews.cctv.com/video/3005/record/cctv/merge1/133396667284143308839013005/8fbd6180bdef4da19f6155cf6b4652e1-4.m3u8
 CGTN Documentary,https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 辽新闻综合 [Geo-blocked],https://stream2.jlntv.cn/liaoyuan1/sd/live.m3u8
+蕭山生活頻道 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 Wild Earth,https://wildearth-plex.amagi.tv/masterR1080p.m3u8
 China Travel,https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8
 倩女幽魂道道道,http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8
