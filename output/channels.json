@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 262,
-  "generated": "2026-08-16T06:33:50.970594",
+  "total": 261,
+  "generated": "2026-08-16T12:30:44.786369",
   "channels": [
     {
       "name": "CCTV-1",
@@ -135,8 +135,7 @@
       "name": "CCTV-13",
       "urls": [
         "http://74.91.26.218:82/live/cctv13hd.m3u8",
-        "http://112.27.235.94:8000/hls/14/index.m3u8",
-        "http://go.bkpcp.top/mg/cctv13"
+        "http://112.27.235.94:8000/hls/14/index.m3u8"
       ],
       "latency": 429,
       "codec": "h264",
@@ -253,15 +252,6 @@
       "category": "📡卫视频道"
     },
     {
-      "name": "BRTV 北京卫视",
-      "urls": [
-        "http://go.bkpcp.top/mg/bjws"
-      ],
-      "latency": 2590,
-      "codec": "h264",
-      "category": "📡卫视频道"
-    },
-    {
       "name": "黑龙江卫视",
       "urls": [
         "http://112.27.235.94:8000/hls/48/index.m3u8"
@@ -357,7 +347,7 @@
         "http://8.138.7.223/tv/jsws4k.php",
         "http://113.57.140.161:10081/newlive/live/hls/31/live.m3u8"
       ],
-      "latency": 2001,
+      "latency": 2074,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -982,7 +972,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8"
       ],
-      "latency": 1630,
+      "latency": 919,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -991,7 +981,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed"
       ],
-      "latency": 2616,
+      "latency": 1319,
       "codec": "h264",
       "category": "☘️浙江频道"
     },

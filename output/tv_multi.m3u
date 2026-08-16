@@ -26,7 +26,7 @@ http://74.91.26.218:82/live/cctv11hd.m3u8 # http://113.57.140.161:10081/newlive/
 #EXTINF:-1 group-title="📺央视频道",CCTV-12
 http://74.91.26.218:82/live/cctv12hd.m3u8
 #EXTINF:-1 group-title="📺央视频道",CCTV-13
-http://74.91.26.218:82/live/cctv13hd.m3u8 # http://112.27.235.94:8000/hls/14/index.m3u8 # http://go.bkpcp.top/mg/cctv13
+http://74.91.26.218:82/live/cctv13hd.m3u8 # http://112.27.235.94:8000/hls/14/index.m3u8
 #EXTINF:-1 group-title="📺央视频道",CCTV-14
 http://74.91.26.218:82/live/cctv14hd.m3u8
 #EXTINF:-1 group-title="📺央视频道",CCTV-15
@@ -51,8 +51,6 @@ https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
 http://112.27.235.94:8000/hls/29/index.m3u8
 #EXTINF:-1 group-title="📡卫视频道",湖南卫视
 https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
-#EXTINF:-1 group-title="📡卫视频道",BRTV 北京卫视
-http://go.bkpcp.top/mg/bjws
 #EXTINF:-1 group-title="📡卫视频道",黑龙江卫视
 http://112.27.235.94:8000/hls/48/index.m3u8
 #EXTINF:-1 group-title="📡卫视频道",安徽卫视
