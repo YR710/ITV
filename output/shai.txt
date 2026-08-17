@@ -1,10 +1,11 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 357
-# Demo匹配成功: 283
+# 原始频道总数: 358
+# Demo匹配成功: 284
 # 丢弃数量: 74
 
 TVB News,http://r.jdshipin.com/CkuBd
 TVB Plus,http://r.jdshipin.com/Nr5jq
+亚洲武侠,http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 WionNews,https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 CNA,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 Newsmax,http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
@@ -74,6 +75,5 @@ Harbin Comprehensive News Channel,https://stream.hrbtv.net/xwzh/playlist.m3u8?_u
 文物宝库,http://1.94.31.214/php/hntv.php?id=wwbk
 NewTV武搏世界,http://1.94.31.214/php/hntv.php?id=wspd
 2024年春晚,https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
-RT Español,https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8
-亚洲武侠,http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 春晚2026,https://v.lzcdn28.com/20260217/8616_1de9f6e5/index.m3u8
+RT Español,https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8
