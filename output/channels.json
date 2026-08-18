@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 289,
-  "generated": "2026-08-18T01:14:20.343356",
+  "generated": "2026-08-18T06:36:34.193677",
   "channels": [
     {
       "name": "CCTV-1",
@@ -2508,6 +2508,15 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "广东影视",
+      "urls": [
+        "http://171.38.148.188:9003/hls/38/index.m3u8"
+      ],
+      "latency": 497,
+      "codec": "h264",
+      "category": "☘️广东频道"
+    },
+    {
       "name": "福州电视台少儿频道",
       "urls": [
         "http://live.zohi.tv/video/s10001-fztv-4/index.m3u8"
@@ -2571,6 +2580,15 @@
       "category": "☘️吉林频道"
     },
     {
+      "name": "浙江钱江都市",
+      "urls": [
+        "http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8"
+      ],
+      "latency": 1265,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "九台",
       "urls": [
         "http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild"
@@ -2614,24 +2632,6 @@
       "latency": 1815,
       "codec": "h264",
       "category": "🌊港·澳·台"
-    },
-    {
-      "name": "广东影视",
-      "urls": [
-        "http://171.38.148.188:9003/hls/38/index.m3u8"
-      ],
-      "latency": 497,
-      "codec": "h264",
-      "category": "☘️广东频道"
-    },
-    {
-      "name": "浙江钱江都市",
-      "urls": [
-        "http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8"
-      ],
-      "latency": 1265,
-      "codec": "h264",
-      "category": "☘️浙江频道"
     }
   ]
 }
