@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 283,
-  "generated": "2026-08-18T18:33:03.858794",
+  "generated": "2026-08-19T00:57:38.812573",
   "channels": [
     {
       "name": "CCTV-1",
@@ -185,7 +185,7 @@
       "urls": [
         "https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001620/index.m3u8?streamid=8a034b40397504e25b3775c772237996&streamkey=01vY5fRxC8VyKg4oq30vfikHXTCAKySLP29l6OG91kQlzDttHgzNLkUw5kivm3PfNsVHJv5FgdsPBYFYI2IWpt7tfRCuFHqLT2pvX67ubMds8jl2DHtvOh0&token=1775754349-4f33f4f84a4abeba-0-91687dc8c9325092efa1d00f330d2710"
       ],
-      "latency": 2346,
+      "latency": 1772,
       "codec": "h264",
       "category": "📺央视频道"
     },
@@ -1004,7 +1004,7 @@
       "urls": [
         "https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8"
       ],
-      "latency": 2287,
+      "latency": 2550,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
