@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 286,
-  "generated": "2026-08-22T06:33:21.104749",
+  "total": 291,
+  "generated": "2026-08-22T12:30:12.893671",
   "channels": [
     {
       "name": "CCTV-1",
@@ -177,6 +177,15 @@
         "http://74.91.26.218:82/live/cctv17hd.m3u8"
       ],
       "latency": 76,
+      "codec": "h264",
+      "category": "📺央视频道"
+    },
+    {
+      "name": "世界地理",
+      "urls": [
+        "https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001620/index.m3u8?streamid=8a034b40397504e25b3775c772237996&streamkey=01vY5fRxC8VyKg4oq30vfikHXTCAKySLP29l6OG91kQlzDttHgzNLkUw5kivm3PfNsVHJv5FgdsPBYFYI2IWpt7tfRCuFHqLT2pvX67ubMds8jl2DHtvOh0&token=1775754349-4f33f4f84a4abeba-0-91687dc8c9325092efa1d00f330d2710"
+      ],
+      "latency": 3203,
       "codec": "h264",
       "category": "📺央视频道"
     },
@@ -644,6 +653,15 @@
       "category": "☘️上海频道"
     },
     {
+      "name": "萬州三峽移民",
+      "urls": [
+        "http://123.146.162.24:8017/c2F0hmi/1000/live.m3u8"
+      ],
+      "latency": 648,
+      "codec": "h264",
+      "category": "☘️重庆频道"
+    },
+    {
       "name": "铜梁综合",
       "urls": [
         "http://183.64.174.171:40123/ch1.m3u8?zzhongqd"
@@ -892,11 +910,11 @@
       "category": "☘️浙江频道"
     },
     {
-      "name": "萧山生活",
+      "name": "萧山生活频道",
       "urls": [
-        "https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8"
+        "http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed"
       ],
-      "latency": 1207,
+      "latency": 469,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1394,6 +1412,33 @@
         "http://zbbf2.ahbztv.com/live/416.m3u8?zanhd"
       ],
       "latency": 1184,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
+      "name": "宿州科教 [Not 24/7]",
+      "urls": [
+        "http://live.ahsz.tv/video/s10001-kxjy/index.m3u8"
+      ],
+      "latency": 669,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
+      "name": "宿州新闻综合 [Not 24/7]",
+      "urls": [
+        "http://live.ahsz.tv/video/s10001-szzh/index.m3u8"
+      ],
+      "latency": 1372,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
+      "name": "宿州公共 [Not 24/7]",
+      "urls": [
+        "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8"
+      ],
+      "latency": 898,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
