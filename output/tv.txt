@@ -49,6 +49,7 @@ CGTN英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
 安多卫视,https://liveout.xntv.tv/a65jur/96iln2.m3u8
 澳门卫视,http://php.jdshipin.com:8880/TVOD/iptv.php?id=as
 延边2,http://stream5.jlntv.cn/wq/playlist.m3u8
+Bread TV面包台,https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 大立电视台,http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 TVB娱乐新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
 西安新闻,http://112.46.105.20:8009/hls/28/index.m3u8
@@ -124,7 +125,6 @@ TVB星河,http://r.jdshipin.com/Voac4
 庆元综合,http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8
 庆元新闻综合,http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8?fbl=
 平湖民生休闲,http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8?zzhed
-平湖新闻综合,http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed
 嵊泗综合,http://l.cztvcloud.com/channels/lantian/SXshengsi1/720p.m3u8
 嵊州新闻综合,http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
 兰溪新闻综合,http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8
@@ -150,7 +150,7 @@ TVB星河,http://r.jdshipin.com/Voac4
 武进生活,http://live.wjyanghu.com/live/CH2.m3u8
 苏州,https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8
 苏州文化生活,https://live-auth.51kandianshi.com/szgd/csztv3.m3u8
-宿州新闻综合 [Not 24/7],http://live.ahsz.tv/video/s10001-szzh/index.m3u8
+苏州新闻综合,https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
 苏州生活资讯,https://live-auth.51kandianshi.com/szgd/csztv5.m3u8
 苏州社会经济,https://live-auth.51kandianshi.com/szgd/csztv2.m3u8
 镇江新闻综合,http://cm-wshls.homecdn.com/live/2aa50.m3u8
@@ -305,7 +305,6 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 环球电视,http://utv1.hqtvzb.com:9999/hls/world.m3u8
 台视新闻,http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
 美亚C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
-ViuTV,http://r.jdshipin.com/TcKr2
 *HOY TV,http://r.jdshipin.com/sFw4S
 TVBS-Asia,http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
