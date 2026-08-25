@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 279,
-  "generated": "2026-08-24T18:38:50.096175",
+  "total": 281,
+  "generated": "2026-08-25T00:59:01.572385",
   "channels": [
     {
       "name": "CCTV-1",
@@ -1329,6 +1329,15 @@
       "category": "☘️江苏频道"
     },
     {
+      "name": "镇江新闻综合",
+      "urls": [
+        "http://cm-wshls.homecdn.com/live/2aa50.m3u8"
+      ],
+      "latency": 1661,
+      "codec": "h264",
+      "category": "☘️江苏频道"
+    },
+    {
       "name": "安徽导视",
       "urls": [
         "http://dspdhls.appcoo.com:8888/live/dspd/index.m3u8"
@@ -1731,6 +1740,15 @@
         "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0"
       ],
       "latency": 1410,
+      "codec": "h264",
+      "category": "☘️山西频道"
+    },
+    {
+      "name": "怀仁综合",
+      "urls": [
+        "https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc-1.m3u8"
+      ],
+      "latency": 1721,
       "codec": "h264",
       "category": "☘️山西频道"
     },
