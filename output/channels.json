@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 285,
-  "generated": "2026-08-25T18:34:38.190347",
+  "total": 284,
+  "generated": "2026-08-26T00:59:55.290050",
   "channels": [
     {
       "name": "CCTV-1",
@@ -1360,7 +1360,7 @@
       "urls": [
         "http://cm-wshls.homecdn.com/live/2aa50.m3u8"
       ],
-      "latency": 1661,
+      "latency": 1312,
       "codec": "h264",
       "category": "☘️江苏频道"
     },
@@ -1406,15 +1406,6 @@
         "http://live.ahsz.tv/video/s10001-szzh/index.m3u8"
       ],
       "latency": 1319,
-      "codec": "h264",
-      "category": "☘️安徽频道"
-    },
-    {
-      "name": "宿州公共 [Not 24/7]",
-      "urls": [
-        "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8"
-      ],
-      "latency": 1139,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
@@ -1775,7 +1766,7 @@
       "urls": [
         "https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc-1.m3u8"
       ],
-      "latency": 1721,
+      "latency": 2133,
       "codec": "h264",
       "category": "☘️山西频道"
     },
