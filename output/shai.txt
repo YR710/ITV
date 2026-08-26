@@ -1,6 +1,6 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 364
-# Demo匹配成功: 284
+# 原始频道总数: 366
+# Demo匹配成功: 286
 # 丢弃数量: 80
 
 China Travel,https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8

@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 284,
-  "generated": "2026-08-26T00:59:55.290050",
+  "total": 286,
+  "generated": "2026-08-26T06:41:07.826164",
   "channels": [
     {
       "name": "CCTV-1",
@@ -981,7 +981,7 @@
       "urls": [
         "https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8"
       ],
-      "latency": 4666,
+      "latency": 2558,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1410,6 +1410,15 @@
       "category": "☘️安徽频道"
     },
     {
+      "name": "宿州公共 [Not 24/7]",
+      "urls": [
+        "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8"
+      ],
+      "latency": 1140,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
       "name": "七台河新闻综合",
       "urls": [
         "http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8"
@@ -1758,6 +1767,15 @@
         "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0"
       ],
       "latency": 1574,
+      "codec": "h264",
+      "category": "☘️山西频道"
+    },
+    {
+      "name": "定襄综合",
+      "urls": [
+        "http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8?zshanxd"
+      ],
+      "latency": 5433,
       "codec": "h264",
       "category": "☘️山西频道"
     },
