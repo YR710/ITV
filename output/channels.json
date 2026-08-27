@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 287,
-  "generated": "2026-08-26T19:45:55.906293",
+  "total": 286,
+  "generated": "2026-08-27T06:46:07.788219",
   "channels": [
     {
       "name": "CCTV-1",
@@ -46,18 +46,18 @@
     {
       "name": "CCTV-5",
       "urls": [
-        "http://45.192.97.170:8880/play/5.m3u8"
+        "https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8"
       ],
-      "latency": 50,
+      "latency": 1703,
       "codec": "h264",
       "category": "📺央视频道"
     },
     {
       "name": "CCTV-5+",
       "urls": [
-        "http://45.192.97.170:8880/play/6.m3u8"
+        "https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8"
       ],
-      "latency": 50,
+      "latency": 1690,
       "codec": "h264",
       "category": "📺央视频道"
     },
@@ -908,11 +908,11 @@
       "category": "☘️浙江频道"
     },
     {
-      "name": "萧山生活",
+      "name": "蕭山生活頻道 [Not 24/7]",
       "urls": [
-        "http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8"
+        "https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8"
       ],
-      "latency": 2866,
+      "latency": 512,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -975,7 +975,7 @@
       "urls": [
         "https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8"
       ],
-      "latency": 2558,
+      "latency": 2736,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1364,7 +1364,7 @@
       "urls": [
         "http://cm-wshls.homecdn.com/live/2aa50.m3u8"
       ],
-      "latency": 1312,
+      "latency": 1712,
       "codec": "h264",
       "category": "☘️江苏频道"
     },
@@ -1410,15 +1410,6 @@
         "http://live.ahsz.tv/video/s10001-szzh/index.m3u8"
       ],
       "latency": 1034,
-      "codec": "h264",
-      "category": "☘️安徽频道"
-    },
-    {
-      "name": "宿州公共 [Not 24/7]",
-      "urls": [
-        "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8"
-      ],
-      "latency": 1140,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
@@ -1806,7 +1797,7 @@
       "urls": [
         "https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc-1.m3u8"
       ],
-      "latency": 2133,
+      "latency": 2204,
       "codec": "h264",
       "category": "☘️山西频道"
     },
