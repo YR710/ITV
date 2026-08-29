@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 286,
-  "generated": "2026-08-29T12:11:33.304087",
+  "total": 289,
+  "generated": "2026-08-29T20:21:20.322820",
   "channels": [
     {
       "name": "CCTV-1",
@@ -864,6 +864,15 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "龙游新闻综合",
+      "urls": [
+        "https://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8"
+      ],
+      "latency": 495,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "龙泉新闻综合",
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8"
@@ -1141,6 +1150,15 @@
         "http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8"
       ],
       "latency": 2753,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "上虞新闻综合",
+      "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed"
+      ],
+      "latency": 1970,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1773,6 +1791,15 @@
         "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0"
       ],
       "latency": 1367,
+      "codec": "h264",
+      "category": "☘️山西频道"
+    },
+    {
+      "name": "定襄综合",
+      "urls": [
+        "http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8?zshanxd"
+      ],
+      "latency": 4072,
       "codec": "h264",
       "category": "☘️山西频道"
     },

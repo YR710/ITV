@@ -1,7 +1,7 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 367
-# Demo匹配成功: 286
-# 丢弃数量: 81
+# 原始频道总数: 371
+# Demo匹配成功: 289
+# 丢弃数量: 82
 
 1988年春晚,https://txmov2.a.kwimgs.com/bs3/video-hls/5216575810935394655_hlsb.m3u8
 Supreme Master TV,https://lbs-us1.suprememastertv.com/720p.m3u8
@@ -21,6 +21,7 @@ China Travel,https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287
 春晚2025,https://res.cctvnews.cctv.com/video/3005/record/cctv/merge1/133396667284143308839013005/8fbd6180bdef4da19f6155cf6b4652e1-4.m3u8
 新昌新聞綜合 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8
 CGNT 记录频道,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
+餘姚姚江文化 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
 CNA,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 CGTN Documentary,https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 CGTN Global Biz,https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
@@ -47,7 +48,6 @@ Nei Monggol TV [Not 24/7],http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 上虞3新商都 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
 Nei Monggol TV 2 Mongolian Culture Channel [Not 24/7],http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
 Trace Sports,https://lightning-tracesport-samsungau.amagi.tv/playlist1080p.m3u8
-上虞經濟文化 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
 自然传奇,http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/81a1ad3a661748bfb8560c92d38204ca/1200.m3u8
 Arirang,https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
 舒兰新闻,http://stream8.jlntv.cn/shulan/sd/live.m3u8?zjild
@@ -61,7 +61,6 @@ WionNews,https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 Pet Club TV,https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8
 Astro AOD,http://php.jdshipin.com/TVOD/iptv.php?id=aod
 Lanzhou Culture & Tourism Channel,https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
-Lanzhou Comprehensive News Channel,https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
 Dali TV,http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 兴隆综合,https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8
 武进新闻 [Not 24/7],https://live.wjyanghu.com/live/CH1.m3u8
@@ -78,9 +77,11 @@ RT Balkan,https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8
 RT Documentary,https://rt-rtd.rttv.com/dvr/rtdoc/playlist_4500Kb.m3u8
 RT Español,https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8
 RT DE,https://rt-ger.rttv.com/dvr/rtdeutsch/playlist_4500Kb.m3u8
-蕭山生活頻道 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 RT Doc-Русский,https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
 Hunan TV,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 萧山新闻综合 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
 RT Français,https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8
-餘姚姚江文化 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
+萧山生活频道,http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed
+蕭山生活頻道 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
+Lanzhou Comprehensive News Channel,https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
+上虞經濟文化 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
