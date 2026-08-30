@@ -1,7 +1,7 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 368
-# Demo匹配成功: 290
-# 丢弃数量: 78
+# 原始频道总数: 370
+# Demo匹配成功: 291
+# 丢弃数量: 79
 
 1989年春晚,https://txmov2.a.kwimgs.com/bs3/video-hls/5194620763762726260_hlsb.m3u8
 TVB News,http://r.jdshipin.com/CkuBd
@@ -30,7 +30,9 @@ Discovering China,https://fastlive.cctvplus.com/out/v1/8442c3bfd4c64a3984389328f
 亚洲武侠,http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 汪清,http://stream5.jlntv.cn/wq/sd/live.m3u8?zjild
 CNA,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+南方卫视,http://120.198.95.220:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&down=1
 VOA美国之音,https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
+Kangba TV,http://110.185.237.164:8888/hls/30/index.m3u8
 Xinjiang TV 2,http://110.153.180.106:55555/out_3/index.m3u8
 Xinjiang TV 3,http://218.84.35.38:3000/m3u8/live/tctv-2/index.m3u8
 Beautiful Life TV,https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
@@ -73,11 +75,10 @@ RT Español,https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8
 象山新闻综合,http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8
 RT Doc-Русский,https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
 RT Français,https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8
-蕭山生活頻道 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 Dali TV,http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 FZTV3,http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
 Lanzhou Culture & Tourism Channel,https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
 Lanzhou Comprehensive News Channel,https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
 萧山新闻综合 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
-Kangba TV,http://110.185.237.164:8888/hls/30/index.m3u8
-南方卫视,http://120.198.95.220:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&down=1
+蕭山生活頻道 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
+Guangxi Variety & Travel Channel,http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
