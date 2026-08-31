@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 293,
-  "generated": "2026-08-30T20:26:51.005472",
+  "total": 292,
+  "generated": "2026-08-31T03:01:19.433510",
   "channels": [
     {
       "name": "CCTV-1",
@@ -1433,15 +1433,6 @@
         "http://zjtv-wshls.homecdn.com/live/2aa16.m3u8"
       ],
       "latency": 1082,
-      "codec": "h264",
-      "category": "☘️江苏频道"
-    },
-    {
-      "name": "镇江新闻综合",
-      "urls": [
-        "http://cm-wshls.homecdn.com/live/2aa50.m3u8"
-      ],
-      "latency": 1141,
       "codec": "h264",
       "category": "☘️江苏频道"
     },
