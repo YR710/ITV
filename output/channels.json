@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 339,
-  "generated": "2026-09-02T02:29:23.805551",
+  "total": 340,
+  "generated": "2026-09-02T10:28:07.579179",
   "channels": [
     {
       "name": "CCTV-1",
@@ -1646,7 +1646,7 @@
       "urls": [
         "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8"
       ],
-      "latency": 1567,
+      "latency": 1568,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -1682,7 +1682,7 @@
       "urls": [
         "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8"
       ],
-      "latency": 1244,
+      "latency": 518,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -1691,7 +1691,7 @@
       "urls": [
         "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8"
       ],
-      "latency": 2026,
+      "latency": 1294,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -1700,7 +1700,7 @@
       "urls": [
         "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8"
       ],
-      "latency": 511,
+      "latency": 515,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -2353,6 +2353,15 @@
       "latency": 1071,
       "codec": "h264",
       "category": "☘️黑龙江频道"
+    },
+    {
+      "name": "任丘综合",
+      "urls": [
+        "https://jwcdnqx.hebyun.com.cn/live/rqtv1/1500k/tzwj_video.m3u8"
+      ],
+      "latency": 1925,
+      "codec": "h264",
+      "category": "☘️河北频道"
     },
     {
       "name": "平泉综合",
