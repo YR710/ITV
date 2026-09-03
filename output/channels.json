@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 313,
-  "generated": "2026-09-03T02:36:15.074739",
+  "total": 314,
+  "generated": "2026-09-03T10:35:58.536862",
   "channels": [
     {
       "name": "CCTV-1",
@@ -45,9 +45,9 @@
     {
       "name": "CCTV-5",
       "urls": [
-        "https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8"
+        "http://45.192.97.170:8880/play/5.m3u8"
       ],
-      "latency": 1648,
+      "latency": 50,
       "codec": "h264",
       "category": "📺央视频道"
     },
@@ -1545,7 +1545,7 @@
       "urls": [
         "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8"
       ],
-      "latency": 1568,
+      "latency": 1690,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -1581,7 +1581,7 @@
       "urls": [
         "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8"
       ],
-      "latency": 518,
+      "latency": 1357,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -1590,7 +1590,7 @@
       "urls": [
         "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8"
       ],
-      "latency": 1294,
+      "latency": 1381,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -1599,7 +1599,7 @@
       "urls": [
         "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8"
       ],
-      "latency": 515,
+      "latency": 557,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -1644,7 +1644,7 @@
       "urls": [
         "https://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8"
       ],
-      "latency": 3224,
+      "latency": 1667,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -1889,6 +1889,15 @@
         "https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd"
       ],
       "latency": 1166,
+      "codec": "h264",
+      "category": "☘️山西频道"
+    },
+    {
+      "name": "平遥新闻综合",
+      "urls": [
+        "https://tntgjhjb.live.sxmty.com/live/hls/3a4585ac11ec4e1bb07b419101b370c3/baf63e2b313440c2a25d7859f9b73b05-1.m3u8?zshanxd"
+      ],
+      "latency": 2872,
       "codec": "h264",
       "category": "☘️山西频道"
     },
@@ -2203,7 +2212,7 @@
       "urls": [
         "https://jwcdnqx.hebyun.com.cn/live/rqtv1/1500k/tzwj_video.m3u8"
       ],
-      "latency": 1925,
+      "latency": 1791,
       "codec": "h264",
       "category": "☘️河北频道"
     },
