@@ -1,6 +1,6 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 409
-# Demo匹配成功: 314
+# 原始频道总数: 410
+# Demo匹配成功: 315
 # 丢弃数量: 95
 
 Supreme Master TV,https://lbs-us1.suprememastertv.com/720p.m3u8
