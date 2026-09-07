@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 313,
-  "generated": "2026-09-07T17:07:12.047523",
+  "generated": "2026-09-07T21:03:52.514395",
   "channels": [
     {
       "name": "CCTV-1",
@@ -159,15 +159,6 @@
         "http://74.91.26.218:82/live/cctv17hd.m3u8"
       ],
       "latency": 252,
-      "codec": "h264",
-      "category": "📺央视频道"
-    },
-    {
-      "name": "老故事",
-      "urls": [
-        "http://8.138.7.223/tv/cwjd.php"
-      ],
-      "latency": 3634,
       "codec": "h264",
       "category": "📺央视频道"
     },
@@ -922,7 +913,7 @@
       "urls": [
         "https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8"
       ],
-      "latency": 2775,
+      "latency": 2337,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1093,7 +1084,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed"
       ],
-      "latency": 899,
+      "latency": 1183,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1120,7 +1111,7 @@
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8"
       ],
-      "latency": 3460,
+      "latency": 1344,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1381,7 +1372,7 @@
       "urls": [
         "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8"
       ],
-      "latency": 1362,
+      "latency": 813,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
@@ -1391,6 +1382,15 @@
         "http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8"
       ],
       "latency": 2240,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
+      "name": "亳州农村",
+      "urls": [
+        "http://zbbf2.ahbztv.com/live/418.m3u8?zanhd"
+      ],
+      "latency": 1897,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
