@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 322,
-  "generated": "2026-09-06T19:56:30.322081",
+  "generated": "2026-09-07T02:26:11.937768",
   "channels": [
     {
       "name": "CCTV-1",
@@ -305,15 +305,6 @@
         "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0"
       ],
       "latency": 1113,
-      "codec": "h264",
-      "category": "📡卫视频道"
-    },
-    {
-      "name": "辽宁卫视",
-      "urls": [
-        "http://101.66.195.43:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0"
-      ],
-      "latency": 9815,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -1346,6 +1337,15 @@
         "https://live.gdtv.ah.cn/live/newsTV.m3u8"
       ],
       "latency": 3119,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
+      "name": "宿州科教 [Not 24/7]",
+      "urls": [
+        "http://live.ahsz.tv/video/s10001-kxjy/index.m3u8"
+      ],
+      "latency": 977,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
