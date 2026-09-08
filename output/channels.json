@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 312,
-  "generated": "2026-09-08T02:38:56.362649",
+  "generated": "2026-09-08T10:29:58.788017",
   "channels": [
     {
       "name": "CCTV-1",
@@ -248,8 +248,7 @@
     {
       "name": "东方卫视",
       "urls": [
-        "https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8",
-        "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8"
+        "https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8"
       ],
       "latency": 723,
       "codec": "h264",
@@ -2409,6 +2408,42 @@
       "category": "🌊港·澳·台"
     },
     {
+      "name": "凤凰香港台",
+      "urls": [
+        "http://php.jdshipin.com/TVOD/iptv.php?id=fhhk"
+      ],
+      "latency": 296,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
+      "name": "港台电视 31",
+      "urls": [
+        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31"
+      ],
+      "latency": 315,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
+      "name": "港台电视 32",
+      "urls": [
+        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32"
+      ],
+      "latency": 317,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
+      "name": "凤凰资讯台",
+      "urls": [
+        "http://php.jdshipin.com/TVOD/iptv.php?id=fhzx"
+      ],
+      "latency": 327,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
       "name": "浙江教科影院",
       "urls": [
         "http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8"
@@ -2793,42 +2828,6 @@
         "http://live.zohi.tv/video/s10001-fztv-4/index.m3u8"
       ],
       "latency": 2000,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
-      "name": "港台电视 32",
-      "urls": [
-        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32"
-      ],
-      "latency": 317,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
-      "name": "港台电视 31",
-      "urls": [
-        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31"
-      ],
-      "latency": 315,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
-      "name": "凤凰资讯台",
-      "urls": [
-        "http://php.jdshipin.com/TVOD/iptv.php?id=fhzx"
-      ],
-      "latency": 327,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
-      "name": "凤凰香港台",
-      "urls": [
-        "http://php.jdshipin.com/TVOD/iptv.php?id=fhhk"
-      ],
-      "latency": 296,
       "codec": "h264",
       "category": "🌊港·澳·台"
     }
