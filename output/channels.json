@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 313,
-  "generated": "2026-09-07T21:03:52.514395",
+  "total": 312,
+  "generated": "2026-09-08T02:38:56.362649",
   "channels": [
     {
       "name": "CCTV-1",
@@ -159,6 +159,15 @@
         "http://74.91.26.218:82/live/cctv17hd.m3u8"
       ],
       "latency": 252,
+      "codec": "h264",
+      "category": "📺央视频道"
+    },
+    {
+      "name": "老故事",
+      "urls": [
+        "http://8.138.7.223/tv/cwjd.php"
+      ],
+      "latency": 3523,
       "codec": "h264",
       "category": "📺央视频道"
     },
@@ -324,15 +333,6 @@
         "http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8"
       ],
       "latency": 102,
-      "codec": "h264",
-      "category": "📡卫视频道"
-    },
-    {
-      "name": "天津卫视",
-      "urls": [
-        "http://222.169.85.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0"
-      ],
-      "latency": 771,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -665,7 +665,8 @@
     {
       "name": "浙江钱江",
       "urls": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
+        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8",
+        "http://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8"
       ],
       "latency": 386,
       "codec": "h264",
@@ -1364,15 +1365,6 @@
         "http://live.ahsz.tv/video/s10001-kxjy/index.m3u8"
       ],
       "latency": 1953,
-      "codec": "h264",
-      "category": "☘️安徽频道"
-    },
-    {
-      "name": "宿州公共 [Not 24/7]",
-      "urls": [
-        "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8"
-      ],
-      "latency": 813,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
@@ -2417,42 +2409,6 @@
       "category": "🌊港·澳·台"
     },
     {
-      "name": "凤凰香港台",
-      "urls": [
-        "http://php.jdshipin.com/TVOD/iptv.php?id=fhhk"
-      ],
-      "latency": 296,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
-      "name": "港台电视 31",
-      "urls": [
-        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31"
-      ],
-      "latency": 315,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
-      "name": "港台电视 32",
-      "urls": [
-        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32"
-      ],
-      "latency": 317,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
-      "name": "凤凰资讯台",
-      "urls": [
-        "http://php.jdshipin.com/TVOD/iptv.php?id=fhzx"
-      ],
-      "latency": 327,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
       "name": "浙江教科影院",
       "urls": [
         "http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8"
@@ -2837,6 +2793,42 @@
         "http://live.zohi.tv/video/s10001-fztv-4/index.m3u8"
       ],
       "latency": 2000,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
+      "name": "港台电视 32",
+      "urls": [
+        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32"
+      ],
+      "latency": 317,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
+      "name": "港台电视 31",
+      "urls": [
+        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31"
+      ],
+      "latency": 315,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
+      "name": "凤凰资讯台",
+      "urls": [
+        "http://php.jdshipin.com/TVOD/iptv.php?id=fhzx"
+      ],
+      "latency": 327,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
+      "name": "凤凰香港台",
+      "urls": [
+        "http://php.jdshipin.com/TVOD/iptv.php?id=fhhk"
+      ],
+      "latency": 296,
       "codec": "h264",
       "category": "🌊港·澳·台"
     }

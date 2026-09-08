@@ -1,6 +1,6 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 414
-# Demo匹配成功: 313
+# 原始频道总数: 413
+# Demo匹配成功: 312
 # 丢弃数量: 101
 
 TVB News,http://r.jdshipin.com/CkuBd
@@ -54,7 +54,6 @@ Xinjiang TV 8,http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txi
 FZTV3,http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
 Xinjiang TV 2,http://110.153.180.106:55555/out_3/index.m3u8
 Xinjiang TV 3,http://110.153.180.106:55555/out_2/index.m3u8
-亚洲武侠,http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 乌镇龙形田,https://gcalic.v.myalicdn.com/gc/zjwzlxt_1/index.m3u8
 Nei Monggol TV 2 Mongolian Culture Channel [Not 24/7],http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
 直中国,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
@@ -104,3 +103,4 @@ RT Español,https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8
 RT Documentary,https://rt-rtd.rttv.com/dvr/rtdoc/playlist_4500Kb.m3u8
 余杭综合频道,http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed
 余杭未来E频道,http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed
+亚洲武侠,http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
