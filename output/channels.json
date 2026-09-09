@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 312,
-  "generated": "2026-09-09T17:03:06.233572",
+  "total": 319,
+  "generated": "2026-09-09T20:21:15.587604",
   "channels": [
     {
       "name": "CCTV-1",
@@ -436,6 +436,15 @@
       "category": "📡卫视频道"
     },
     {
+      "name": "TVB星河",
+      "urls": [
+        "http://php.jdshipin.com/TVOD/iptv.php?id=xinghe"
+      ],
+      "latency": 1144,
+      "codec": "h264",
+      "category": "📡卫视频道"
+    },
+    {
       "name": "明珠台",
       "urls": [
         "http://php.jdshipin.com/TVOD/iptv.php?id=mzt2"
@@ -822,7 +831,7 @@
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8"
       ],
-      "latency": 5065,
+      "latency": 4154,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -831,7 +840,7 @@
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8"
       ],
-      "latency": 5120,
+      "latency": 4479,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -840,7 +849,7 @@
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8"
       ],
-      "latency": 5191,
+      "latency": 4402,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -886,6 +895,15 @@
         "http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8?zzhed?"
       ],
       "latency": 4995,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "缙云新闻综合",
+      "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8"
+      ],
+      "latency": 4457,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1009,6 +1027,7 @@
     {
       "name": "余姚姚江文化",
       "urls": [
+        "https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8",
         "https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8"
       ],
       "latency": 412,
@@ -1255,6 +1274,15 @@
         "http://cm-wshls.homecdn.com/live/2aa50.m3u8"
       ],
       "latency": 3068,
+      "codec": "h264",
+      "category": "☘️江苏频道"
+    },
+    {
+      "name": "靖江新闻綜合 [Not 24/7]",
+      "urls": [
+        "http://visit.jjbctv.com:1935/live/xwzhmb/playlist.m3u8"
+      ],
+      "latency": 1245,
       "codec": "h264",
       "category": "☘️江苏频道"
     },
@@ -1556,6 +1584,24 @@
       "category": "☘️四川频道"
     },
     {
+      "name": "剑阁综合",
+      "urls": [
+        "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8"
+      ],
+      "latency": 1627,
+      "codec": "h264",
+      "category": "☘️四川频道"
+    },
+    {
+      "name": "名山综合",
+      "urls": [
+        "https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8"
+      ],
+      "latency": 2254,
+      "codec": "h264",
+      "category": "☘️四川频道"
+    },
+    {
       "name": "四川四姑娘山隆珠措",
       "urls": [
         "https://gcalic.v.myalicdn.com/gc/sgns02_1/index.m3u8"
@@ -1570,6 +1616,24 @@
         "https://gcalic.v.myalicdn.com/gc/emsarm_1/index.m3u8"
       ],
       "latency": 443,
+      "codec": "h264",
+      "category": "☘️四川频道"
+    },
+    {
+      "name": "广元公共",
+      "urls": [
+        "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8"
+      ],
+      "latency": 1448,
+      "codec": "h264",
+      "category": "☘️四川频道"
+    },
+    {
+      "name": "广元综合",
+      "urls": [
+        "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8"
+      ],
+      "latency": 1395,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -2487,15 +2551,6 @@
       "category": "☘️安徽频道"
     },
     {
-      "name": "福建武夷山玉女峰",
-      "urls": [
-        "https://gcalic.v.myalicdn.com/gc/wysynf_1/index.m3u8"
-      ],
-      "latency": 589,
-      "codec": "h264",
-      "category": "☘️福建频道"
-    },
-    {
       "name": "浙江 Ⅰ 绍兴综合",
       "urls": [
         "http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8"
@@ -2503,6 +2558,15 @@
       "latency": 589,
       "codec": "h264",
       "category": "☘️浙江频道"
+    },
+    {
+      "name": "福建武夷山玉女峰",
+      "urls": [
+        "https://gcalic.v.myalicdn.com/gc/wysynf_1/index.m3u8"
+      ],
+      "latency": 589,
+      "codec": "h264",
+      "category": "☘️福建频道"
     },
     {
       "name": "广西玉林大容山莲花山顶",
