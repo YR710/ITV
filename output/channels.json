@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 319,
-  "generated": "2026-09-10T02:41:48.954360",
+  "generated": "2026-09-10T10:27:28.047385",
   "channels": [
     {
       "name": "CCTV-1",
@@ -454,12 +454,12 @@
       "category": "📡卫视频道"
     },
     {
-      "name": "TVB翡翠台",
+      "name": "翡翠台",
       "urls": [
-        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3"
+        "http://r.jdshipin.com/GeWKr"
       ],
-      "latency": 3600,
-      "codec": "hevc",
+      "latency": 525,
+      "codec": "h264",
       "category": "📡卫视频道"
     },
     {
@@ -1273,7 +1273,7 @@
       "urls": [
         "http://cm-wshls.homecdn.com/live/2aa50.m3u8"
       ],
-      "latency": 3068,
+      "latency": 2610,
       "codec": "h264",
       "category": "☘️江苏频道"
     },
@@ -2324,11 +2324,11 @@
       "category": "☘️河北频道"
     },
     {
-      "name": "翡翠台",
+      "name": "华丽翡翠台",
       "urls": [
-        "http://r.jdshipin.com/GeWKr"
+        "http://php.jdshipin.com/TVOD/iptv.php?id=huali2"
       ],
-      "latency": 525,
+      "latency": 527,
       "codec": "h264",
       "category": "🌊港·澳·台"
     },
@@ -2426,20 +2426,20 @@
       "category": "🌊港·澳·台"
     },
     {
+      "name": "TVB翡翠台",
+      "urls": [
+        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3"
+      ],
+      "latency": 3600,
+      "codec": "hevc",
+      "category": "🌊港·澳·台"
+    },
+    {
       "name": "三立戏剧",
       "urls": [
         "http://61.221.215.25:8800/hls/41/index.m3u8"
       ],
       "latency": 618,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
-      "name": "华丽翡翠台",
-      "urls": [
-        "http://php.jdshipin.com/TVOD/iptv.php?id=huali2"
-      ],
-      "latency": 527,
       "codec": "h264",
       "category": "🌊港·澳·台"
     },
