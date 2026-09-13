@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 240,
-  "generated": "2026-09-13T15:31:39.069479",
+  "total": 242,
+  "generated": "2026-09-13T20:11:54.992158",
   "channels": [
     {
       "name": "CCTV-1",
@@ -286,7 +286,7 @@
       "urls": [
         "http://nn.7x9d.cn/地方台8563/海南.php?id=ssws"
       ],
-      "latency": 3672,
+      "latency": 3849,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -475,7 +475,7 @@
       "urls": [
         "http://123.146.162.24:8017/c2F0hmi/1000/live.m3u8"
       ],
-      "latency": 726,
+      "latency": 632,
       "codec": "h264",
       "category": "☘️重庆频道"
     },
@@ -692,11 +692,11 @@
       "category": "☘️浙江频道"
     },
     {
-      "name": "萧山生活",
+      "name": "萧山生活频道",
       "urls": [
-        "https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8"
+        "http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed"
       ],
-      "latency": 423,
+      "latency": 483,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -814,6 +814,15 @@
         "http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8"
       ],
       "latency": 943,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "普陀电视台",
+      "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8"
+      ],
+      "latency": 3160,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -937,9 +946,10 @@
     {
       "name": "余姚新闻综合",
       "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8",
         "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8"
       ],
-      "latency": 876,
+      "latency": 790,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -994,6 +1004,15 @@
         "http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8?zzhed"
       ],
       "latency": 1135,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "嵊州综合 [Not 24/7]",
+      "urls": [
+        "https://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8"
+      ],
+      "latency": 4449,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1160,15 +1179,6 @@
       "category": "☘️安徽频道"
     },
     {
-      "name": "宿州科教 [Not 24/7]",
-      "urls": [
-        "http://live.ahsz.tv/video/s10001-kxjy/index.m3u8"
-      ],
-      "latency": 1014,
-      "codec": "h264",
-      "category": "☘️安徽频道"
-    },
-    {
       "name": "七台河新闻综合",
       "urls": [
         "http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8"
@@ -1272,7 +1282,16 @@
       "urls": [
         "http://nn.7x9d.cn/地方台8563/海南.php?id=wlpd"
       ],
-      "latency": 6250,
+      "latency": 2137,
+      "codec": "h264",
+      "category": "☘️海南频道"
+    },
+    {
+      "name": "海南少儿",
+      "urls": [
+        "http://nn.7x9d.cn/地方台8563/海南.php?id=sepd"
+      ],
+      "latency": 2986,
       "codec": "h264",
       "category": "☘️海南频道"
     },
@@ -1281,7 +1300,7 @@
       "urls": [
         "http://nn.7x9d.cn/地方台8563/海南.php?id=ggpd"
       ],
-      "latency": 3835,
+      "latency": 2879,
       "codec": "h264",
       "category": "☘️海南频道"
     },
