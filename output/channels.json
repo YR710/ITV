@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 350,
-  "generated": "2026-09-14T17:30:10.612526",
+  "generated": "2026-09-14T21:21:38.828268",
   "channels": [
     {
       "name": "CCTV-1",
@@ -489,7 +489,7 @@
       "urls": [
         "http://nn.7x9d.cn/地方台8563/海南.php?id=ssws"
       ],
-      "latency": 3849,
+      "latency": 4218,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -772,15 +772,6 @@
       "latency": 847,
       "codec": "h264",
       "category": "☘️天津频道"
-    },
-    {
-      "name": "萬州三峽移民",
-      "urls": [
-        "http://123.146.162.24:8017/c2F0hmi/1000/live.m3u8"
-      ],
-      "latency": 632,
-      "codec": "h264",
-      "category": "☘️重庆频道"
     },
     {
       "name": "江津新闻",
@@ -1361,7 +1352,7 @@
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8"
       ],
-      "latency": 4449,
+      "latency": 3238,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1802,7 +1793,7 @@
       "urls": [
         "http://nn.7x9d.cn/地方台8563/海南.php?id=wlpd"
       ],
-      "latency": 2137,
+      "latency": 2717,
       "codec": "h264",
       "category": "☘️海南频道"
     },
@@ -1811,7 +1802,7 @@
       "urls": [
         "http://nn.7x9d.cn/地方台8563/海南.php?id=sepd"
       ],
-      "latency": 2986,
+      "latency": 3080,
       "codec": "h264",
       "category": "☘️海南频道"
     },
@@ -1820,7 +1811,7 @@
       "urls": [
         "http://nn.7x9d.cn/地方台8563/海南.php?id=ggpd"
       ],
-      "latency": 2879,
+      "latency": 3407,
       "codec": "h264",
       "category": "☘️海南频道"
     },
@@ -2542,6 +2533,15 @@
         "https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8"
       ],
       "latency": 1659,
+      "codec": "h264",
+      "category": "☘️河北频道"
+    },
+    {
+      "name": "清河经济综艺",
+      "urls": [
+        "https://jwcdnqx.hebyun.com.cn/live/qinghe1/1500k/tzwj_video.m3u8"
+      ],
+      "latency": 2278,
       "codec": "h264",
       "category": "☘️河北频道"
     },
