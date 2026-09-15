@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 337,
-  "generated": "2026-09-15T03:01:10.288643",
+  "total": 339,
+  "generated": "2026-09-15T10:54:45.961547",
   "channels": [
     {
       "name": "CCTV-1",
@@ -859,9 +859,10 @@
     {
       "name": "浙江少儿",
       "urls": [
+        "http://ali-vl.cztv.com/channels/lantian/channel008/360p.m3u8",
         "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8"
       ],
-      "latency": 1075,
+      "latency": 894,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -2645,6 +2646,24 @@
       "category": "🌊港·澳·台"
     },
     {
+      "name": "凤凰香港台",
+      "urls": [
+        "http://php.jdshipin.com/TVOD/iptv.php?id=fhhk"
+      ],
+      "latency": 156,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
+      "name": "凤凰资讯台",
+      "urls": [
+        "http://php.jdshipin.com/TVOD/iptv.php?id=fhzx"
+      ],
+      "latency": 170,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
       "name": "浙江经济",
       "urls": [
         "http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8",
@@ -2698,6 +2717,15 @@
       "latency": 498,
       "codec": "h264",
       "category": "☘️福建频道"
+    },
+    {
+      "name": "港台电视 31",
+      "urls": [
+        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31"
+      ],
+      "latency": 499,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
     },
     {
       "name": "云南丽江印象实景",
@@ -2844,15 +2872,6 @@
       "category": "☘️云南频道"
     },
     {
-      "name": "安徽池州九华山风景区九华山",
-      "urls": [
-        "https://gcalic.v.myalicdn.com/gc/jhs05_1/index.m3u8"
-      ],
-      "latency": 543,
-      "codec": "h264",
-      "category": "☘️安徽频道"
-    },
-    {
       "name": "丽江古城万古楼遥望玉龙雪山",
       "urls": [
         "https://gcalic.v.myalicdn.com/gc/ljgcwglytylxs_1/index.m3u8"
@@ -2860,6 +2879,15 @@
       "latency": 543,
       "codec": "h264",
       "category": "☘️云南频道"
+    },
+    {
+      "name": "安徽池州九华山风景区九华山",
+      "urls": [
+        "https://gcalic.v.myalicdn.com/gc/jhs05_1/index.m3u8"
+      ],
+      "latency": 543,
+      "codec": "h264",
+      "category": "☘️安徽频道"
     },
     {
       "name": "四川峨眉山普贤菩萨铜像",
@@ -2952,11 +2980,38 @@
       "category": "☘️吉林频道"
     },
     {
+      "name": "港台电视 32",
+      "urls": [
+        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32"
+      ],
+      "latency": 690,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
       "name": "浙江教科影院",
       "urls": [
         "http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8"
       ],
       "latency": 794,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "浙江民生休闲",
+      "urls": [
+        "http://ali-vl.cztv.com/channels/lantian/channel006/360p.m3u8"
+      ],
+      "latency": 801,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "浙江留学",
+      "urls": [
+        "http://ali-vl.cztv.com/channels/lantian/channel009/360p.m3u8"
+      ],
+      "latency": 840,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -3029,42 +3084,6 @@
         "http://live.zohi.tv/video/s10001-fztv-3/index.m3u8"
       ],
       "latency": 2732,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
-      "name": "港台电视 32",
-      "urls": [
-        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32"
-      ],
-      "latency": 690,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
-      "name": "港台电视 31",
-      "urls": [
-        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31"
-      ],
-      "latency": 499,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
-      "name": "凤凰香港台",
-      "urls": [
-        "http://php.jdshipin.com/TVOD/iptv.php?id=fhhk"
-      ],
-      "latency": 156,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
-      "name": "凤凰资讯台",
-      "urls": [
-        "http://php.jdshipin.com/TVOD/iptv.php?id=fhzx"
-      ],
-      "latency": 170,
       "codec": "h264",
       "category": "🌊港·澳·台"
     }
