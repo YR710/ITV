@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 314,
-  "generated": "2026-09-16T10:44:33.432296",
+  "total": 315,
+  "generated": "2026-09-16T16:00:26.462669",
   "channels": [
     {
       "name": "CCTV-1",
@@ -303,6 +303,15 @@
         "http://nn.7x9d.cn/地方台8563/海南.php?id=ssws"
       ],
       "latency": 4344,
+      "codec": "h264",
+      "category": "📡卫视频道"
+    },
+    {
+      "name": "天津卫视",
+      "urls": [
+        "http://222.169.85.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "latency": 2601,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -956,15 +965,6 @@
         "http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8"
       ],
       "latency": 1187,
-      "codec": "h264",
-      "category": "☘️浙江频道"
-    },
-    {
-      "name": "余姚综合",
-      "urls": [
-        "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8"
-      ],
-      "latency": 5364,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1851,6 +1851,15 @@
         "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0"
       ],
       "latency": 1962,
+      "codec": "h264",
+      "category": "☘️山西频道"
+    },
+    {
+      "name": "平遥新闻综合",
+      "urls": [
+        "https://tntgjhjb.live.sxmty.com/live/hls/3a4585ac11ec4e1bb07b419101b370c3/baf63e2b313440c2a25d7859f9b73b05-1.m3u8?zshanxd"
+      ],
+      "latency": 2018,
       "codec": "h264",
       "category": "☘️山西频道"
     },
@@ -2748,15 +2757,6 @@
       "category": "☘️浙江频道"
     },
     {
-      "name": "浙江留学",
-      "urls": [
-        "http://ali-vl.cztv.com/channels/lantian/channel009/360p.m3u8"
-      ],
-      "latency": 840,
-      "codec": "h264",
-      "category": "☘️浙江频道"
-    },
-    {
       "name": "浙江 Ⅰ 绍兴影视",
       "urls": [
         "http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8"
@@ -2845,6 +2845,15 @@
       "latency": 2439,
       "codec": "h264",
       "category": "☘️吉林频道"
+    },
+    {
+      "name": "浙江留学",
+      "urls": [
+        "http://ali-vl.cztv.com/channels/lantian/channel009/360p.m3u8"
+      ],
+      "latency": 3080,
+      "codec": "h264",
+      "category": "☘️浙江频道"
     }
   ]
 }
