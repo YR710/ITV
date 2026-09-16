@@ -67,6 +67,8 @@ http://221.7.175.154:8445/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
 http://8.138.7.223/tv/jsws4k.php
 #EXTINF:-1 group-title="📡卫视频道",江西卫视
 http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="📡卫视频道",山西卫视
+http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
 #EXTINF:-1 group-title="📡卫视频道",三沙卫视
 http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
 #EXTINF:-1 group-title="📡卫视频道",新疆卫视
@@ -177,8 +179,6 @@ http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?%E5%85%B3%E6%B3%A8%E5%
 https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",苍南新闻综合
 https://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8
-#EXTINF:-1 group-title="☘️浙江频道",诸暨新闻综合
-https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",龙游生活娱乐
 https://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",龙游新闻综合
@@ -197,6 +197,8 @@ http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8?zzhed
 https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",洞头综合
 http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8
+#EXTINF:-1 group-title="☘️浙江频道",武义新闻综合
+http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8?zzhed
 #EXTINF:-1 group-title="☘️浙江频道",松阳综合
 http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",普陀电视台
@@ -381,8 +383,8 @@ http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
 https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8
 #EXTINF:-1 group-title="☘️贵州频道",贵州省兴义市万峰林
 https://gcalic.v.myalicdn.com/gc/xywfl_1/index.m3u8
-#EXTINF:-1 group-title="☘️云南频道",云南白沙远眺玉龙雪山
-https://gcalic.v.myalicdn.com/gc/hkylxs03_1/index.m3u8
+#EXTINF:-1 group-title="☘️云南频道",云南丽江玉龙雪山
+https://gcalic.v.myalicdn.com/gc/ylxs11_1/index.m3u8
 #EXTINF:-1 group-title="☘️云南频道",云南丽江玉龙雪山草甸
 https://gcalic.v.myalicdn.com/gc/hkylxs06_1/index.m3u8
 #EXTINF:-1 group-title="☘️云南频道",云南丽江蓝月谷
@@ -443,6 +445,8 @@ http://liveout.btzx.com.cn/62ds9e/4nxdih.m3u8?fbl=
 http://218.84.12.186:8002/hls/main/playlist.m3u8?zxinjd
 #EXTINF:-1 group-title="☘️山西频道",太谷新闻综合
 https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0
+#EXTINF:-1 group-title="☘️山西频道",山西卫视
+http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
 #EXTINF:-1 group-title="☘️山西频道",汾西综合
 https://qmmqvzoz.live.sxmty.com/live/hls/f24f8a390c084386a564074c9260100c/be3fdf07606145739ab2c4b80fe0136a.m3u8?zshanxd
 #EXTINF:-1 group-title="☘️辽宁频道",乌镇西市河
