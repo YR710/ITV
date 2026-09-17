@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 314,
-  "generated": "2026-09-17T10:53:02.399680",
+  "generated": "2026-09-17T16:06:58.009468",
   "channels": [
     {
       "name": "CCTV-1",
@@ -336,15 +336,6 @@
       "category": "📡卫视频道"
     },
     {
-      "name": "天津卫视",
-      "urls": [
-        "http://222.169.85.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0"
-      ],
-      "latency": 2601,
-      "codec": "h264",
-      "category": "📡卫视频道"
-    },
-    {
       "name": "凤凰卫视台",
       "urls": [
         "http://php.jdshipin.com/TVOD/iptv.php?id=fhzw"
@@ -656,8 +647,8 @@
     {
       "name": "浙江少儿",
       "urls": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8",
-        "http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8"
+        "http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8",
+        "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8"
       ],
       "latency": 905,
       "codec": "h264",
@@ -1555,6 +1546,15 @@
         "https://gcalic.v.myalicdn.com/gc/emsarm_1/index.m3u8"
       ],
       "latency": 1019,
+      "codec": "h264",
+      "category": "☘️四川频道"
+    },
+    {
+      "name": "荥经综合",
+      "urls": [
+        "https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8"
+      ],
+      "latency": 4070,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -2795,6 +2795,15 @@
       "category": "🌊港·澳·台"
     },
     {
+      "name": "浙江留学",
+      "urls": [
+        "http://ali-vl.cztv.com/channels/lantian/channel009/360p.m3u8"
+      ],
+      "latency": 1150,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "九台",
       "urls": [
         "http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild"
@@ -2838,15 +2847,6 @@
       "latency": 2245,
       "codec": "h264",
       "category": "☘️吉林频道"
-    },
-    {
-      "name": "浙江留学",
-      "urls": [
-        "http://ali-vl.cztv.com/channels/lantian/channel009/360p.m3u8"
-      ],
-      "latency": 3080,
-      "codec": "h264",
-      "category": "☘️浙江频道"
     }
   ]
 }
