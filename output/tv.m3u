@@ -289,6 +289,8 @@ http://dspdhls.appcoo.com:8888/live/dspd/index.m3u8
 http://www.guzhenm.com:7001/hls/hd-live.m3u8
 #EXTINF:-1 group-title="☘️安徽频道",黄山
 https://gcalic.v.myalicdn.com/gc/ahhs01_1/index.m3u8
+#EXTINF:-1 group-title="☘️安徽频道",黄山公共生活
+http://hslive.hsnewsnet.com/lsdream/iY92ady/1000/live.m3u8?zanhd
 #EXTINF:-1 group-title="☘️安徽频道",铜陵新闻综合
 https://ls.qingting.fm/live/21303/64k.m3u8
 #EXTINF:-1 group-title="☘️安徽频道",祁门综合
@@ -397,6 +399,8 @@ https://zb-live.ynurl.com/yimen/3b75a2f9-7941-46b7-992d-a9796fbca5fe.m3u8
 http://112.46.105.20:8009/hls/18/index.m3u8
 #EXTINF:-1 group-title="☘️陕西频道",无线新闻台
 http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
+#EXTINF:-1 group-title="☘️陕西频道",西安都市
+http://112.46.105.20:8009/hls/29/index.m3u8
 #EXTINF:-1 group-title="☘️陕西频道",都市青春
 http://112.46.105.20:8009/hls/19/index.m3u8
 #EXTINF:-1 group-title="☘️陕西频道",陕西秦腔
@@ -533,8 +537,6 @@ https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8
 https://ls.qingting.fm/live/1650/64k.m3u8
 #EXTINF:-1 group-title="☘️河北频道",河北
 https://event.pull.hebtv.com:443/live/live101.m3u8
-#EXTINF:-1 group-title="☘️河北频道",清河经济综艺
-https://jwcdnqx.hebyun.com.cn/live/qinghe1/1500k/tzwj_video.m3u8
 #EXTINF:-1 group-title="☘️河北频道",滦平新闻
 http://jwplay.hebyun.com.cn/live/LPTV001/1500k/tzwj_video.m3u8
 #EXTINF:-1 group-title="☘️河北频道",邢台生活
