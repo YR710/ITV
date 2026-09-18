@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 316,
-  "generated": "2026-09-17T20:56:06.396316",
+  "total": 319,
+  "generated": "2026-09-18T02:48:37.889398",
   "channels": [
     {
       "name": "CCTV-1",
@@ -261,6 +261,15 @@
         "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8"
       ],
       "latency": 477,
+      "codec": "h264",
+      "category": "📡卫视频道"
+    },
+    {
+      "name": "广西卫视",
+      "urls": [
+        "http://123.163.114.241:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "latency": 5192,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -569,6 +578,15 @@
         "http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4"
       ],
       "latency": 1697,
+      "codec": "h264",
+      "category": "☘️广东频道"
+    },
+    {
+      "name": "广东大湾区",
+      "urls": [
+        "http://222.128.55.152:9080/live/dwq.m3u8"
+      ],
+      "latency": 1050,
       "codec": "h264",
       "category": "☘️广东频道"
     },
@@ -1892,6 +1910,15 @@
         "https://gcalic.v.myalicdn.com/gc/hkts09_1/index.m3u8"
       ],
       "latency": 569,
+      "codec": "h264",
+      "category": "☘️辽宁频道"
+    },
+    {
+      "name": "辽宁影视",
+      "urls": [
+        "http://dassby.qqff.top:99/live/辽宁影视剧/index.m3u8"
+      ],
+      "latency": 447,
       "codec": "h264",
       "category": "☘️辽宁频道"
     },
