@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 318,
-  "generated": "2026-09-20T02:58:28.939607",
+  "total": 319,
+  "generated": "2026-09-20T10:31:04.408411",
   "channels": [
     {
       "name": "CCTV-1",
@@ -914,7 +914,7 @@
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8"
       ],
-      "latency": 1258,
+      "latency": 2992,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1636,7 +1636,7 @@
       "urls": [
         "https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8"
       ],
-      "latency": 2399,
+      "latency": 2160,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -1663,7 +1663,7 @@
       "urls": [
         "http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8"
       ],
-      "latency": 839,
+      "latency": 834,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -1916,7 +1916,7 @@
       "urls": [
         "http://dassby.qqff.top:99/live/辽宁体育/index.m3u8"
       ],
-      "latency": 791,
+      "latency": 1208,
       "codec": "h264",
       "category": "☘️辽宁频道"
     },
@@ -1925,7 +1925,7 @@
       "urls": [
         "http://dassby.qqff.top:99/live/辽宁影视剧/index.m3u8"
       ],
-      "latency": 1361,
+      "latency": 585,
       "codec": "h264",
       "category": "☘️辽宁频道"
     },
@@ -2847,6 +2847,15 @@
       "latency": 1517,
       "codec": "h264",
       "category": "☘️吉林频道"
+    },
+    {
+      "name": "浙江留学",
+      "urls": [
+        "http://ali-vl.cztv.com/channels/lantian/channel009/360p.m3u8"
+      ],
+      "latency": 1649,
+      "codec": "h264",
+      "category": "☘️浙江频道"
     },
     {
       "name": "福州广电视台新闻综合频道",
