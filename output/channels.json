@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 231,
-  "generated": "2026-09-21T21:38:32.520101",
+  "total": 234,
+  "generated": "2026-09-22T02:55:16.410340",
   "channels": [
     {
       "name": "CCTV-1",
@@ -158,6 +158,15 @@
         "http://74.91.26.218:82/live/cctv17hd.m3u8"
       ],
       "latency": 197,
+      "codec": "h264",
+      "category": "📺央视频道"
+    },
+    {
+      "name": "老故事",
+      "urls": [
+        "http://8.138.7.223/tv/cwjd.php"
+      ],
+      "latency": 2673,
       "codec": "h264",
       "category": "📺央视频道"
     },
@@ -874,6 +883,15 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "余姚综合",
+      "urls": [
+        "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8"
+      ],
+      "latency": 613,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "餘姚姚江文化 [Not 24/7]",
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8"
@@ -1042,6 +1060,15 @@
         "https://live-auth.51kandianshi.com/szgd/csztv2.m3u8"
       ],
       "latency": 1567,
+      "codec": "h264",
+      "category": "☘️江苏频道"
+    },
+    {
+      "name": "镇江二套社会民生",
+      "urls": [
+        "http://zjtv-wshls.homecdn.com/live/2aa16.m3u8"
+      ],
+      "latency": 1549,
       "codec": "h264",
       "category": "☘️江苏频道"
     },
@@ -2082,20 +2109,20 @@
       "category": "☘️吉林频道"
     },
     {
-      "name": "浙江 Ⅰ 绍兴综合",
-      "urls": [
-        "http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8"
-      ],
-      "latency": 3293,
-      "codec": "h264",
-      "category": "☘️浙江频道"
-    },
-    {
       "name": "浙江钱江都市",
       "urls": [
         "http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8"
       ],
       "latency": 2828,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "浙江 Ⅰ 绍兴综合",
+      "urls": [
+        "http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8"
+      ],
+      "latency": 3293,
       "codec": "h264",
       "category": "☘️浙江频道"
     }
