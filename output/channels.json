@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 316,
-  "generated": "2026-09-24T21:06:06.141881",
+  "total": 314,
+  "generated": "2026-09-25T03:04:24.786942",
   "channels": [
     {
       "name": "CCTV-1",
@@ -211,7 +211,7 @@
       "urls": [
         "https://english-livebkali.cgtn.com/live/encgtn_0.m3u8"
       ],
-      "latency": 319,
+      "latency": 466,
       "codec": "h264",
       "category": "📺央视频道"
     },
@@ -330,15 +330,6 @@
         "http://php.jdshipin.com/TVOD/iptv.php?id=fhzw"
       ],
       "latency": 621,
-      "codec": "h264",
-      "category": "📡卫视频道"
-    },
-    {
-      "name": "大湾区卫视",
-      "urls": [
-        "http://222.128.55.152:9080/live/dwq.m3u8"
-      ],
-      "latency": 1021,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -892,7 +883,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8"
       ],
-      "latency": 3402,
+      "latency": 5779,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -919,7 +910,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8"
       ],
-      "latency": 3395,
+      "latency": 9105,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -946,7 +937,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8?fbl="
       ],
-      "latency": 3156,
+      "latency": 2134,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1596,7 +1587,7 @@
       "urls": [
         "https://play.yunxya.com/channellive/xinwen.m3u8"
       ],
-      "latency": 4889,
+      "latency": 2981,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -2256,15 +2247,6 @@
         "http://1.94.31.214/php/hebei.php?id=hbds"
       ],
       "latency": 3464,
-      "codec": "h264",
-      "category": "☘️河北频道"
-    },
-    {
-      "name": "清河经济综艺",
-      "urls": [
-        "https://jwcdnqx.hebyun.com.cn/live/qinghe1/1500k/tzwj_video.m3u8"
-      ],
-      "latency": 542,
       "codec": "h264",
       "category": "☘️河北频道"
     },
