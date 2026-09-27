@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 311,
-  "generated": "2026-09-27T03:11:50.271802",
+  "generated": "2026-09-27T11:16:08.384764",
   "channels": [
     {
       "name": "CCTV-1",
@@ -490,11 +490,11 @@
       "category": "☘️北京频道"
     },
     {
-      "name": "嵊州新闻综合",
+      "name": "新昌新聞綜合 [Not 24/7]",
       "urls": [
-        "http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8"
+        "https://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8"
       ],
-      "latency": 498,
+      "latency": 463,
       "codec": "h264",
       "category": "☘️上海频道"
     },
@@ -828,15 +828,6 @@
       "category": "☘️浙江频道"
     },
     {
-      "name": "新昌新聞綜合 [Not 24/7]",
-      "urls": [
-        "https://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8"
-      ],
-      "latency": 576,
-      "codec": "h264",
-      "category": "☘️浙江频道"
-    },
-    {
       "name": "文成综合",
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8?zzhed?"
@@ -860,6 +851,15 @@
         "http://l.cztvcloud.com/channels/lantian/SXshengsi1/720p.m3u8"
       ],
       "latency": 4403,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "嵊州新闻综合",
+      "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8"
+      ],
+      "latency": 498,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -941,7 +941,7 @@
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8"
       ],
-      "latency": 589,
+      "latency": 1047,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
