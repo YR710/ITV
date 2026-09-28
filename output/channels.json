@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 308,
-  "generated": "2026-09-27T20:47:01.806650",
+  "total": 311,
+  "generated": "2026-09-28T03:08:38.200418",
   "channels": [
     {
       "name": "CCTV-1",
@@ -1440,11 +1440,30 @@
       "category": "☘️四川频道"
     },
     {
+      "name": "雅安新闻综合",
+      "urls": [
+        "https://play.yunxya.com/channellive/xinwen.m3u8"
+      ],
+      "latency": 3044,
+      "codec": "h264",
+      "category": "☘️四川频道"
+    },
+    {
       "name": "青川综合",
       "urls": [
         "http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8"
       ],
       "latency": 851,
+      "codec": "h264",
+      "category": "☘️四川频道"
+    },
+    {
+      "name": "河综合",
+      "urls": [
+        "http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8",
+        "https://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8"
+      ],
+      "latency": 1072,
       "codec": "h264",
       "category": "☘️四川频道"
     },
@@ -2058,6 +2077,15 @@
         "https://ls.qingting.fm/live/4974/64k.m3u8"
       ],
       "latency": 1078,
+      "codec": "h264",
+      "category": "☘️黑龙江频道"
+    },
+    {
+      "name": "河公共",
+      "urls": [
+        "http://tmpstream.hyrtv.cn/hygg/sd/live.m3u8"
+      ],
+      "latency": 1073,
       "codec": "h264",
       "category": "☘️黑龙江频道"
     },
