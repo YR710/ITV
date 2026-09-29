@@ -1,6 +1,6 @@
 # Demo筛选丢弃的频道
-# 原始频道总数: 397
-# Demo匹配成功: 300
+# 原始频道总数: 405
+# Demo匹配成功: 308
 # 丢弃数量: 97
 
 CNA,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
@@ -44,7 +44,6 @@ Wild Earth,https://wildearth-plex.amagi.tv/masterR1080p.m3u8
 汪清,http://stream5.jlntv.cn/wq/sd/live.m3u8?zjild
 舒兰新闻,http://stream8.jlntv.cn/shulan/sd/live.m3u8?zjild
 音乐欣赏,http://61.221.215.25:8800/hls/49/index.m3u8
-亚洲武侠,http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 直中国精编直,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8
 Guangxi Variety & Travel Channel,http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 Kangba TV,http://110.185.237.164:8888/hls/30/index.m3u8
@@ -100,3 +99,4 @@ RT Arabic,https://rt-arb.rttv.com/dvr/rtarab/playlist_4500Kb.m3u8
 RT DE,https://rt-ger.rttv.com/dvr/rtdeutsch/playlist_4500Kb.m3u8
 餘姚姚江文化 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
 兵团五师双河影,https://liveout.btzx.com.cn/62ds9e/6o77s4.m3u8?zxinjd
+亚洲武侠,http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
