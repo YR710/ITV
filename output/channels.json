@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 297,
-  "generated": "2026-10-03T03:26:11.958105",
+  "total": 298,
+  "generated": "2026-10-03T11:02:17.122076",
   "channels": [
     {
       "name": "CCTV-1",
@@ -911,7 +911,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8"
       ],
-      "latency": 2106,
+      "latency": 6393,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1147,6 +1147,15 @@
         "https://live.gdtv.ah.cn/live/newsTV.m3u8"
       ],
       "latency": 4415,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
+      "name": "宿州新闻综合 [Not 24/7]",
+      "urls": [
+        "http://live.ahsz.tv/video/s10001-szzh/index.m3u8"
+      ],
+      "latency": 949,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
@@ -2586,6 +2595,15 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "浙江 Ⅰ 绍兴综合",
+      "urls": [
+        "http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8"
+      ],
+      "latency": 837,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "广西玉林大容山莲花山顶",
       "urls": [
         "https://gcalic.v.myalicdn.com/gc/drs01_1/index.m3u8"
@@ -2681,15 +2699,6 @@
         "http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8"
       ],
       "latency": 4482,
-      "codec": "h264",
-      "category": "☘️浙江频道"
-    },
-    {
-      "name": "浙江 Ⅰ 绍兴综合",
-      "urls": [
-        "http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8"
-      ],
-      "latency": 837,
       "codec": "h264",
       "category": "☘️浙江频道"
     }
