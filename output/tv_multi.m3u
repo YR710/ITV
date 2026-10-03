@@ -123,8 +123,6 @@ http://183.64.174.171:40123/ch1.m3u8?zzhongqd
 http://183.64.181.25:40023/rongchang01.m3u8
 #EXTINF:-1 group-title="☘️重庆频道",江津新闻综合
 http://222.179.155.21:1935/ch1.m3u8
-#EXTINF:-1 group-title="☘️广东频道",东莞生活资讯
-https://stream.sun0769.com/dgrtv1/mp4tv2_800/index.m3u8
 #EXTINF:-1 group-title="☘️广东频道",南国都市
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de # http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
 #EXTINF:-1 group-title="☘️广东频道",广东体育
@@ -155,6 +153,8 @@ http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8
 http://ali-m-l.cztv.com/channels/lantian/channel04/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",浙江民生
 https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8? # https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
+#EXTINF:-1 group-title="☘️浙江频道",浙江少儿
+https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",浙江教科
 http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8 # https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",浙江经视
@@ -263,10 +263,8 @@ https://ls.qingting.fm/live/21303/64k.m3u8
 http://zbbf2.ahbztv.com/live/416.m3u8?zanhd
 #EXTINF:-1 group-title="☘️安徽频道",广德生活
 https://live.gdtv.ah.cn/live/newsTV.m3u8
-#EXTINF:-1 group-title="☘️安徽频道",宿州科教 [Not 24/7]
-http://live.ahsz.tv/video/s10001-kxjy/index.m3u8
-#EXTINF:-1 group-title="☘️安徽频道",宿州新闻综合 [Not 24/7]
-http://live.ahsz.tv/video/s10001-szzh/index.m3u8
+#EXTINF:-1 group-title="☘️安徽频道",七台河新闻综合
+http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8
 #EXTINF:-1 group-title="☘️安徽频道",亳州农村
 http://zbbf2.ahbztv.com/live/418.m3u8
 #EXTINF:-1 group-title="☘️安徽频道",RT News
@@ -348,7 +346,7 @@ https://play.yunxya.com/channellive/xinwen.m3u8
 #EXTINF:-1 group-title="☘️四川频道",青川综合
 http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8
 #EXTINF:-1 group-title="☘️四川频道",河综合
-http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
+http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8 # https://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
 #EXTINF:-1 group-title="☘️贵州频道",贵州省兴义市万峰林
 https://gcalic.v.myalicdn.com/gc/xywfl_1/index.m3u8
 #EXTINF:-1 group-title="☘️云南频道",云南丽江玉龙雪山草甸
@@ -403,10 +401,6 @@ http://60.222.246.220:19433/hls1.m3u8
 https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0
 #EXTINF:-1 group-title="☘️山西频道",山西卫视
 http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
-#EXTINF:-1 group-title="☘️山西频道",长子综合
-https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd
-#EXTINF:-1 group-title="☘️山西频道",汾西综合
-https://qmmqvzoz.live.sxmty.com/live/hls/f24f8a390c084386a564074c9260100c/be3fdf07606145739ab2c4b80fe0136a.m3u8?zshanxd
 #EXTINF:-1 group-title="☘️辽宁频道",乌镇西市河
 https://gcalic.v.myalicdn.com/gc/zjwzbblh_1/index.m3u8
 #EXTINF:-1 group-title="☘️辽宁频道",泰山太平岭
@@ -459,6 +453,8 @@ https://stream2.jlntv.cn/naxw/sd/live.m3u8
 https://stream2.jlntv.cn/qg/sd/live.m3u8
 #EXTINF:-1 group-title="☘️吉林频道",集安综合 [Geo-blocked]
 https://stream2.jlntv.cn/ja/sd/live.m3u8
+#EXTINF:-1 group-title="☘️黑龙江频道",七台河新闻综合
+http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8
 #EXTINF:-1 group-title="☘️黑龙江频道",哈尔滨娱乐
 http://stream.hrbtv.net/ylpd/sd/live.m3u8?zheild
 #EXTINF:-1 group-title="☘️黑龙江频道",哈尔滨影视
@@ -507,8 +503,6 @@ https://jwcdnqx.hebyun.com.cn/live/qinghe1/1500k/tzwj_video.m3u8
 http://jwplay.hebyun.com.cn/live/LPTV001/1500k/tzwj_video.m3u8
 #EXTINF:-1 group-title="☘️河北频道",邢台生活
 https://jwcdnqx.hebyun.com.cn/live/xtcsshpd/1500k/tzwj_video.m3u8
-#EXTINF:-1 group-title="☘️河北频道",邢台综合
-https://jwplay.hebyun.com.cn:443/live/xtsrmtzs/1500k/tzwj_video.m3u8
 #EXTINF:-1 group-title="☘️河北频道",邯郸新闻
 https://jwcdnqx.hebyun.com.cn/live/hdxwzh/1500k/tzwj_video.m3u8
 #EXTINF:-1 group-title="☘️河北频道",邯郸科技教育
