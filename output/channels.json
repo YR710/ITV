@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 280,
-  "generated": "2026-10-08T04:06:16.772604",
+  "total": 281,
+  "generated": "2026-10-08T12:43:41.301244",
   "channels": [
     {
       "name": "CCTV-1",
@@ -294,7 +294,7 @@
       "urls": [
         "http://119.39.9.8:9901/tsfile/live/0118_1.m3u8"
       ],
-      "latency": 642,
+      "latency": 809,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -375,7 +375,7 @@
       "urls": [
         "https://video.bread-tv.com:8091/hls-live24/online/index.m3u8"
       ],
-      "latency": 840,
+      "latency": 907,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -714,7 +714,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8"
       ],
-      "latency": 492,
+      "latency": 3886,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -759,7 +759,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8"
       ],
-      "latency": 458,
+      "latency": 2755,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -786,7 +786,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXyongjia1/720p.m3u8"
       ],
-      "latency": 474,
+      "latency": 5637,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -804,7 +804,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed"
       ],
-      "latency": 539,
+      "latency": 3117,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1026,11 +1026,11 @@
       "category": "☘️安徽频道"
     },
     {
-      "name": "黄山",
+      "name": "黄山公共生活",
       "urls": [
-        "https://gcalic.v.myalicdn.com/gc/ahhs01_1/index.m3u8"
+        "http://hslive.hsnewsnet.com/lsdream/iY92ady/1000/live.m3u8?zanhd"
       ],
-      "latency": 541,
+      "latency": 1922,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
@@ -1075,7 +1075,7 @@
       "urls": [
         "http://live.ahsz.tv/video/s10001-szzh/index.m3u8"
       ],
-      "latency": 968,
+      "latency": 841,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
@@ -1084,7 +1084,7 @@
       "urls": [
         "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8"
       ],
-      "latency": 1134,
+      "latency": 948,
       "codec": "h264",
       "category": "☘️安徽频道"
     },
@@ -1273,7 +1273,7 @@
       "urls": [
         "http://nn.7x9d.cn/地方台8563/海南.php?id=wlpd"
       ],
-      "latency": 5129,
+      "latency": 4383,
       "codec": "h264",
       "category": "☘️海南频道"
     },
@@ -2334,6 +2334,15 @@
       "category": "☘️福建频道"
     },
     {
+      "name": "黄山",
+      "urls": [
+        "https://gcalic.v.myalicdn.com/gc/ahhs01_1/index.m3u8"
+      ],
+      "latency": 541,
+      "codec": "h264",
+      "category": "☘️安徽频道"
+    },
+    {
       "name": "黄山始信新道",
       "urls": [
         "https://gcalic.v.myalicdn.com/gc/hsyg_1/index.m3u8"
@@ -2451,6 +2460,15 @@
       "category": "☘️山东频道"
     },
     {
+      "name": "四川峨眉山普贤菩萨铜像",
+      "urls": [
+        "https://gcalic.v.myalicdn.com/gc/emspxps_1/index.m3u8"
+      ],
+      "latency": 945,
+      "codec": "h264",
+      "category": "☘️四川频道"
+    },
+    {
       "name": "浙江钱江频道",
       "urls": [
         "http://ali-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8"
@@ -2460,13 +2478,13 @@
       "category": "☘️浙江频道"
     },
     {
-      "name": "四川峨眉山普贤菩萨铜像",
+      "name": "浙江钱江都市",
       "urls": [
-        "https://gcalic.v.myalicdn.com/gc/emspxps_1/index.m3u8"
+        "http://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
       ],
-      "latency": 945,
+      "latency": 1115,
       "codec": "h264",
-      "category": "☘️四川频道"
+      "category": "☘️浙江频道"
     },
     {
       "name": "松原新闻综合 [Geo-blocked]",
@@ -2530,15 +2548,6 @@
       "latency": 3575,
       "codec": "h264",
       "category": "☘️吉林频道"
-    },
-    {
-      "name": "浙江钱江都市",
-      "urls": [
-        "http://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
-      ],
-      "latency": 1115,
-      "codec": "h264",
-      "category": "☘️浙江频道"
     }
   ]
 }
