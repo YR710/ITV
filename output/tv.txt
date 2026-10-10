@@ -54,12 +54,11 @@ TVB星河,http://r.jdshipin.com/sXuuD
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 深圳卫视,http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8
 澳视卫星,http://php.jdshipin.com:8880/TVOD/iptv.php?id=as
-新闻综合,https://m3u8channel.yunxya.com/nmip-media/channellive/channel100028/playlist.m3u8
 福州少儿,http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 ☘️北京频道,#genre#
 耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
 ☘️上海频道,#genre#
-四平新闻综合 [Geo-blocked],https://stream2.jlntv.cn/sptv/sd/live.m3u8
+松原新闻综合 [Geo-blocked],https://stream2.jlntv.cn/sytv/sd/live.m3u8
 新纪实,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
 普陀山,https://gcalic.v.myalicdn.com/gc/pts01_1/index.m3u8
 ☘️天津频道,#genre#
@@ -112,6 +111,8 @@ TVB星河,http://r.jdshipin.com/sXuuD
 余杭未来E频道,http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed
 中国蓝新闻,http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
 上虞1新闻综合 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8
+上虞新商都,http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
+嵊州综合 [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
 ☘️江苏频道,#genre#
 南京教科,http://nklive.nbs.cn/hls/75b3c462-b831-4de7-a34b-5d3221db2069/index.m3u8
 南京新闻综合,http://nklive.nbs.cn/hls/d511bc9d-a694-4453-b3a2-4fc842cc97a1/index.m3u8
@@ -132,7 +133,6 @@ TVB星河,http://r.jdshipin.com/sXuuD
 苏州新闻综合,https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
 苏州生活资讯,https://live-auth.51kandianshi.com/szgd/csztv5.m3u8
 苏州社会经济,https://live-auth.51kandianshi.com/szgd/csztv2.m3u8
-镇江二套社会民生,http://zjtv-wshls.homecdn.com/live/2aa16.m3u8
 靖江新闻綜合 [Not 24/7],http://visit.jjbctv.com:1935/live/xwzhmb/playlist.m3u8
 ☘️安徽频道,#genre#
 安徽导视,http://dspdhls.appcoo.com:8888/live/dspd/index.m3u8
@@ -186,7 +186,6 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 乐至综合,http://175.155.106.72:89/live1/live1.m3u8?zsicd
 井研综合,http://tvfile.jyrmt.cn/nmip-media/channellive/channel104452/playlist.m3u8
 剑阁综合,https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8
-名山综合,https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8
 四川四姑娘山隆珠措,https://gcalic.v.myalicdn.com/gc/sgns02_1/index.m3u8
 四川峨眉山云海日出,https://gcalic.v.myalicdn.com/gc/emsarm_1/index.m3u8
 广元公共,https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8
@@ -235,6 +234,8 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 太谷新闻综合,https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0
 定襄综合,http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8?zshanxd
 山西卫视,http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
+长子综合,https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd
+平遥新闻综合,https://tntgjhjb.live.sxmty.com/live/hls/3a4585ac11ec4e1bb07b419101b370c3/baf63e2b313440c2a25d7859f9b73b05-1.m3u8?zshanxd
 ☘️辽宁频道,#genre#
 乌镇西市河,https://gcalic.v.myalicdn.com/gc/zjwzbblh_1/index.m3u8
 泰山太平岭,https://gcalic.v.myalicdn.com/gc/hkts09_1/index.m3u8
@@ -258,6 +259,7 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 长白山电视台,http://stream8.jlntv.cn/cbstv/sd/live.m3u8?zjild
 龙井,http://stream8.jlntv.cn/ljtv/sd/live.m3u8?zjild
 延边新闻综合 [Geo-blocked],https://stream2.jlntv.cn/jlyb/sd/live.m3u8
+四平新闻综合 [Geo-blocked],https://stream2.jlntv.cn/sptv/sd/live.m3u8
 通化新闻 [Geo-blocked],https://stream2.jlntv.cn/tonghua1/sd/live.m3u8
 长春综合 [Geo-blocked],https://stream2.jlntv.cn/jlcc/sd/live.m3u8
 农安新闻综合 [Geo-blocked],https://stream2.jlntv.cn/naxw/sd/live.m3u8
@@ -287,6 +289,7 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 河北都市,http://1.94.31.214/php/hebei.php?id=hbds
 滦平新闻,http://jwplay.hebyun.com.cn/live/LPTV001/1500k/tzwj_video.m3u8
 邢台生活,https://jwcdnqx.hebyun.com.cn/live/xtcsshpd/1500k/tzwj_video.m3u8
+邢台综合,https://jwplay.hebyun.com.cn:443/live/xtsrmtzs/1500k/tzwj_video.m3u8
 邯郸新闻,https://jwcdnqx.hebyun.com.cn/live/hdxwzh/1500k/tzwj_video.m3u8
 邯郸科技教育,https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8
 🌊港·澳·台,#genre#
