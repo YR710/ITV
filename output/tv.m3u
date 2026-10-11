@@ -35,6 +35,8 @@ http://74.91.26.218:82/live/cctv15hd.m3u8
 http://74.91.26.218:82/live/cctv17hd.m3u8
 #EXTINF:-1 group-title="📺央视频道",CCTV-17
 http://74.91.26.218:82/live/cctv17hd.m3u8
+#EXTINF:-1 group-title="📺央视频道",老故事
+http://8.138.7.223/tv/cwjd.php
 #EXTINF:-1 group-title="📺央视频道",CGTN
 https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8
 #EXTINF:-1 group-title="📺央视频道",CGTN纪录
@@ -152,7 +154,7 @@ http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",浙江教育
 http://ali-m-l.cztv.com/channels/lantian/channel04/720p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",浙江民生
-https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8?
+https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",浙江新闻
 https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 #EXTINF:-1 group-title="☘️浙江频道",浙江少儿
@@ -207,6 +209,8 @@ http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8?fbl=
 #EXTINF:-1 group-title="☘️浙江频道",平湖新闻综合
 http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed
+#EXTINF:-1 group-title="☘️浙江频道",余杭综合频道
+http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed
 #EXTINF:-1 group-title="☘️浙江频道",余杭未来E频道
 http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed
 #EXTINF:-1 group-title="☘️浙江频道",余姚综合
@@ -255,6 +259,8 @@ https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
 https://live-auth.51kandianshi.com/szgd/csztv5.m3u8
 #EXTINF:-1 group-title="☘️江苏频道",苏州社会经济
 https://live-auth.51kandianshi.com/szgd/csztv2.m3u8
+#EXTINF:-1 group-title="☘️江苏频道",镇江新闻综合
+http://cm-wshls.homecdn.com/live/2aa50.m3u8
 #EXTINF:-1 group-title="☘️江苏频道",靖江新闻綜合 [Not 24/7]
 http://visit.jjbctv.com:1935/live/xwzhmb/playlist.m3u8
 #EXTINF:-1 group-title="☘️安徽频道",安徽导视

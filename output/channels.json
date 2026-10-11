@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 302,
-  "generated": "2026-10-11T17:26:46.538510",
+  "total": 305,
+  "generated": "2026-10-11T21:25:37.908456",
   "channels": [
     {
       "name": "CCTV-1",
@@ -156,6 +156,15 @@
         "http://74.91.26.218:82/live/cctv17hd.m3u8"
       ],
       "latency": 171,
+      "codec": "h264",
+      "category": "📺央视频道"
+    },
+    {
+      "name": "老故事",
+      "urls": [
+        "http://8.138.7.223/tv/cwjd.php"
+      ],
+      "latency": 2867,
       "codec": "h264",
       "category": "📺央视频道"
     },
@@ -671,10 +680,9 @@
     {
       "name": "浙江民生",
       "urls": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8?",
         "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8"
       ],
-      "latency": 468,
+      "latency": 705,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -915,6 +923,15 @@
       "category": "☘️浙江频道"
     },
     {
+      "name": "余杭综合频道",
+      "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed"
+      ],
+      "latency": 414,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
       "name": "余杭未来E频道",
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed"
@@ -1128,6 +1145,15 @@
         "https://live-auth.51kandianshi.com/szgd/csztv2.m3u8"
       ],
       "latency": 1014,
+      "codec": "h264",
+      "category": "☘️江苏频道"
+    },
+    {
+      "name": "镇江新闻综合",
+      "urls": [
+        "http://cm-wshls.homecdn.com/live/2aa50.m3u8"
+      ],
+      "latency": 1777,
       "codec": "h264",
       "category": "☘️江苏频道"
     },
