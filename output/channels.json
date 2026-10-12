@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 305,
-  "generated": "2026-10-11T21:25:37.908456",
+  "generated": "2026-10-12T03:53:07.261166",
   "channels": [
     {
       "name": "CCTV-1",
@@ -292,7 +292,7 @@
       "urls": [
         "http://119.39.9.8:9901/tsfile/live/0118_1.m3u8"
       ],
-      "latency": 869,
+      "latency": 599,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -500,7 +500,7 @@
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8"
       ],
-      "latency": 439,
+      "latency": 438,
       "codec": "h264",
       "category": "☘️上海频道"
     },
@@ -680,9 +680,10 @@
     {
       "name": "浙江民生",
       "urls": [
+        "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8?",
         "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8"
       ],
-      "latency": 705,
+      "latency": 468,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -828,7 +829,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8"
       ],
-      "latency": 571,
+      "latency": 474,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -873,7 +874,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8"
       ],
-      "latency": 505,
+      "latency": 431,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -918,7 +919,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed"
       ],
-      "latency": 570,
+      "latency": 1012,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -927,7 +928,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed"
       ],
-      "latency": 414,
+      "latency": 441,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -945,7 +946,7 @@
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8"
       ],
-      "latency": 4189,
+      "latency": 436,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -955,6 +956,15 @@
         "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8"
       ],
       "latency": 3307,
+      "codec": "h264",
+      "category": "☘️浙江频道"
+    },
+    {
+      "name": "云和新闻综合",
+      "urls": [
+        "http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8"
+      ],
+      "latency": 534,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -972,7 +982,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8"
       ],
-      "latency": 1138,
+      "latency": 1046,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -981,7 +991,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed"
       ],
-      "latency": 652,
+      "latency": 1091,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -990,7 +1000,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8"
       ],
-      "latency": 707,
+      "latency": 1302,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -999,7 +1009,7 @@
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8"
       ],
-      "latency": 2499,
+      "latency": 5057,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1230,24 +1240,6 @@
       "category": "☘️安徽频道"
     },
     {
-      "name": "宿州新闻综合 [Not 24/7]",
-      "urls": [
-        "http://live.ahsz.tv/video/s10001-szzh/index.m3u8"
-      ],
-      "latency": 869,
-      "codec": "h264",
-      "category": "☘️安徽频道"
-    },
-    {
-      "name": "宿州公共 [Not 24/7]",
-      "urls": [
-        "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8"
-      ],
-      "latency": 1030,
-      "codec": "h264",
-      "category": "☘️安徽频道"
-    },
-    {
       "name": "七台河新闻综合",
       "urls": [
         "http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8"
@@ -1432,7 +1424,7 @@
       "urls": [
         "http://nn.7x9d.cn/地方台8563/海南.php?id=wlpd"
       ],
-      "latency": 4005,
+      "latency": 5744,
       "codec": "h264",
       "category": "☘️海南频道"
     },
@@ -1857,7 +1849,7 @@
       "urls": [
         "https://stream2.jlntv.cn/jilin1/sd/live.m3u8"
       ],
-      "latency": 1590,
+      "latency": 1395,
       "codec": "h264",
       "category": "☘️吉林频道"
     },
@@ -2761,6 +2753,15 @@
       "latency": 2699,
       "codec": "h264",
       "category": "🌊港·澳·台"
+    },
+    {
+      "name": "浙江留学",
+      "urls": [
+        "http://ali-vl.cztv.com/channels/lantian/channel009/360p.m3u8"
+      ],
+      "latency": 1016,
+      "codec": "h264",
+      "category": "☘️浙江频道"
     }
   ]
 }
