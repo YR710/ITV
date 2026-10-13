@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "total": 315,
-  "generated": "2026-10-13T00:06:39.625053",
+  "total": 316,
+  "generated": "2026-10-13T13:25:37.478372",
   "channels": [
     {
       "name": "CCTV-1",
@@ -302,7 +302,7 @@
       "urls": [
         "http://119.39.9.8:9901/tsfile/live/0118_1.m3u8"
       ],
-      "latency": 599,
+      "latency": 848,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -393,6 +393,15 @@
         "http://stream5.jlntv.cn/wq/playlist.m3u8"
       ],
       "latency": 1349,
+      "codec": "h264",
+      "category": "📡卫视频道"
+    },
+    {
+      "name": "Bread TV面包台",
+      "urls": [
+        "https://video.bread-tv.com:8091/hls-live24/online/index.m3u8"
+      ],
+      "latency": 997,
       "codec": "h264",
       "category": "📡卫视频道"
     },
@@ -497,11 +506,11 @@
       "category": "☘️北京频道"
     },
     {
-      "name": "上虞1新闻综合 [Not 24/7]",
+      "name": "衢江新闻综合",
       "urls": [
-        "https://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8"
+        "http://l.cztvcloud.com/channels/lantian/SXqujiang1/720p.m3u8?zzhed"
       ],
-      "latency": 438,
+      "latency": 520,
       "codec": "h264",
       "category": "☘️上海频道"
     },
@@ -821,7 +830,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8"
       ],
-      "latency": 474,
+      "latency": 456,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -875,7 +884,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8"
       ],
-      "latency": 431,
+      "latency": 1393,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -920,16 +929,16 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed"
       ],
-      "latency": 1012,
+      "latency": 598,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
     {
-      "name": "余杭综合频道",
+      "name": "余杭综合",
       "urls": [
-        "http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed"
+        "http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8"
       ],
-      "latency": 441,
+      "latency": 558,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -947,7 +956,7 @@
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8"
       ],
-      "latency": 436,
+      "latency": 1738,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -965,7 +974,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8"
       ],
-      "latency": 534,
+      "latency": 1462,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -983,7 +992,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8"
       ],
-      "latency": 1046,
+      "latency": 579,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -992,7 +1001,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed"
       ],
-      "latency": 1091,
+      "latency": 1349,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1001,7 +1010,7 @@
       "urls": [
         "http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8"
       ],
-      "latency": 1302,
+      "latency": 458,
       "codec": "h264",
       "category": "☘️浙江频道"
     },
@@ -1715,7 +1724,7 @@
       "urls": [
         "https://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8"
       ],
-      "latency": 500,
+      "latency": 493,
       "codec": "h264",
       "category": "☘️陕西频道"
     },
@@ -1949,7 +1958,7 @@
       "urls": [
         "https://stream2.jlntv.cn/jilin1/sd/live.m3u8"
       ],
-      "latency": 1395,
+      "latency": 2873,
       "codec": "h264",
       "category": "☘️吉林频道"
     },
@@ -2729,15 +2738,6 @@
       "category": "☘️云南频道"
     },
     {
-      "name": "凤凰香港台",
-      "urls": [
-        "http://php.jdshipin.com/TVOD/iptv.php?id=fhhk"
-      ],
-      "latency": 1044,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
       "name": "云南白沙远眺玉龙雪山",
       "urls": [
         "https://gcalic.v.myalicdn.com/gc/hkylxs03_1/index.m3u8"
@@ -2763,24 +2763,6 @@
       "latency": 1150,
       "codec": "h264",
       "category": "☘️云南频道"
-    },
-    {
-      "name": "港台电视 32",
-      "urls": [
-        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32"
-      ],
-      "latency": 1180,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
-    },
-    {
-      "name": "港台电视 31",
-      "urls": [
-        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31"
-      ],
-      "latency": 1304,
-      "codec": "h264",
-      "category": "🌊港·澳·台"
     },
     {
       "name": "云南大理崇圣寺三塔远景",
@@ -2851,6 +2833,33 @@
         "http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild"
       ],
       "latency": 4063,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
+      "name": "港台电视 31",
+      "urls": [
+        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31"
+      ],
+      "latency": 1304,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
+      "name": "港台电视 32",
+      "urls": [
+        "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32"
+      ],
+      "latency": 1180,
+      "codec": "h264",
+      "category": "🌊港·澳·台"
+    },
+    {
+      "name": "凤凰香港台",
+      "urls": [
+        "http://php.jdshipin.com/TVOD/iptv.php?id=fhhk"
+      ],
+      "latency": 1044,
       "codec": "h264",
       "category": "🌊港·澳·台"
     }
